@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Hyun3246's All-in-one Blog"
+locale                   : "ko-KR"
+title                    : "HyunJun's All-in-one Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hyun3246's All-in-one Blog"
+name                     : "HyunJun's All-in-one Blog"
 description              : "HyunJun의 흔적을 모두 남기는 개인블로그입니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "HyunJun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "HyunJun의 흔적을 모두 남기는 개인블로그입니다."
   location         : "Suwon, Republic of Korea"
   email            :
   links:
@@ -127,7 +127,7 @@ author:
       url: "https://github.com/Hyun3246"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/hyunj2027"
+      url: "https://instagram.com/hyunj0207"
 
 # Site Footer
 footer:
