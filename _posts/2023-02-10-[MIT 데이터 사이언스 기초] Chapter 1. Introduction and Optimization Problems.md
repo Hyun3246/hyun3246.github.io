@@ -12,7 +12,7 @@ toc: true
 toc_sticky: false
  
 date: 2023-02-10
-last_modified_at: 2023-02-10
+last_modified_at: 2023-02-11
 ---
 ## 강의 개요
 - 강의명: Introduction to Computational Thinking and Data Science (데이터 사이언스 기초 코스)
@@ -110,4 +110,9 @@ ex. V = [1, 1, 0, 0, 0] -> 금괴와 반지만 가져간다.
 - 단점: 언제나 최적은 아니다.
 
 <br/>
-다음 강에서 진짜 최적을 찾는 방법을 알려준다고 한다.
+다음 강에서 진짜 최적을 찾는 방법을 알려준다고 한다.   
+
+<br/>
+<br/>
+
+*포스트에 사용된 모든 이미지는 강의자료에서 발췌하였음을 밝힙니다.*
