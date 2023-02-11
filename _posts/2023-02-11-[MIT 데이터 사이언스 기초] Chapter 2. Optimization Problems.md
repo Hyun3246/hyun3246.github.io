@@ -85,7 +85,7 @@ last_modified_at: 2023-02-11
   <img src="/image/탐색 트리 같은 문제.jpg"
        style="width: 100%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
-    빨간 색 네모 안은 선택한 것은 달라도 같은 상황의 문제이다.
+    빨간색 네모 안은 선택한 것은 달라도 같은 상황의 문제이다.
   </figcaption>
 </figure>
 <br/>

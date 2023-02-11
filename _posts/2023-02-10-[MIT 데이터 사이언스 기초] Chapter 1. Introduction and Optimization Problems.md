@@ -14,6 +14,11 @@ toc_sticky: false
 date: 2023-02-10
 last_modified_at: 2023-02-10
 ---
+## 강의 개요
+- 강의명: Introduction to Computational Thinking and Data Science (데이터 사이언스 기초 코스)
+- 교수: Eric Grimson, John Guttag
+- 제작: MIT, 네이버 부스트코스  
+<br/>
 
 ## 계산모델
 계산 모델은 말 그대로 계산하는 모델이다. 현재까지의 일을 이해하거나, 미래의 일을 예측한다. 현대 과학에서는 실험도 중요하지만 컴퓨터 없이는 아무 것도 할 수 없는 상황이 되었다.    
