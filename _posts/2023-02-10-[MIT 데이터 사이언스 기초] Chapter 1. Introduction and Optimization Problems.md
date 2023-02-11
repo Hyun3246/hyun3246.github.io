@@ -7,6 +7,7 @@ categories:
 tags:
   - [Data Science, 최적화, Algorithm]
 
+use_math: true
 toc: true
 toc_sticky: false
  
