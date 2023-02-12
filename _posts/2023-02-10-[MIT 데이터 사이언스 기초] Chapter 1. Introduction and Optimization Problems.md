@@ -12,7 +12,7 @@ toc: true
 toc_sticky: false
  
 date: 2023-02-10
-last_modified_at: 2023-02-11
+last_modified_at: 2023-02-12
 ---
 ## 강의 개요
 - 강의명: Introduction to Computational Thinking and Data Science (데이터 사이언스 기초 코스)
@@ -86,7 +86,7 @@ ex. V = [1, 1, 0, 0, 0] -> 금괴와 반지만 가져간다.
 
 ~~교수님이 도넛을 별로 안좋아하나보다~~
 
-예시 코드는 작성하여 깃허브 링크로 추가하겠다.  
+[예시 코드 보러가기](https://github.com/Hyun3246/Code-Warehouse/tree/main/MIT%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%20%EA%B8%B0%EC%B4%88)
 
 이 알고리즘의 복잡도는 **nlogn**이다. 정렬(nlogn)과 선택 판단(n)에서 복잡도가 발생한다.     
 <br/>
