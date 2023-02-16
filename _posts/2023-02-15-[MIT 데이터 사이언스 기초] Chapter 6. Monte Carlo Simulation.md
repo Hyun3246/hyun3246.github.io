@@ -31,7 +31,7 @@ last_modified_at: 2023-02-15
 ## 룰렛
 룰렛은 카지노에서 사용하는 도구로, 주사위처럼 하나의 숫자를 반환한다. 반환될 숫자를 정확히 예측하는 돈을 얻는 것이다. 숫자는 (공정한 경우) 1~36까지 있다.
 
-룰렛 코드 보러가기(추후 업로드)     
+[룰렛 코드 보러가기](https://github.com/Hyun3246/Code-Warehouse/tree/main/MIT%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%20%EA%B8%B0%EC%B4%88)    
 
 <br/>
 
