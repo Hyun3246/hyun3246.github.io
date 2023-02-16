@@ -1,6 +1,6 @@
 ---
 title: "About HyunJun"
-permalink: /categories/about/
+permalink: /about/
 layout: single
 author_profile: true
 comments: False
