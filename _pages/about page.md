@@ -24,7 +24,7 @@ A university student who dreams of becoming a data scientist.
 
 <br/>
 
-## School & Career
+## Career
 
 <table>
 	<tr><!-- 첫번째 줄 시작 -->
