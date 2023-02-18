@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-17
-last_modified_at: 2023-02-17
+last_modified_at: 2023-02-18
 ---
 몬테 카를로 시뮬레이션으로 매우 임의 표본을 생성하고 신뢰 구간을 계산할 수 있다. 그러나 선거 여론 조사처럼 매우 표본을 추출할 수 없는 상황이라면 어떻게 할까?       
 
@@ -144,7 +144,7 @@ $\sigma$는 모집단의 표준편차를 의미하고, n은 표본의 크기를 
 
 <br/>
 
-관련 코드 보러가기(추후 업데이트)
+[관련코드 보러가기](https://github.com/Hyun3246/Code-Warehouse/tree/main/MIT%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%20%EA%B8%B0%EC%B4%88)
 
 <br/>
 <br/>
