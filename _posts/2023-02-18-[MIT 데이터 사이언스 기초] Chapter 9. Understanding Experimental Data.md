@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-18
-last_modified_at: 2023-02-18
+last_modified_at: 2023-02-19
 ---
 
 ## 선형회귀
@@ -24,7 +24,7 @@ $ F = - kd $
 무게에 따른 변형 길이를 아래처럼 2차원 평면에 표현할 수 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/용수철 실험 결과.jpg"
+  <img src="/image/용수철 실험 결과.png"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -48,7 +48,7 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 운이 좋게도, 파이썬에서는 일일이 이를 계산할 필요가 없다. `pylab`의 `polyfit`을 사용하면 원하는 차수에 대해 가장 잘 들어맞는 다항식을 찾아준다.     
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/용수철 피팅.jpg"
+  <img src="/image/용수철 피팅.png"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -59,7 +59,7 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 아래와 같은 데이터를 1차 다항식으로 피팅한다고 하자.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/의미없는 1차 다항식 피팅.jpg"
+  <img src="/image/의미없는 1차 다항식 피팅.png"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -67,7 +67,7 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 매우 부적절한 직선이 생성되었다. 전혀 쓸모가 없는 피팅이다. 2차원 피팅은 어떨까?
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/좀 더 나은 2차 피팅.jpg"
+  <img src="/image/좀 더 나은 2차 피팅.png"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -87,7 +87,7 @@ $y_i$는 측정 값, $p_i$는 추정 값, $\mu$는 측정 값을 평균을 의�
 아래 그림은 다양한 차수로 피팅한 뒤 결정계수를 구한 것이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/다양한 차수 결정계수.jpg"
+  <img src="/image/다양한 차수 결정계수.png"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
