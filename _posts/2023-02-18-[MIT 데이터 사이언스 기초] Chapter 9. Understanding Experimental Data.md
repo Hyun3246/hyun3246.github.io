@@ -92,6 +92,10 @@ $y_i$는 측정 값, $p_i$는 추정 값, $\mu$는 측정 값을 평균을 의�
 </figure>
 <br/>
 
+<br/> 
+
+[관련코드 보러가기](https://github.com/Hyun3246/Code-Warehouse/tree/main/MIT%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%20%EA%B8%B0%EC%B4%88)
+
 <br/>
 <br/>
 
