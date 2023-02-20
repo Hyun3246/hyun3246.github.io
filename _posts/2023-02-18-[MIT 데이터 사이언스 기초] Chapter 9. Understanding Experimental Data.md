@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-18
-last_modified_at: 2023-02-19
+last_modified_at: 2023-02-20
 ---
 
 ## 선형회귀
@@ -44,6 +44,22 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 위 식을 사용하기 위해서는 일단 곡선을 찾아야 한다. 예측 모델의 다항식 표현을 찾기 위해 '선형회귀'를 사용한다.
 
 선형회귀를 설명하기 위해 일차 다항식 $y=ax+b$를 예를 들어 보자. 이 다항식을 사용해 모든 x값에 대해 y값을 계산하고 최소제곱 목적 함수에 대입한다. a와 b의 값을 바꾸어가면서 목적 함수의 값이 가장 최소가 되는 a, b를 찾으면 그 것이 바로 가장 잘 들어맞는 직선인 것이다.
+
+> cf. 왜 '선형'회귀일까?    
+일차식 $y=ax+b$가 있을 때, a와 b를 축으로 하는 평면을 생각할 수 있다. 이 평면은 모든 직선을 포함한다.
+목적함수의 값이 높이라고 할 때, 우리는 최적의 피팅 곡선을 찾기 위해 곡면 위 임의의 점에서 시작하여 곡면의 가장 밑까지 '선형'으로 이동하게 된다. 곡면의 가장 밑에 해당하는 a, b가 최적의 곡선(직선)인 것이다. <figure style="display:block; text-align:center;">
+  <img src="/image/선형회귀 .jpg"
+       style="width: 100%; height: auto; margin:10px"></figure>
+위 그림에서 선의 범위가 곧 신뢰구간을 나타낸다고 보면 된다. 각각의 선의 범위가 겹친다면 통계적으로 큰 의미가 없다고 판단한다. 범위가 겹치지 않는 선 만이 통계적으로 매우 다르다고 할 수 있다.
+
+기온 데이터의 에러바를 살펴보자.
+<br/>
+<figure style="display:block; text-align:center;">
+  <img src="/image/기온 데이터 에러바.jpg"
+       style="width: 100%; height: auto; margin:10px">
+</figure>
+<br/>
+
 
 운이 좋게도, 파이썬에서는 일일이 이를 계산할 필요가 없다. `pylab`의 `polyfit`을 사용하면 원하는 차수에 대해 가장 잘 들어맞는 다항식을 찾아준다.     
 <br/>
