@@ -48,7 +48,7 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 > cf. 왜 '선형'회귀일까?    
 일차식 $y=ax+b$가 있을 때, a와 b를 축으로 하는 평면을 생각할 수 있다. 이 평면은 모든 직선을 포함한다.
 목적함수의 값이 높이라고 할 때, 우리는 최적의 피팅 곡선을 찾기 위해 곡면 위 임의의 점에서 시작하여 곡면의 가장 밑까지 '선형'으로 이동하게 된다. 곡면의 가장 밑에 해당하는 a, b가 최적의 곡선(직선)인 것이다. <figure style="display:block; text-align:center;">
-  <img src="/image/선형회귀 .jpg"
+  <img src="/image/선형회귀.jpg"
        style="width: 100%; height: auto; margin:10px"></figure>
 위 그림에서 선의 범위가 곧 신뢰구간을 나타낸다고 보면 된다. 각각의 선의 범위가 겹친다면 통계적으로 큰 의미가 없다고 판단한다. 범위가 겹치지 않는 선 만이 통계적으로 매우 다르다고 할 수 있다.
 
