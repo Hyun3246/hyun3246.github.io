@@ -66,9 +66,9 @@ A university student who dreams of becoming a data scientist.
 ## Certificate
 <code><img alt = "컴활 2급" height="25" src="https://simpleicons.org/icons/microsoftexcel.svg" style="width: 3%; height: auto; margin:0">  컴퓨터활용능력 2급 (Feb, 2022)</code>
 
-<code><img alt = "ITQ 엑셀" height="25" src="https://simpleicons.org/icons/microsoftexcel.svg" style="width: 3%; height: auto; margin:0">  ITQ 엑셀 (Sep, 2013)</code>
-
 <code><img alt = "ITQ PPT" height="25" src="https://simpleicons.org/icons/microsoftpowerpoint.svg" style="width: 3%; height: auto; margin:0">  ITQ 파워포인트 (Feb, 2014)</code>
+
+<code><img alt = "ITQ 엑셀" height="25" src="https://simpleicons.org/icons/microsoftexcel.svg" style="width: 3%; height: auto; margin:0">  ITQ 엑셀 (Sep, 2013)</code>
 
 <code><img alt = "DIAT 스프레드시트" height="25" src="https://simpleicons.org/icons/microsoftexcel.svg" style="width: 3%; height: auto; margin:0">  DIAT 스프레드시트 (May, 2013)</code>
 
@@ -78,13 +78,11 @@ A university student who dreams of becoming a data scientist.
 
 ## About this blog
 제목은 "All-in"이지만... 그냥 나중에 공부한 내용을 찾아보기 위해서 만든 블로그입니다.   
-각종 데이터 및 코딩 관련 공부 내용을 주로 포스팅할 생각입니다.	
-
-가끔 IT 관련 소식과 생각을 적어놓을 생각도 하고 있습니다.
+각종 데이터 및 코딩 관련 공부 내용을 주로 포스팅할 생각이고, 심심할 때는 IT 관련 소식을 몇 자 적기도 합니다.
 
 <br/>
 
 The title is "All-in"... but it's just a blog that I made to find what I studied later.    
-I will mainly post various 'data and coding-related' studies.
 
-I'm thinking about writing down IT news and thoughts sometimes.
+
+I'll mainly post data science and coding studies, and write down a few words of IT news when I am bored.
