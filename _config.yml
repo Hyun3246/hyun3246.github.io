@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "HyunJun"
   avatar           : /image/프로필9.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "HyunJun의 흔적을 모두 남기는 개인블로그입니다."
+  bio              : "HyunJun의 흔적을 남기는 개인블로그입니다."
   location         : "Suwon, Republic of Korea"
   email            :
   links:
