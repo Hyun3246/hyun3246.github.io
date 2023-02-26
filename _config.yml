@@ -20,7 +20,7 @@ title                    : "HyunJun's All-In"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "HyunJun's All-in-one Blog"
-description              : "HyunJun의 흔적을 모두 남기는 개인블로그입니다."
+description              : "HyunJun의 흔적을 남기는 개인블로그입니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Hyun3246/hyun3246.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
