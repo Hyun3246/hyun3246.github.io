@@ -1,11 +1,11 @@
 ---
 title:  "[Deep Learning Specialization - 1단계] 1. 딥러닝 소개"
-excerpt: "통계의 함정 마무리"
+excerpt: "신경망이란 무엇인가, 신경망의 종류와 활용"
 
 categories:
   - Data Science
 tags:
-  - [Data Science, 머신러닝]
+  - [Data Science, 머신러닝, 신경망]
 
 use_math: true
 toc: true
@@ -37,7 +37,7 @@ last_modified_at: 2023-02-27
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/신경망의 기본 구조.jpg"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -70,7 +70,7 @@ last_modified_at: 2023-02-27
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/Standard NN.jpg"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -80,7 +80,7 @@ Standard NN은 앞서 살펴본 집의 가격을 예측하는 함수나 맞춤�
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/Convolutional NN.jpg"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -90,7 +90,7 @@ Standard NN은 앞서 살펴본 집의 가격을 예측하는 함수나 맞춤�
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/Recurrent NN.jpg"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
 
