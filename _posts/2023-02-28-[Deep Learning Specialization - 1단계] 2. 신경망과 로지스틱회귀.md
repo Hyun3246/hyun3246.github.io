@@ -21,10 +21,7 @@ last_modified_at: 2023-02-28
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/고양이사진.jpg"
-       style="width: 100%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    64픽셀 $\times$ 
-  </figcaption>
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -32,7 +29,7 @@ last_modified_at: 2023-02-28
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/고양이사진 RGB 분석.jpg"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 50%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     64픽셀을 전부 나타내지 않고 간소화하였다.
   </figcaption>
@@ -51,11 +48,11 @@ $$n = n_x = 64 \times 64 \times 3 = 12288$$
 
 특성벡터($x$)와 결과($y$)의 조합인 $(x, y)$ 는 다음과 같은 조건을 따른다.
 - $x \in R^{n_x}$ (n차원 벡터 집합)
-- $y \in \set{0, 1}$
+- $y \in \{0, 1\}$
 
 m개의 훈련 데이터가 있다고 하면 다음과 같이 표현된다.
 
-$$ \set{(x^{(1)}, y^{(1)}), (x^{(2)}, y^{(2)}), ... , (x^{(m)}, y^{(m)})} $$
+$$ \{(x^{(1)}, y^{(1)}), (x^{(2)}, y^{(2)}), ... , (x^{(m)}, y^{(m)})\} $$
 
 여기서 m개의 특성벡터만을 모아 표현할 수도 있다.
 
@@ -137,7 +134,7 @@ $$\displaystyle J(w, b) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} 
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/경사하강법.jpg"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -149,7 +146,7 @@ $$\displaystyle J(w, b) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} 
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/w에 대한 아래로 볼록한 함수.jpg"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -171,7 +168,6 @@ $$ b = b -\alpha\frac{dJ(w, b)}{db}$$
 로지스틱 회귀에서 사용하는 손실함수는 일반적으로 사용하는 손실함수와는 다르다. 일반적인 손실함수는 아래와 같다.   $$ L(\hat{y}, y) = \frac{1}{2}(\hat{y} - y)^2 $$
 그러나 이는 최적값 1개를 찾아야 하는 로지스틱 회귀에는 부적절하다. 지역 최적값이 전역최적값이 아닐 수 있기 때문이다([추가 설명 링크](https://hyun3246.github.io/data%20science/MIT-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EA%B8%B0%EC%B4%88-Chapter-1.-Introduction-and-Optimization-Problems/)).    
 반면 위에서 소개한 손실함수는 아래로 볼록한 모양으로 전역최적이 지역최적과 일치한다. 그래서 우리는 일반적인 손실함수 대신 다른 손실함수를 활용한다.
-
 <br/>
 
 ## 미분
