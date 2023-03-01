@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-15
-last_modified_at: 2023-02-15
+last_modified_at: 2023-03-01
 ---
 ## 몬테 카를로 시뮬레이션
 몬테 카를로 시뮬레이션은 추정 통계학을 이용하여 알 수 없는 값을 추정하는 방법이다. 다음은 추정 통계학의 기본적인 용어이다.
@@ -84,8 +84,8 @@ last_modified_at: 2023-02-15
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/정규분포.jpg"
-       style="width: 100%; height: auto; margin:20px">
+  <img src="/image/MIT 데이터 사이언스 기초/정규분포.jpg"
+       style="width: 80%; height: auto; margin:20px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     정규분포 그래프
   </figcaption>

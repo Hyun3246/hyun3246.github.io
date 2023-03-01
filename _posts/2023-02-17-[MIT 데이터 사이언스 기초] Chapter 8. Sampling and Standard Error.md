@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-17
-last_modified_at: 2023-02-18
+last_modified_at: 2023-03-01
 ---
 몬테 카를로 시뮬레이션으로 매우 임의 표본을 생성하고 신뢰 구간을 계산할 수 있다. 그러나 선거 여론 조사처럼 매우 표본을 추출할 수 없는 상황이라면 어떻게 할까?       
 
@@ -28,22 +28,22 @@ last_modified_at: 2023-02-18
 교수님은 미국 기상 데이터로 설명을 이어간다. 날마다의 최고 기온을 정리한 데이터 전체를 활용해 히스토그램을 그리면 다음과 같은 결과가 나온다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/전체 모집단 히스토그램.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/전체 모집단 히스토그램.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 임의로 크기가 100인 히스토그램 표본을 추출하여 히스토그램을 그리면 아래와 같다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/크기 100 히스토그램.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/크기 100 히스토그램.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 모양은 좀 다르지만 평균과 표준편차가 유사하다. 1000번을 실행하면 어떨까?
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/1000번 실행 히스토그램.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/1000번 실행 히스토그램.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -57,15 +57,15 @@ last_modified_at: 2023-02-18
 
 > cf. 에러바    
 에러바는 데이터의 변이성을 나타내는 그래프로, 불확실성을 시각화하는 방법이다.    <figure style="display:block; text-align:center;">
-  <img src="/image/에러바.jpg"
-       style="width: 100%; height: auto; margin:10px"></figure>
+  <img src="/image/MIT 데이터 사이언스 기초/에러바.jpg"
+       style="width: 80%; height: auto; margin:10px"></figure>
 위 그림에서 선의 범위가 곧 신뢰구간을 나타낸다고 보면 된다. 각각의 선의 범위가 겹친다면 통계적으로 큰 의미가 없다고 판단한다. 범위가 겹치지 않는 선 만이 통계적으로 매우 다르다고 할 수 있다.
 
 기온 데이터의 에러바를 살펴보자.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/기온 데이터 에러바.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/기온 데이터 에러바.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -83,16 +83,17 @@ last_modified_at: 2023-02-18
 
 마지막 특성을 사용하여 평균의 표준오차를 계산하고, 표준오차를 이용해 평균의 표준편차를 추정할 수 있다.         
 
-표준오차는 다음과 같이 구한다.       
-$SE=\frac{\sigma}{n}$
+표준오차는 다음과 같이 구한다.
+
+$$SE=\frac{\sigma}{n}$$
 
 $\sigma$는 모집단의 표준편차를 의미하고, n은 표본의 크기를 말한다.
 
 기온 데이터에서 실제로 잘 적용되는지 살펴보자.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/기온 데이터 평균의 표준편차와 표준오차.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/기온 데이터 평균의 표준편차와 표준오차.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 매우 잘 적용된다! 표준오차를 이용하면 여러 표본들의 평균의 표준편차를 (실제로 샘플을 많이 만들지 않고도) 추정할 수 있는 것이다.     
@@ -102,8 +103,8 @@ $\sigma$는 모집단의 표준편차를 의미하고, n은 표본의 크기를 
 그럼 모집단의 표준편차 대신 무엇을 사용할 수 있을까? 표본의 표준편차를 사용하는 것을 하나의 대안으로 생각할 수 있다. 그런데 실제로 사용해도 좋을까?
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/표본표준편차와 모표준편차.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/표본표준편차와 모표준편차.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -117,8 +118,8 @@ $\sigma$는 모집단의 표준편차를 의미하고, n은 표본의 크기를 
 먼저 여러 분포에 대해 살펴보았다. 연속균등분포, 정규분포, 지수분포에 대해 표본과 모집단의 표준편차 차이는 아래와 같다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/다양한 분포와 표준편차.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/다양한 분포와 표준편차.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -127,8 +128,8 @@ $\sigma$는 모집단의 표준편차를 의미하고, n은 표본의 크기를 
 모집단의 크기는 어떨까?
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/모집단의 크기와 표준편차.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/모집단의 크기와 표준편차.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 모집단의 크기와는 큰 관계가 없다는 것을 알 수 있다.

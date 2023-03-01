@@ -9,10 +9,10 @@ tags:
 
 use_math: true
 toc: true
-toc_sticky: false
+toc_sticky: true
  
 date: 2023-02-13
-last_modified_at: 2023-02-14
+last_modified_at: 2023-03-01
 ---
 
 이번 강은 앞선 강좌와는 조금 다르게 '확률'을 주제로 진행된다.
@@ -55,7 +55,7 @@ last_modified_at: 2023-02-14
 
 먼저 최소한 두 명의 생일이 같을 확률을 구할 수 있다. 수학적으로는 여사건을 사용한다.    
 
-1 - $\frac{366!}{366^n \times (366-N)!}$    
+$$1 - \frac{366!}{366^n \times (366-N)!}$$    
 
 물론 N은 366보다는 작아야 한다. 아니면 비둘기집의 원리에 의해 (계산할 필요도 없이) 무조건 생일이 같은 사람이 나온다.    
 

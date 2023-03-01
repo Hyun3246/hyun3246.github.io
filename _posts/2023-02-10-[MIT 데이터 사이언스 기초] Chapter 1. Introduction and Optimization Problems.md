@@ -9,10 +9,10 @@ tags:
 
 use_math: true
 toc: true
-toc_sticky: false
+toc_sticky: true
  
 date: 2023-02-10
-last_modified_at: 2023-02-12
+last_modified_at: 2023-03-01
 ---
 ## 강의 개요
 - 강의명: Introduction to Computational Thinking and Data Science (데이터 사이언스 기초 코스)
@@ -96,8 +96,8 @@ ex. V = [1, 1, 0, 0, 0] -> 금괴와 반지만 가져간다.
 '지역적' 최적의 선택이 언제나 '전역적 최적의 선택'인 것은 아니다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/hills.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/hills.jpg"
+       style="width: 70%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     한 번 두 개의 정상 중 한 곳에 도착하면 더 이상 올라갈 곳이 없으므로 교착상태에 빠진다
   </figcaption>

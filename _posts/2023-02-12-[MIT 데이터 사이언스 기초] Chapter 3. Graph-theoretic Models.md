@@ -9,10 +9,10 @@ tags:
 
 use_math: true
 toc: true
-toc_sticky: false
+toc_sticky: true
  
 date: 2023-02-12
-last_modified_at: 2023-02-14
+last_modified_at: 2023-03-01
 ---
 
 ## 그래프
@@ -22,8 +22,8 @@ Edge는 방향이 있을 수도 있고, 없을 수도 있다. 방향이 있는 �
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/normal graph example.jpg"
-       style="width: 100%; height: auto; margin:20px">
+  <img src="/image/MIT 데이터 사이언스 기초/normal graph example.jpg"
+       style="width: 80%; height: auto; margin:20px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     일반적인 그래프의 형태. A, B, C, D, E가 Node이고 이들 사이를 연결하는 것이 Edge이다.
   </figcaption>
@@ -48,8 +48,8 @@ Edge는 방향이 있을 수도 있고, 없을 수도 있다. 방향이 있는 �
 최초로 그래프를 이용한 사례는 매우 유명한 '쾨니히스베르크 다리 문제'이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/쾨니히스베르크 다리 문제.jpg"
-       style="width: 100%; height: auto; margin:20px">
+  <img src="/image/MIT 데이터 사이언스 기초/쾨니히스베르크 다리 문제.jpg"
+       style="width: 50%; height: auto; margin:20px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     쾨니히스베르크 다리
   </figcaption>
@@ -82,8 +82,8 @@ Edge는 방향이 있을 수도 있고, 없을 수도 있다. 방향이 있는 �
 파이썬에서는 이를 재귀함수를 이용해 구현할 수 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/dfs bfs graph example.jpg"
-       style="width: 100%; height: auto; margin:20px">
+  <img src="/image/MIT 데이터 사이언스 기초/dfs bfs graph example.jpg"
+       style="width: 80%; height: auto; margin:20px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     DFS, BFS 구현에 사용한 그래프
   </figcaption>

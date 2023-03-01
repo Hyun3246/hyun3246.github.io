@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-14
-last_modified_at: 2023-02-14
+last_modified_at: 2023-03-01
 ---
 이번 강의는 이론적인 내용보다는 코딩을 이해하는 것에 초점이 맞추어져 있다. ~~그래서 이론 글이 별로 길지 않다.~~
 <br/>
@@ -50,15 +50,15 @@ last_modified_at: 2023-02-14
 앞선 랜덤워크에는 모든 방향으로 동일하게 움직이는 일반적인 주정뱅이와 북쪽으로 움직일 때는 조금 더 많은 거리를 움직이는 마조히스틱 주정뱅이가 있었다. 이들의 원점으로부터의 거리를 그래프로 나타내는 다음과 같다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/주정뱅이 평균 거리.jpg"
-       style="width: 100%; height: auto; margin:20px">
+  <img src="/image/MIT 데이터 사이언스 기초/주정뱅이 평균 거리.jpg"
+       style="width: 80%; height: auto; margin:20px">
 </figure>
 <br/>
 단순히 거리를 선 그래프로 나타내는 것이 아니라, 좌표를 활용해서 위치를 표현할 수도 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/주정뱅이 산포도 거리.jpg"
-       style="width: 100%; height: auto; margin:20px">
+  <img src="/image/MIT 데이터 사이언스 기초/주정뱅이 산포도 거리.jpg"
+       style="width: 80%; height: auto; margin:20px">
 </figure>
 <br/>
 알 수 있는 사실은, 매조히스틱 주정뱅이는 동서방향으로는 일반적인 주정뱅이와 동일하지만 북쪽으로 좀 더 치우쳐 있다는 것이다. 생각해보면 당연할 수밖에 없다.

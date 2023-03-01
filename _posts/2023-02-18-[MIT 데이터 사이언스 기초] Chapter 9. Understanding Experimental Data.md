@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-18
-last_modified_at: 2023-02-20
+last_modified_at: 2023-03-01
 ---
 
 ## 선형회귀
@@ -24,8 +24,8 @@ $ F = - kd $
 무게에 따른 변형 길이를 아래처럼 2차원 평면에 표현할 수 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/용수철 실험 결과.png"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/용수철 실험 결과.png"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -37,7 +37,7 @@ $ F = - kd $
 
 '최소제곱 목적 함수'는 이 거리를 공식화하고 있다. 아래 공식의 값이 최소가 될 때, 그 직선이 데이터를 대변하는 데 가장 적합하다고 할 수 있다.
 
-$\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
+$$\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$$
 
 제곱을 하는 이유는 여러 가지가 있다. 부호를 제거할 수도 있고, 위 공식을 최솟값을 가지는 함수로 기능하게 할 수도 있다 (이차함수를 떠올리면 쉽다).    
 
@@ -48,15 +48,15 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 > cf. 왜 '선형'회귀일까?    
 일차식 $y=ax+b$가 있을 때, a와 b를 축으로 하는 평면을 생각할 수 있다. 이 평면은 모든 직선을 포함한다.
 목적함수의 값이 높이라고 할 때, 우리는 최적의 피팅 곡선을 찾기 위해 곡면 위 임의의 점에서 시작하여 곡면의 가장 밑까지 '선형'으로 이동하게 된다. 곡면의 가장 밑에 해당하는 a, b가 최적의 곡선(직선)인 것이다. <figure style="display:block; text-align:center;">
-  <img src="/image/선형회귀.jpg"
-       style="width: 100%; height: auto; margin:10px"></figure>
+  <img src="/image/MIT 데이터 사이언스 기초/선형회귀.jpg"
+       style="width: 50%; height: auto; margin:10px"></figure>
 위 그림에서 선의 범위가 곧 신뢰구간을 나타낸다고 보면 된다. 각각의 선의 범위가 겹친다면 통계적으로 큰 의미가 없다고 판단한다. 범위가 겹치지 않는 선 만이 통계적으로 매우 다르다고 할 수 있다.
 
 기온 데이터의 에러바를 살펴보자.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/기온 데이터 에러바.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/기온 데이터 에러바.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -64,8 +64,8 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 운이 좋게도, 파이썬에서는 일일이 이를 계산할 필요가 없다. `pylab`의 `polyfit`을 사용하면 원하는 차수에 대해 가장 잘 들어맞는 다항식을 찾아준다.     
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/용수철 피팅.png"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/용수철 피팅.png"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -75,16 +75,16 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 아래와 같은 데이터를 1차 다항식으로 피팅한다고 하자.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/의미없는 1차 다항식 피팅.png"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/의미없는 1차 다항식 피팅.png"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
 매우 부적절한 직선이 생성되었다. 전혀 쓸모가 없는 피팅이다. 2차원 피팅은 어떨까?
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/좀 더 나은 2차 피팅.png"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/좀 더 나은 2차 피팅.png"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -94,7 +94,7 @@ $\displaystyle\sum_{i=0}^{len(observed) - 1}{(observed[i] - predicted[i])^2}$
 
 그러나 우리는 절대적인 적합도를 판단하고 싶다. 두 개 중에 더 나은지가 아니라, 전체적인 회귀 곡선 중에서 얼마나 정확한지를 말이다. 절대적인 적합도를 판단할 때는 결정계수($R^2$)를 사용한다.
 
-$R^2 = 1- \frac{\sum_{i}^{}{(y_i - p_i)^2}}{\sum_{i}^{}{(y_i - \mu)^2}}$
+$$R^2 = 1- \frac{\sum_{i}^{}{(y_i - p_i)^2}}{\sum_{i}^{}{(y_i - \mu)^2}}$$
 
 $y_i$는 측정 값, $p_i$는 추정 값, $\mu$는 측정 값을 평균을 의미한다. 추정 오차를 측정 데이터의 변이성(편차)으로 나누는 과정으로, 데이터 변이성의 비율을 알려준다.       
 
@@ -103,8 +103,8 @@ $y_i$는 측정 값, $p_i$는 추정 값, $\mu$는 측정 값을 평균을 의�
 아래 그림은 다양한 차수로 피팅한 뒤 결정계수를 구한 것이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/다양한 차수 결정계수.png"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/다양한 차수 결정계수.png"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 

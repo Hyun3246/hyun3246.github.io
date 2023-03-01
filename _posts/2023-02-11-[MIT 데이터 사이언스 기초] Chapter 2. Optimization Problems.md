@@ -9,10 +9,10 @@ tags:
 
 use_math: true
 toc: true
-toc_sticky: false
+toc_sticky: true
  
 date: 2023-02-11
-last_modified_at: 2023-02-12
+last_modified_at: 2023-03-01
 ---
 
 ## 탐색 트리 구현
@@ -23,8 +23,8 @@ last_modified_at: 2023-02-12
 선택하는 경우는 왼쪽으로, 선택하지 않는 경우는 오른쪽으로 내려간다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/탐색트리.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/탐색트리.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -35,7 +35,7 @@ last_modified_at: 2023-02-12
 - 시간은 만들어진 노드의 개수와 연관
 - 레벨의 수는 선택할 수 있는 물건의 수
 - n개의 물건이 있을 때 노드의 수는  
--> $\sum_{i=0}^{n}$ $2^i$ = $2^{n+1}$    
+-> $\displaystyle \sum_{i=0}^{n}$ $2^i$ = $2^{n+1}$    
 
 - 제한 조건을 어기는 트리는 탐색하지 않음
 
@@ -51,8 +51,8 @@ last_modified_at: 2023-02-12
 파이썬 재귀함수 예시 중 가장 널리 알려진 것이 '피보나치' 문제일 것이다. 아래는 피보나치 재귀함수 코드가 어떻게 동작하는지를 나타내는 그림이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/피보나치 실행 구조.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/피보나치 실행 구조.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 정말 비효율적이다. 왜? 같은 값을 계속 새롭게 계산해야 하니까. 그럼 해결책은?    
@@ -73,8 +73,8 @@ last_modified_at: 2023-02-12
 그러나 맥주가 2개(두 종류) 있다고 가정한다면 중복 부분 문제로 볼 수도 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/중복 부분 문제.jpg"
-       style="width: 100%; height: auto; margin:10px">
+  <img src="/image/MIT 데이터 사이언스 기초/중복 부분 문제.jpg"
+       style="width: 80%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -82,7 +82,7 @@ last_modified_at: 2023-02-12
 즉, 남은 칼로리 여유분을 고려하여 남은 물건 중 최대의 가치를 가진 물건을 선택하는 것이다. 이미 무엇을 선택했는지는 전혀 중요하지 않다.  
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/탐색 트리 같은 문제.jpg"
+  <img src="/image/MIT 데이터 사이언스 기초/탐색 트리 같은 문제.jpg"
        style="width: 100%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     빨간색 네모 안은 선택한 것은 달라도 같은 상황의 문제이다.
