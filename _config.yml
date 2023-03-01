@@ -125,12 +125,12 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/profile.php?id=100023972960718&mibextid=ZbWKwL"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Hyun3246"
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/%ED%98%84%EC%A4%80-%EA%B9%80-58a914264"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Hyun3246"
 
 # Site Footer
 footer:
