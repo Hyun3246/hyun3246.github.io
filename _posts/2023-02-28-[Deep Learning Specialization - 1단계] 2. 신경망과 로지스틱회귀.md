@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-28
-last_modified_at: 2023-02-28
+last_modified_at: 2023-03-01
 ---
 
 ## 이진 분류
@@ -90,7 +90,7 @@ $$\hat{y} = w^Tx + b$$
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/sigmoid 함수.png"
-       style="width: 100%; height: auto; margin:10px">
+       style="width: 80%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     Sigmoid 함수 (출처: 위키백과)
   </figcaption>
@@ -160,6 +160,7 @@ $$ w = w -\alpha\frac{dJ(w)}{dw}$$
 $\alpha$ 는 학습률(learning rate)를 의미한다. 학습률이 클수록 더 빠르게 w가 변화할 것이라고 생각할 수 있다. $\frac{dJ(w)}{dw}$ 는 고등학교에서 살펴본 바로 그 미분계수이다. 여기서는 함수의 변수가 하나지만, 실제 비용함수는 w, b 두 개의 변수를 가진다. 그래서 미분계수도 '편미분계수'을 활용해야 한다.
 
 $$ w = w -\alpha\frac{dJ(w, b)}{dw}$$
+
 $$ b = b -\alpha\frac{dJ(w, b)}{db}$$
 
 엄밀하게는 편미분계수를 표현할 때 $\partial$ 을 활용해야하지만, 큰 상관은 없다.
