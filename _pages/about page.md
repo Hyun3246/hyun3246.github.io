@@ -7,7 +7,7 @@ comments: False
 ---
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/프로필9.jpg"
+  <img src="/image/프로필10.jpg"
        style="width: 50%; height: auto; margin:20px">
 </figure>
 <br/>
