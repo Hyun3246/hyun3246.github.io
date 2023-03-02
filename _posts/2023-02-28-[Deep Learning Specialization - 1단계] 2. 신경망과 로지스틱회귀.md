@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-28
-last_modified_at: 2023-03-01
+last_modified_at: 2023-03-02
 ---
 
 ## 이진 분류
@@ -169,6 +169,7 @@ $$ b = b -\alpha\frac{dJ(w, b)}{db}$$
 로지스틱 회귀에서 사용하는 손실함수는 일반적으로 사용하는 손실함수와는 다르다. 일반적인 손실함수는 아래와 같다.   $$ L(\hat{y}, y) = \frac{1}{2}(\hat{y} - y)^2 $$
 그러나 이는 최적값 1개를 찾아야 하는 로지스틱 회귀에는 부적절하다. 지역 최적값이 전역최적값이 아닐 수 있기 때문이다([추가 설명 링크](https://hyun3246.github.io/data%20science/MIT-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EA%B8%B0%EC%B4%88-Chapter-1.-Introduction-and-Optimization-Problems/)).    
 반면 위에서 소개한 손실함수는 아래로 볼록한 모양으로 전역최적이 지역최적과 일치한다. 그래서 우리는 일반적인 손실함수 대신 다른 손실함수를 활용한다.
+
 <br/>
 
 ## 미분
@@ -176,7 +177,103 @@ $$ b = b -\alpha\frac{dJ(w, b)}{db}$$
 
 <br/>
 
-to be continued...
+## 계산 그래프와 미분계수
+계산 그래프는 계산 과정을 나타낸 일종의 그림으로 보면 된다. 다음과 같은 식을 계산 그래프로 계산한다고 해보자.
+
+$$ J(a, b, c) = 3(a + bc) $$
+
+계산 순서대로의 결과를 u, v, J를 이용해 나타낼 수 있다.
+
+$$ u = bc $$
+$$ v = a + u $$
+$$ J = 3v $$
+
+이 계산 과정을 계산 그래프로 나타내면 다음과 같다.
+
+<br/>
+<figure style="display:block; text-align:center;">
+  <img src="/image/Deep Learning Specialization/계산 그래프.jpg"
+       style="width: 70%; height: auto; margin:10px">
+</figure>
+<br/>
+
+로지스틱 회귀와 경사하강법에서는 계산 그래프를 사용해 얻을 수 있는 장점이 있다. 위 그림에서 빨간색 화살표를 따라 계산 그래프를 역(오른쪽 -> 왼쪽)으로 추적하여 미분계수를 쉽게 구할 수 있다. 
+
+그럼 미분계수를 구해보자. 가장 오른쪽부터 시작하므로, $\frac{dJ}{dv}$ 부터 구한다. $J=3v$ 이므로 $\frac{dJ}{dv} = 3$ 이다.
+
+그 다음에는 $\frac{dJ}{da}$ 를 구한다. 연쇄법칙을 사용하면 되는데, $\frac{dJ}{da} = \frac{dJ}{dv} \cdot \frac{dv}{da}$ 이므로 $\frac{dJ}{da}=3$ 이다. $\frac{dJ}{du}$ 도 똑같이 구하면 된다.
+
+마지막으로 $\frac{dJ}{du}$ 를 구해보자. 연쇄법칙을 사용하면 $\frac{dJ}{db} = \frac{dJ}{du} \cdot \frac{du}{db}$ 가 된다. $\frac{dJ}{du}=3$ 이고, $\frac{du}{db}$ 가 c(c=2)이므로 $\frac{dJ}{db}=6$ 이다.
+
+<br/>
+
+## 로지스틱 회귀와 경사하강법에 계산 그래프 적용하기
+<br/>
+<figure style="display:block; text-align:center;">
+  <img src="/image/Deep Learning Specialization/로지스틱 회귀 계산 그래프.jpg"
+       style="width: 70%; height: auto; margin:10px">
+</figure>
+<br/>
+
+여기서도 마찬가지로 오른쪽부터 시작한다. $\frac{dL(a, y)}{da}$ 를 계산하면 $-\frac{y}{a} + \frac{1-y}{1-a}$ 가 된다(잘 모르겠으면 미적분학 책을 뒤져보자.).
+
+다음 과정은 손실함수 $\frac{dL(a, y)}{dz}$ 를 구하는 것이다.
+
+$$\frac{dL(a, y)}{dz} = \frac{dL}{da} \cdot \frac{da}{dz}$$
+$$\frac{dL(a, y)}{dz} = (-\frac{y}{a} + \frac{1-y}{1-a}) \cdot a(1-a)$$
+$$\frac{dL(a, y)}{dz} = a - y$$
+
+마지막으로는 $\frac{dL}{dw_1}$, $\frac{dL}{dw_2}$, $\frac{dL}{db}$ 를 구한다. 각각 $(x_1 \cdot \frac{dL}{dz})$ , $(x_2 \cdot \frac{dL}{dz})$ , $\frac{dL}{dz}$ 이다.
+
+> 프로그래밍에서 미분계수를 변수로 사용해야 할 때가 많다. 그러나 그 떄마다 분수로 표현할 수도 없고, 파이썬에서는 분수 형식의 변수를 지원하지도 않는다.       
+$\frac{dFindOutputVar}{dvar}$ 을 `dJdvar`처럼 쓸 수도 있지만, 편의상 `dvar`이라고 적는 경우가 더 많다. $\frac{dL}{da}$ 는 `da`, $\frac{dL}{dw_1}$ 은 `dw1`이 되는 식이다.   
+
+<br/>
+
+## m개의 학습 데이터에 대한 경사하강법
+지금까지는 하나의 학습 데이터에 대해 어떻게 경사하강법을 적용하는지를 보았다. 이제는 m개의 데이터에 적용하는 것을 살펴볼 것이다.
+
+우리는 비용함수를 $\displaystyle J(w, b) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})}$ 와 같이 쓴다. 비용함수를 미분하면 아래와 같이 쓸 수 있다.
+
+$$\displaystyle \frac{d}{dw_1}J(w, b) = \frac{1}{m} \sum_{i=1}^{m}{\frac{d}{dw_1}L(\hat{y}^{(i)}, y^{(i)})}$$
+
+$\frac{d}{dw_1}L(\hat{y}^{(i)}, y^{(i)})$ 는 $d{w_1}^{(i)}$ 로 표현할 수도 있다.
+
+본격적으로 반복문을 살펴보자. 아래 반복문은 경사하강법을 1회 시행했을 때이다.
+```
+J = 0; dw1 = 0; dw2 = 0; db = 0
+
+for i = 1 to m
+  z(i) = w^T * x(i) + b
+  a(i) = sigmoid(z(i))
+  J += -[y(i)log(a(i)) + (1 - y(i))log(1-a(i))]
+
+  dz(i) = a(i) - y(i)
+  dw1 += x1(i)dz(i)
+  dw2 += x2(i)dz(i)
+  db += dz(i)
+
+  J /= m
+  dw1 /= m
+  dw2 /= m
+  db /= m
+```
+
+위 의사코드를 하나씩 살펴보자. 먼저, m개의 훈련세트이므로 m번 반복하는 `for`문이 있다. 반복문에서 가장 먼저 하는 것은 선형회귀식에 $x^{(i)}$ 를 대입하는 것이다. 그리고 이를 다시 시그모이드 함수에 넣어 그 결과를 $a^{(i)}$ 에 대입한다. $a^{(i)}$ 는 손실함수 계산에 사용된다. 그리고 손실함수 계산 결과를 변수 J에 넣는다. 이름에서 느낌이 오듯이 J는 나중에 비용함수 계산에 사용될 것이다.
+
+그 다음 단락은 특성의 개수에 따라 달라진다. 특성에 따라 미분계수를 구하는 과정으로, 특성이 n개면 n번 반복한다.
+
+마지막 단락에서는 이렇게 구한 값들을 m으로 나눈다. 이제 J는 비용함수의 값을 나타내게 되었다.
+
+최종적으로 $w_1$, $w_2$, b를 정리하면 아래와 같다. $\alpha$ 는 학습률이다.
+
+$$w_1 = w_1 - \alpha dw_1$$
+$$w_2 = w_2 - \alpha dw_2$$
+$$b = b - \alpha db$$
+
+위 과정은 경사하강법 1회 수행에 해당한다. 경사하강법을 n번 반복하여 최적의 값을 찾았다면, 위 과정을 n번 반복한 것이다.
+
+위 과정의 가장 큰 단점은 반복문이 두 번 들어간다는 것이다. 반복문이 많아지면 당연히 수행 속도가 느려진다. 벡터화를 사용하면 명시적인 반복문을 제거할 수 있다. 과거에는 벡터화가 액세서리처럼 있으면 좋고 없어도 나쁠 것 없는 요소였지만, 딥러닝이 점점 고도화되는 현재는 필수적인 요소로 자리잡았다.
 
 <br/>
 <br/>
