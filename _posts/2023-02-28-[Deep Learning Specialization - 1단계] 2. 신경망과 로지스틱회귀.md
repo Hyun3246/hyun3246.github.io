@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-28
-last_modified_at: 2023-03-02
+last_modified_at: 2023-03-03
 ---
 
 ## 이진 분류
@@ -56,9 +56,13 @@ $$ \{(x^{(1)}, y^{(1)}), (x^{(2)}, y^{(2)}), ... , (x^{(m)}, y^{(m)})\} $$
 
 여기서 m개의 특성벡터만을 모아 표현할 수도 있다.
 
-$$ X=\begin{bmatrix}x^{(1)}&x^{(2)}&...&x^{(m)}\end{bmatrix} $$
+$$X = \begin{bmatrix}
+| & | & & |\\ 
+x^{(1)} & x^{(2)} & \cdots & x^{(m)}\\
+| & | & & |
+\end{bmatrix}$$
 
-~~수식으로 표현이 어려워서~~ 모양을 보고 속으면 안된다. 행렬 X의 모양은(`X.shape`) $(n_x, m)$이다. 벡터 m개를 모아두었고, 각각의 벡터가 $n_x$차원을 가지기 때문이다.
+행렬 X의 모양은(`X.shape`) $(n_x, m)$이다. 벡터 m개를 모아두었고, 각각의 벡터가 $n_x$차원을 가지기 때문이다.
 
 결과인 y도 행렬로 표현할 수 있다.
 
@@ -247,12 +251,13 @@ for i = 1 to m
   z(i) = w^T * x(i) + b
   a(i) = sigmoid(z(i))
   J += -[y(i)log(a(i)) + (1 - y(i))log(1-a(i))]
-
   dz(i) = a(i) - y(i)
+  
+  # n개의 특성에 대해 다시 반복해야하는 부분
   dw1 += x1(i)dz(i)
   dw2 += x2(i)dz(i)
   db += dz(i)
-
+  
   J /= m
   dw1 /= m
   dw2 /= m
