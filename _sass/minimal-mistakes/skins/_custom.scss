@@ -1,11 +1,11 @@
 /* Colors */
-$background-color: #ffffff !default;
-$text-color: #454547 !default;
+$background-color: #000000 !default;
+$text-color: #949498 !default;
 $muted-text-color: $text-color !default;
-$primary-color: #1D1D1F !default;           // 이 부분이 강조색이다. 우상단 메뉴, 인용문 등의 강조색.
+$primary-color: #E8E8E9 !default;           // 이 부분이 강조색이다. 우상단 메뉴, 인용문 등의 강조색.
 $border-color: mix(#fff, $text-color, 75%) !default;
-$footer-background-color: #F5F5F7 !default;
-$link-color: #1D1D1F !default;              // 이 부분이 링크의 색깔을 결정한다.
+$footer-background-color: #151517 !default;
+$link-color: #F5F5F7 !default;              // 이 부분이 링크의 색깔을 결정한다.
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
