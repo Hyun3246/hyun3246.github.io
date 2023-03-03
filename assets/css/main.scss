@@ -7,3 +7,10 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@font-face {
+    font-family: "AppleSDGothicNeoM";
+    src: url("/assets/fonts/AppleSDGothicNeo.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
