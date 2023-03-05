@@ -13,6 +13,10 @@ toc_sticky: true
  
 date: 2023-03-03
 last_modified_at: 2023-03-03
+
+header:
+  teaser: /image/teaser image/data science 4.png
+  
 ---
 
 ## 벡터화
