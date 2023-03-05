@@ -10,7 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background-color: $footer-background-color;
+  background-color: $nav-bar-color;
 
   &__inner-wrap {
     @include clearfix;
