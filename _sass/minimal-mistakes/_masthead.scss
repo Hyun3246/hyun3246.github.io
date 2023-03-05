@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $footer-background-color;
+  border-bottom: 1px solid $nav-bar-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -25,7 +25,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
-    background-color: $footer-background-color;
+    background-color: $nav-bar-color;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
