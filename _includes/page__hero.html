@@ -53,3 +53,57 @@
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 </div>
+
+{% capture overlay_img_path %}{{ include.overlay_image | relative_url }}{% endcapture %}
+
+{% if include.overlay_filter contains "gradient" %}
+  {% capture overlay_filter %}{{ include.overlay_filter }}{% endcapture %}
+{% elsif include.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ include.overlay_filter }}{% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif include.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ include.overlay_filter }}){% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if include.image_description %}
+  {% assign image_description = include.image_description %}
+{% else %}
+  {% assign image_description = include.title %}
+{% endif %}
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+{% if include.cta_url %}
+  {% assign url = include.cta_url %}
+{% else %}
+  {% assign url = include.url %}
+{% endif %}
+
+<div class="page__hero{% if include.overlay_color or include.overlay_image %}--overlay{% endif %}"
+  style="{% if include.style %}{{ include.style }};{% endif %}{% if include.overlay_color %}background-color: {{ include.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"  
+>
+  {% if include.overlay_color or include.overlay_image %}
+    <div class="wrapper">      
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        <a href="{{ url | relative_url }}">
+        {% if paginator and site.paginate_show_page_num %}
+          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+        {% else %}
+          {{ include.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
+        </a>
+      </h1>
+      {% if include.tagline %}
+        <p class="page__lead">{{ include.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>
+      {% elsif include.show_overlay_excerpt != false and include.excerpt %}
+        <p class="page__lead">{{ include.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>
+      {% endif %}
+      {% include hero__meta.html %}
+    </div>
+  {% else %}
+    <img src="{{ include.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+  {% endif %}
+  {% if include.caption %}
+    <span class="page__hero-caption" style="font-size: 1.2em; margin-left: 20px; margin-right: 20px;">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>
