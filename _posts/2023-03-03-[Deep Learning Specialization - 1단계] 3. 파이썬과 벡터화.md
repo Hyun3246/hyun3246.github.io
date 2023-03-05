@@ -15,7 +15,7 @@ date: 2023-03-03
 last_modified_at: 2023-03-03
 
 header:
-  overlay_image: /image/teaser image/22.jpg
+  overlay_image: /image/teaser image/data science 4.png
   overlay_filter: 0.5
   
 ---
