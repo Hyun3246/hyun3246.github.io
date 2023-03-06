@@ -13,6 +13,10 @@ toc_sticky: true
  
 date: 2023-02-17
 last_modified_at: 2023-03-01
+
+header:
+  overlay_image: /image/overlay image/mit data science.png
+  overlay_filter: 0.5
 ---
 몬테 카를로 시뮬레이션으로 매우 임의 표본을 생성하고 신뢰 구간을 계산할 수 있다. 그러나 선거 여론 조사처럼 매우 표본을 추출할 수 없는 상황이라면 어떻게 할까?       
 

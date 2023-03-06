@@ -13,6 +13,10 @@ toc_sticky: true
  
 date: 2023-02-13
 last_modified_at: 2023-03-01
+
+header:
+  overlay_image: /image/overlay image/mit data science.png
+  overlay_filter: 0.5
 ---
 
 이번 강은 앞선 강좌와는 조금 다르게 '확률'을 주제로 진행된다.
