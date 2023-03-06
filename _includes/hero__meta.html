@@ -2,7 +2,7 @@
 {% if document.read_time or document.show_date %}
   <p class="page__meta">
     {% if document.show_date and (document.date or document.last_modified_at) %}
-<!--       {% assign update = document.last_modified_at %}   -->
+      {% assign update = document.last_modified_at %}  
       {% assign date = document.date %}  
       {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 <!--       {% if update and update != date %}
