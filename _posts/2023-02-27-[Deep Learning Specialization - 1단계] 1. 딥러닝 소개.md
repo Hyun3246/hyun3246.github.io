@@ -13,6 +13,10 @@ toc_sticky: true
  
 date: 2023-02-27
 last_modified_at: 2023-02-28
+
+header:
+  overlay_image: /image/overlay image/andrew ng 1.png
+  overlay_filter: 0.5
 ---
 
 ## 강의 개요
