@@ -1,3 +1,4 @@
+<!-- single 포스트 관련 -->
 {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
 
 {% if page.header.overlay_filter contains "gradient" %}
@@ -54,6 +55,7 @@
   {% endif %}
 </div>
 
+<!-- 홈화면 관련 -->
 {% capture overlay_img_path %}{{ include.overlay_image | relative_url }}{% endcapture %}
 
 {% if include.overlay_filter contains "gradient" %}
