@@ -5,19 +5,18 @@ excerpt: "벡터화를 통한 반복문 없애기"
 categories:
   - Data Science
 tags:
-  - [Data Science, 머신러닝, 로지스틱 회귀, 경사하강법, 벡터화]
+  - [Data Science, 머신러닝, 로지스틱 회귀, 경사하강법, 벡터화, Python]
 
 use_math: true
 toc: true
 toc_sticky: true
  
 date: 2023-03-03
-last_modified_at: 2023-03-03
+last_modified_at: 2023-03-06
 
 header:
-  overlay_image: /image/teaser image/data science 4.png
+  overlay_image: /image/overlay image/andrew ng 1.png
   overlay_filter: 0.5
-  
 ---
 
 ## 벡터화
@@ -188,3 +187,81 @@ w = w - learning_rate * dw
 b = b - learning_rate * db
 ```
 `numpy`를 이용한 계산은 반복문보다 5배 정도 빠르다. 1초와 5초의 차이라면 얼마 안된다고 느낄 수도 있지만, 1시간이 걸릴 계산이 5시간, 1개월이 걸릴 계산이 5개월 걸린다면 그 차이는 어마어마할 것이다.
+
+<br/>
+
+## 파이썬의 broadcasting
+앞서 broadcasting을 언급하였다. 여기서는 broadcasting에 대해 더 깊이 알아본다.
+
+다음과 같은 행렬이 있다고 하자.
+$$A = \begin{bmatrix}
+56.0 & 0.0 & 4.4 & 68.0\\ 
+1.2 & 104.0 & 52.0 & 8.0\\
+1.8 & 135.0 & 99.0 & 0.9
+\end{bmatrix}$$
+
+우리가 원하는 것은 각 열마다 요소들이 차지하는 비율을 계산하는 것이다. 먼저 각 열별로 총합을 구한 뒤, 이를 요소별로 나누는 것을 생각해볼 수 있다.
+
+```python
+cal = A.sum(axis = 0)
+percentage = 100 * A / cal.reshape(1, 4)
+```
+
+(사실 `cal`은 그 자체로 (1, 4)의 형태이기 때문에 다시 `reshape`을 할 필요가 없다. 그러나 돌다리도 두들겨 보고 건너는 것 태도가 중요하다.)
+
+행렬 A는 (3, 4)이고, `cal`은 (1, 4)이기 때문에 원래대로라면 위와 같은 계싼은 불가능하다. 하지만 파이썬은 broadcasting 개념을 사용해 `cal`의 행을 3개로 복제하여 나눗셈을 수행한다.
+
+이처럼 모자라는 행이나 열을 복제하여 행렬 사이의 연산이 가능하도록 해주는 것을 boradcasting이라고 한다. 일반화를 하면, (m, n) 행렬과 (1, n) 행렬을 연산할 때는 (1, n) 행렬의 행이 복제되어 (m, n) 행렬로 바뀌고, 연산을 진행한다. 반대로 (m, n) 행렬과 (m, 1) 행렬을 연산할 때는 (m, 1) 행렬의 열이 복제되어 (m, n) 행렬로 바뀌고 연산된다.
+
+몇 가지 예시를 더 살펴보자. 다음은 broadcasting이 이루어질 떄의 연산이다.
+
+$$\begin{bmatrix}1\\ 2\\3\\4\end{bmatrix} + 100 \rightarrow \begin{bmatrix}1\\ 2\\3\\4\end{bmatrix} + \begin{bmatrix}100\\ 100\\100\\100\end{bmatrix} = \begin{bmatrix}101\\ 102\\103\\104\end{bmatrix}$$
+
+$$\begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix} + \begin{bmatrix}100 & 200 & 300\end{bmatrix} \rightarrow \begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix} + \begin{bmatrix}100 & 200 & 300\\100 & 200 & 300\end{bmatrix} = \begin{bmatrix}101 & 202 & 303\\104 & 205 & 306\end{bmatrix}$$
+
+$$\begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix} + \begin{bmatrix}100\\200\end{bmatrix} \rightarrow \begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix} + \begin{bmatrix}100 & 100 & 100\\200 & 200 & 200\end{bmatrix} = \begin{bmatrix}101 & 102 & 103\\204 & 205 & 206\end{bmatrix}$$
+
+> 파이썬으로 코딩할 떄의 TIP            
+    1. Rank 1 array를 사용하지 말 것. 오류가 많이 발생함. 생성할 때는 (n, )가 아닌 (n, 1)로 생성.          
+    2. `reshape`을 적극 사용할 것. 명시적인 행렬도 반드시 모양을 확실히 하라.       
+
+
+<br/>
+
+## 로지스틱 회귀와 비용함수 추가 설명
+여기서는 로지스틱 회귀에서 사용되는 손실함수와 비용함수의 유도과정을 설명한다.
+
+우리는 앞선 강의에서 로지스틱 회귀가 다음과 같은 조건부확률의 결과를 찾는 것이라고 하였다.
+
+$$ \hat{y} = P(y=1|x)$$
+
+이진분류이므로 y는 0이나 1의 값을 가질 수 있다.
+
+If, $y = 1: P(y|x) = \hat{y}$            
+If, $y = 0: P(y|x) = 1- \hat{y}$
+
+이 두 가지 식은 하나로 합칠 수 있다.
+
+$$ P(y|x) = \hat{y}^y(1-\hat{y})^{(1-y)}$$
+
+위 식에 0과 1을 대입하면 앞선 두 가지 식이 완벽하게 도출되는 것을 확인할 수 있다.
+
+합친 식에 $\log$를 취해서 정리할 수 있다. $\log$는 단조 증가 함수이므로, 양상을 파악하기에 용이하다.
+
+$$ \log{P(y|x)} = \log{\hat{y}^y(1-\hat{y})^{(1-y)}} = y\log{\hat{y}} + (1-y)\log{(1-\hat{y})} = -L(\hat{y}, y)$$
+
+손실함수에 음수를 취한 식이 도출된다. 손실함수를 최대한 작게하고 싶으면 $\log$를 최대화해야 한다는 결론에 이른다.
+
+이제 m개의 훈련 데이터가 있을 때를 생각해보자. 각각이 독립동일분포일 때, 전체의 확률은 각 확률이 곱으로 구한다.
+
+$$ P(labels\,in\,training\,set) = \prod_{i=1}^{m}{P(y^{(i)}|x^{(i)})}$$
+
+여기에 또 $log$를 취해보자.
+
+$$ \log{P(labels\,in\,training\,set)} = \sum_{i=1}^{m}{\log{P(y^{(i)}|x^{(i)})}} = -\sum_{i=1}^{m}{L(\hat{y}, y)}$$
+
+최대 우도 추정을 적용해서 좌변을 최대화하는 값을 찾는 것이 관건이 된다.
+
+$$ J(w, b) = \frac{1}{m}\sum_{i=1}^{m}{L(\hat{y}, y)}$$
+
+이렇게 비용함수 식을 유도할 수 있다.
