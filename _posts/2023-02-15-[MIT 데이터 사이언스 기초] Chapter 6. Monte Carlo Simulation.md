@@ -16,7 +16,6 @@ last_modified_at: 2023-03-01
 
 header:
   overlay_image: /image/overlay image/mit data science.png
-  overlay_filter: 0.5
 ---
 ## 몬테 카를로 시뮬레이션
 몬테 카를로 시뮬레이션은 추정 통계학을 이용하여 알 수 없는 값을 추정하는 방법이다. 다음은 추정 통계학의 기본적인 용어이다.

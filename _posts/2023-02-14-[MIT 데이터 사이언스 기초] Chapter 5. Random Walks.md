@@ -16,7 +16,6 @@ last_modified_at: 2023-03-01
 
 header:
   overlay_image: /image/overlay image/mit data science.png
-  overlay_filter: 0.5
 ---
 이번 강의는 이론적인 내용보다는 코딩을 이해하는 것에 초점이 맞추어져 있다. ~~그래서 이론 글이 별로 길지 않다.~~
 <br/>

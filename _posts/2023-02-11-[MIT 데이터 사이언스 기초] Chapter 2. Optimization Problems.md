@@ -16,7 +16,6 @@ last_modified_at: 2023-03-01
 
 header:
   overlay_image: /image/overlay image/mit data science.png
-  overlay_filter: 0.5
 ---
 
 ## 탐색 트리 구현

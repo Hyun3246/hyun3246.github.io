@@ -16,7 +16,6 @@ last_modified_at: 2023-03-01
 
 header:
   overlay_image: /image/overlay image/mit data science.png
-  overlay_filter: 0.5
 ---
 지난 시간에 이어 정규분포를 주로 다룬다.    
 <br/>
