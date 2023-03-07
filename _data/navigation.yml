@@ -6,7 +6,7 @@ main:
     url: /categories/
   - title: "Data Science"
     url: /categories/datascience/
-  - title: "Data Science"
+  - title: "Machine Learning"
     url: /categories/machinelearning/
   - title: "IT Backyard"
     url: /categories/ITBackyard/
