@@ -3,9 +3,9 @@ title:  "[Deep Learning Specialization - 1단계] 4. 얕은 신경망 네트워�
 excerpt: "얕은 신경망에 벡터화를 이용한 계산 적용하기"
 
 categories:
-  - Data Science
+  - Machine Learning
 tags:
-  - [Data Science, 머신러닝, 신경망, 로지스틱 회귀, 벡터화]
+  - [머신러닝, 신경망, 로지스틱 회귀, 벡터화]
 
 use_math: true
 toc: true
