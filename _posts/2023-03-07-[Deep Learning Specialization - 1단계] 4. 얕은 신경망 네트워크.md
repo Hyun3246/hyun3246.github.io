@@ -25,9 +25,6 @@ header:
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/신경망 기본 구조.jpg"
        style="width: 70%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
 </figure>
 <br/>
 
@@ -47,9 +44,6 @@ header:
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/신경망 하나의 노드.jpg"
        style="width: 50%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
 </figure>
 <br/>
 
@@ -58,18 +52,12 @@ header:
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/첫 번째 노드 계산.jpg"
        style="width: 50%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
 </figure>
 <br/>
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/두 번째 노드 계산.jpg"
        style="width: 50%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
 </figure>
 <br/>
 
@@ -91,9 +79,6 @@ $$ z^{[1]} = \begin{bmatrix} - & w_1^{[1]T} & - \\ - & w_2^{[1]T} & -\\- & w_3^{
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/신경망 예시.jpg"
        style="width: 70%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
 </figure>
 <br/>
 
@@ -135,10 +120,7 @@ tanh 함수는 원점을 중심으로 대칭이며, 원점을 지난다. 따라�
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/tanh 함수.jpg"
-       style="width: 60%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -150,10 +132,7 @@ ReLU 함수는 다음과 같이 생겼다.
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/ReLU 함수.jpg"
-       style="width: 60%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -164,10 +143,7 @@ ReLU 함수는 원점에서 미분이 불가능하다. 따라서 원점에서는
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/Leaky ReLU 함수.jpg"
-       style="width: 60%; height: auto; margin:10px">
-  <figcaption style="text-align:center; font-size:14px; color:#808080">
-    출처: https://kbench.com/?q=node/187005
-  </figcaption>
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
