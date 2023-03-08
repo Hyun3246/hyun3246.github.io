@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "HyunJun's All-In"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "HyunJun's All-in-one Blog"
+name                     : "HyunJun's All-In Blog"
 description              : "HyunJun의 흔적을 남기는 개인블로그입니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
