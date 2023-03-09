@@ -3,7 +3,8 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: fixed;
+  top: 0;
   border-bottom: 1px solid $nav-bar-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -11,6 +12,7 @@
   animation-delay: 0.15s;
   z-index: 20;
   background-color: $nav-bar-color;
+  width: 100%;
 
   &__inner-wrap {
     @include clearfix;
