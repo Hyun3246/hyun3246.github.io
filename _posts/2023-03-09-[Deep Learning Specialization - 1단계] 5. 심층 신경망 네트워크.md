@@ -48,16 +48,19 @@ header:
 위 신경망에서 첫 번째 층의 정방향 전파 계산 과정은 다음과 같다.
 
 $$z^{[1]} = W^{[1]}a^{[0]} + b^{[1]}$$
+
 $$a^{[1]} = g^{[1]}(z^{[1]})$$
 
 두 번째 은닉층의 계산 과정은 아래와 같다.
 
 $$z^{[2]} = W^{[2]}a^{[1]} + b^{[2]}$$
+
 $$a^{[2]} = g^{[2]}(z^{[2]})$$
 
 두 과정이 매우 유사하게 생긴 것을 확인할 수 있을 것이다. 따라서 이를 일반화할 수 있으며, 반복문을 최대한 피하기 위해 벡터화도 적용할 것이다.
 
 $$Z^{[l]} = W^{[l]}a^{[l - 1]} + b^{[l]}$$
+
 $$A^{[l]} = g^{[l]}(Z^{[l]})$$
 
 그리고 이 과정을 여러 개의 은닉층에서 반복해야 한다. 여기서는 아쉽게도 반복문을 피할 수 없다. 따라서 위의 공식을 신경층의 개수만큼 반복해주어야 한다.
@@ -117,7 +120,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/얕은 신경망으로 XOR.jpg"
-       style="width: 70%; height: auto; margin:10px">
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -125,7 +128,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="/image/Deep Learning Specialization/심층 신경망으로 XOR.jpg"
-       style="width: 70%; height: auto; margin:10px">
+       style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 
