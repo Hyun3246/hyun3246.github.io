@@ -13,7 +13,7 @@
   z-index: 20;
   background-color: $nav-bar-color;
   width: 100%;
-  height: 60px
+  height: 60px;
 
   &__inner-wrap {
     @include clearfix;
