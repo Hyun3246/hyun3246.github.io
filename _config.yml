@@ -20,7 +20,7 @@ title                    : "HyunJun's All-In"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "HyunJun's All-In Blog"
-description              : "HyunJun의 흔적을 남기는 개인블로그입니다."
+description              : "HyunJun의 흔적을 남기는 HyunJun's All-In Blog 입니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Hyun3246/hyun3246.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "HyunJun"
   avatar           : /image/프로필10.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "HyunJun의 흔적을 남기는 개인블로그입니다."
+  bio              : "HyunJun의 흔적을 남기는 HyunJun's All-In Blog 입니다."
   location         : "Suwon, Republic of Korea"
   email            :
   links:
@@ -140,10 +140,10 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/profile.php?id=100023972960718&mibextid=ZbWKwL"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/Hyun3246"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -152,7 +152,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/hyunj0207"
 
 
 # Reading Files
