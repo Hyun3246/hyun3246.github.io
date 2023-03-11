@@ -15,7 +15,7 @@ date: 2023-02-27
 last_modified_at: 2023-02-28
 
 header:
-  overlay_image: /image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
 ---
 
 ## 강의 개요
@@ -29,7 +29,7 @@ header:
 집의 크기에 따라서 가격이 정해진다고 가정해보자. 여러 개의 사례들을 바탕으로 추세선을 그려서 함수를 만들면 아래처럼 나타낼 수 있을 것이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/집 크기에 따른 가격 함수.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/집 크기에 따른 가격 함수.jpg"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -39,7 +39,7 @@ header:
 이 예시에서 신경망(Neural Network, NN)의 기본적인 구조에 대해 알 수 있다. 처음에 크기와 관련된 값(x)을 집어 넣으면, 신경(neuron)을 거쳐, 가격(y)이 도출되는 구조를 가진다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/신경망의 기본 구조.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/신경망의 기본 구조.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -47,7 +47,7 @@ header:
 더 복잡한 신경망을 생각해볼 수도 있다. 방의 개수, 주소(우편번호), 부(wealth)에 의해 가족 크기, 걸어다닐 수 있는 정도, 학군 등이 결정되고, 다시 그 요소들이 모여 집의 가격이 결정되는 것처럼 말이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/다양한 요소들에 의해 집 가격 결정.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/다양한 요소들에 의해 집 가격 결정.jpg"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -55,7 +55,7 @@ header:
 좀 더 체계적으로 그릴 수도 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/집 가격 결정 신경망.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/집 가격 결정 신경망.jpg"
        style="width: 100%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -72,7 +72,7 @@ header:
 첫 번째는 Standard NN이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/Standard NN.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/Standard NN.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -82,7 +82,7 @@ Standard NN은 앞서 살펴본 집의 가격을 예측하는 함수나 맞춤�
 두 번째는 Convolutional NN(CNN)이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/Convolutional NN.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/Convolutional NN.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -92,7 +92,7 @@ Standard NN은 앞서 살펴본 집의 가격을 예측하는 함수나 맞춤�
 마지막으로 Recurrent NN(RNN)이 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/Recurrent NN.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/Recurrent NN.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -112,7 +112,7 @@ Standard NN은 앞서 살펴본 집의 가격을 예측하는 함수나 맞춤�
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/딥러닝 기술 발전 그래프.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/딥러닝 기술 발전 그래프.jpg"
        style="width: 100%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     가로 축은 '레이블이 있는' 데이터의 크기를 말한다. m은 training set의 크기라고 약속한다.

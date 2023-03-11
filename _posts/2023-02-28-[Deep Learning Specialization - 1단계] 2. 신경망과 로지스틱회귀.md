@@ -15,7 +15,7 @@ date: 2023-02-28
 last_modified_at: 2023-03-03
 
 header:
-  overlay_image: /image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
 ---
 
 ## 이진 분류
@@ -23,7 +23,7 @@ header:
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/고양이사진.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/고양이사진.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -31,7 +31,7 @@ header:
 색상은 기본적으로 RGB로 이루어져 있기 때문에 아래와 같은 정보를 얻게 된다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/고양이사진 RGB 분석.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/고양이사진 RGB 분석.jpg"
        style="width: 50%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     64픽셀을 전부 나타내지 않고 간소화하였다.
@@ -96,7 +96,7 @@ $$\hat{y} = w^Tx + b$$
 그래서 우리는 로지스틱 회귀를 사용한다. 로지스틱 회귀는 시그모이드 함수를 이용해 선형회귀의 결과를 0과 1 사이로 fitting하는 것이라고 생각하면 편하다. 시그모이드 함수는 아래처럼 생겼다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/sigmoid 함수.png"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/sigmoid 함수.png"
        style="width: 80%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     Sigmoid 함수 (출처: 위키백과)
@@ -140,7 +140,7 @@ $$\displaystyle J(w, b) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} 
 경사하강법은 비용함수를 최소화하는 매개변수 w, b를 찾는 과정이다. 함수로 만들어진 면 위의 임의의 한 점에서 최솟값을 향해 하강한다고 하여 경사하강법이라는 이름이 붙었다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/경사하강법.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/경사하강법.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -152,7 +152,7 @@ $$\displaystyle J(w, b) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} 
 가장 간단하게 살펴보자. 다음과 같은 w에 대한 아래로 볼록한 함수가 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/w에 대한 아래로 볼록한 함수.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/w에 대한 아래로 볼록한 함수.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -199,7 +199,7 @@ $$ J = 3v $$
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/계산 그래프.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/계산 그래프.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -217,7 +217,7 @@ $$ J = 3v $$
 ## 로지스틱 회귀와 경사하강법에 계산 그래프 적용하기
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/로지스틱 회귀 계산 그래프.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/로지스틱 회귀 계산 그래프.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>

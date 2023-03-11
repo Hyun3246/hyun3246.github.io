@@ -15,7 +15,7 @@ date: 2023-03-07
 last_modified_at: 2023-03-08
 
 header:
-  overlay_image: /image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
 ---
 ## 신경망의 표현
 신경망은 앞선 강의들에서 보았던 연산을 수행하는 여러 층으로 나누어져 있다고 이해하면 된다. 데이터 x들이 입력되면 신경층(Layer)을 거쳐 결과를 도출한다. 이전 신경츨에서 계산된 결과가 다음 신경층을 계산하는 입력으로 사용된다.
@@ -23,7 +23,7 @@ header:
 신경망의 기본적인 구조는 아래와 같다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/신경망 기본 구조.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/신경망 기본 구조.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -42,7 +42,7 @@ header:
 하나의 노드는 다음과 같이 나타낼 수 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/신경망 하나의 노드.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/신경망 하나의 노드.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -50,13 +50,13 @@ header:
 먼저 선형회귀를 계산하고, 그 다음에 시그모이드 함수에 대입하는 과정으로 나눈 것이다. 이러한 노드들이 여러개 모인 것이 하나의 신경층이다. 즉, 첫 번쨰 노드와 두 번째 노드에서는 다음과 같은 계산이 진행된다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/첫 번째 노드 계산.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/첫 번째 노드 계산.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/두 번째 노드 계산.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/두 번째 노드 계산.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -80,7 +80,7 @@ $$ z^{[1]} = \begin{bmatrix} - & w_1^{[1]T} & - \\ - & w_2^{[1]T} & -\\- & w_3^{
 따라서 다음과 같은 신경망에 벡터화를 적용하면 반복문이 필요하지 않다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/신경망 예시.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/신경망 예시.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -123,7 +123,7 @@ $$a = \tanh{z} = \frac{e^z - e^{-z}}{e^z + e^{-z}}$$
 tanh 함수는 원점을 중심으로 대칭이며, 원점을 지난다. 따라서 0.5를 기준으로 대칭이었던 시그모이드 함수와는 다르게 데이터들의 평균값을 0에 가깝게 조정할 수 있다는 장점이 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/tanh 함수.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/tanh 함수.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -135,7 +135,7 @@ tanh 함수는 원점을 중심으로 대칭이며, 원점을 지난다. 따라�
 ReLU 함수는 다음과 같이 생겼다. 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/ReLU 함수.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/ReLU 함수.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -146,7 +146,7 @@ ReLU 함수는 원점에서 미분이 불가능하다. 따라서 원점에서는
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/Leaky ReLU 함수.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/Leaky ReLU 함수.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -251,7 +251,7 @@ $$...$$
 매개변수를 0으로 초기화하면 안된다고 살짝 언급했다. 왜 그럴까?
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/변수 0으로 초기화 신경망.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/변수 0으로 초기화 신경망.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>

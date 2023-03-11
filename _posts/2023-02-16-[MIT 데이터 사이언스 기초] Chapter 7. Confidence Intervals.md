@@ -15,7 +15,7 @@ date: 2023-02-16
 last_modified_at: 2023-03-01
 
 header:
-  overlay_image: /image/overlay image/mit data science.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/mit data science.png
 ---
 지난 시간에 이어 정규분포를 주로 다룬다.    
 <br/>
@@ -24,7 +24,7 @@ header:
 정규분포는 확률밀도함수(PDFs)로 정의된다. 확률밀도함수에서는 확률 변수가 두 값 사이의 구간에 있을 확률을 구할 수 있다. 바로 '적분'을 이용해서다. 그래프에서 살펴보면, 그래프 아래의 면적이 해당 구간에 존재할 확률을 가리킨다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/MIT 데이터 사이언스 기초/정규분포.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/MIT 데이터 사이언스 기초/정규분포.jpg"
        style="width: 80%; height: auto; margin:20px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     정규분포 그래프

@@ -15,7 +15,7 @@ date: 2023-02-13
 last_modified_at: 2023-03-01
 
 header:
-  overlay_image: /image/overlay image/mit data science.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/mit data science.png
 ---
 
 이번 강은 앞선 강좌와는 조금 다르게 '확률'을 주제로 진행된다.

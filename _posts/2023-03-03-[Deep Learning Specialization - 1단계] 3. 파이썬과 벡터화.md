@@ -15,7 +15,7 @@ date: 2023-03-03
 last_modified_at: 2023-03-06
 
 header:
-  overlay_image: /image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
 ---
 
 ## 벡터화

@@ -15,7 +15,7 @@ date: 2023-03-09
 last_modified_at: 2023-03-10
 
 header:
-  overlay_image: /image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
 ---
 
 ## 심층 신경망
@@ -23,7 +23,7 @@ header:
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/심층 신경망 기본 구조.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/심층 신경망 기본 구조.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -40,7 +40,7 @@ header:
 심층 신경망에서의 정방향 전파라고 해서 얕은 신경망과 크게 다르거나 하지 않다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/심층 신경망 기본 구조.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/심층 신경망 기본 구조.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -71,7 +71,7 @@ $$A^{[l]} = g^{[l]}(Z^{[l]})$$
 신경망을 코딩할 때 가장 버그가 많이 생기는 곳은 행렬의 차원에 관한 부분이다. 행렬의 차원을 잘못 지정하여 행렬 간 연산이 되지 않는다면 코드가 제대로 실행되지 않을 것이다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/심층 신경망 기본 구조.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/심층 신경망 기본 구조.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -107,7 +107,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 얼굴 인식 프로그램을 만든다고 생각해보자. 먼저 얼굴 그림에 있는 각종 모서리의 방향과 위치를 파악한다. 그리고 그 분석 데이터를 가지고 눈, 코와 같은 얼굴의 일부를 감지한다. 그 다음에는 다시 그 정보를 가지고 서로 다른 종류의 얼굴을 인식한다. 이처럼 심층 신경망을 이용하면 점점 복잡한 분석을 진행할 수 있다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/심층 신경망으로 얼굴 인식.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/심층 신경망으로 얼굴 인식.jpg"
        style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -119,7 +119,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 비트 연산의 일종은 XOR 연산을 진행한다고 해보자. 얕은 신경망을 이용하면 비트 조합의 모든 가능성을 한 은닉층에서 열거해서 답을 도출해야 하기 때문에 $O(2^n)$ 의 복잡도를 가진다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/얕은 신경망으로 XOR.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/얕은 신경망으로 XOR.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -127,7 +127,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 그러나 은닉층이 여러 개인 심층 신경망을 이용하면 단계적인 연산을 수행할 수 있기 때문에 복잡도가 $O(\log{n})$ 으로 개선된다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/심층 신경망으로 XOR.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/심층 신경망으로 XOR.jpg"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
@@ -147,7 +147,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/심층 신경망 간단 구현 흐름.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/심층 신경망 간단 구현 흐름.jpg"
        style="width: 70%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     위가 정방향 전파, 아래가 역방향 전파이다.
@@ -158,7 +158,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 더 자세하게 나타내면 다음과 같다.
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="/image/Deep Learning Specialization/심층 신경망 상세 구현 흐름.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/심층 신경망 상세 구현 흐름.jpg"
        style="width: 70%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     위가 정방향 전파, 아래가 역방향 전파이다.
