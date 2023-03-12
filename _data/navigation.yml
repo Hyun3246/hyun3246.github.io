@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Categories"
-    url: /categories/
   - title: "Data Science"
     url: /categories/datascience/
   - title: "Machine Learning"
