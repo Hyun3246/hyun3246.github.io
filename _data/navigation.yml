@@ -3,9 +3,9 @@ main:
   - title: "About"
     sublinks:
       -title: "About HyunJun"
-       url: /abouthyunjun/
+       url: /about-hyunjun/
       -title: "About Blog"
-       url: /aboutblog/
+       url: /about-blog/
   - title: "Data Science"
     url: /categories/datascience/
   - title: "Machine Learning"
