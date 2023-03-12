@@ -259,6 +259,8 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
+    display: list-item;
+    text-align: -webkit-match-parent;
 
     li {
       -webkit-box-flex: 0;
