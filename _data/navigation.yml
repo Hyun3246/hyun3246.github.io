@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "About"
+  - title: About
     sublinks:
-      -title: "About HyunJun"
+      -title: About HyunJun
        url: /about-hyunjun/
-      -title: "About Blog"
+      -title: About Blog
        url: /about-blog/
   - title: "Data Science"
     url: /categories/datascience/
