@@ -1,12 +1,14 @@
 ---
-title: "About HyunJun's ALL-IN Blog"
+title: "About HyunJun's All-In Blog"
 permalink: /about-blog/
 layout: single
 author_profile: false
 comments: False
 ---
 
-<center> <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">HyunJun의 흔적을 남기다</span>
+<center> 
+<div style='padding:30px'></div>
+<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">HyunJun의 흔적을 남기다</span>
 <br/>
 
 <figure style="display:block; text-align:center">
