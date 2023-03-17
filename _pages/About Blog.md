@@ -8,7 +8,7 @@ comments: False
 
 <center> 
 <div style='padding:30px'></div>
-<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">HyunJun의 흔적을 남기다</span>
+<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">HyunJun의 흔적을 남기다.</span>
 <br/>
 
 <figure style="display:block; text-align:center">
@@ -37,9 +37,9 @@ comments: False
        style="width: 85%; height: auto; margin-top:20px">
 </figure>
 <p style= "font-size: 1.3em">
-목표가 데이터사이언티스트인만큼 데이터사이언스 공부와 관련된 내용을 가장 메인으로 다룹니다.<br/>
+목표가 <span style="font-weight:bold; color: #F5F5F7">데이터사이언티스트</span>이기에 데이터사이언스 공부와 관련된 내용을 가장 메인으로 다룹니다.<br/>
 <span style="font-weight:bold; color: #F5F5F7">MIT</span> 강의부터 <span style="font-weight:bold; color: #F5F5F7">네이버 부스트코스</span>를 통한 데이터 분석 공부, <span style="font-weight:bold; color: #F5F5F7">캐글</span>까지.<br/>
-누구에게나 인정받는 데이터사이언티스트가 되는 그 날까지 공부는 계속됩니다.
+데이터사이언티스트가 되는 그 날까지, 그리고 그 이후에도. 공부는 계속됩니다.
 </p>
 </center>
 
@@ -58,8 +58,8 @@ comments: False
 </figure>
 <br/>
 <p style= "font-size: 1.3em">
-최근 몇 년간 주목받는 기술인 <span style="font-weight:bold; color: #F5F5F7">머신러닝</span>은 이제 데이터 분석에서도 필수로 자리잡았습니다.<br/>
-머신러닝의 대가인 <span style="font-weight:bold; color: #F5F5F7">Andrew Ng</span> 교수의 강의를 중심으로 머신러닝을 공부하고 있습니다.
+4차 산업혁명의 뜨거운 감자 <span style="font-weight:bold; color: #F5F5F7">머신러닝</span>은 이제 데이터 분석에서도 필수로 자리잡았습니다.<br/>
+머신러닝 분야의 선구자인 <span style="font-weight:bold; color: #F5F5F7">Andrew Ng</span> 교수의 강의를 중심으로 머신러닝을 공부하고 있습니다.
 </p>
 </center>
 
@@ -75,7 +75,7 @@ IT. 내가 이 분야로 빠져든 이유.
 </figure>
 
 <p style= "font-size: 1.3em">
-데이터사이언티스트가 목표이지만, 데이터 과학 분야로 빠지게 된 계기는 <span style="font-weight:bold; color: #F5F5F7">IT</span>에 관심을 가지게 된 것이었습니다. 그리고 지금도 IT에 관한 관심은 여전히 가지고 있습니다.<br/>
+데이터 과학 분야에 빠져든 계기인 <span style="font-weight:bold; color: #F5F5F7">IT</span>에 관한 관심은 여전히 가지고 있습니다.<br/>
 최신 IT 동향을 체크하고 이에 뒤처지지 않는 것 또한 중요하다고 생각하여 IT 소식에 대한 생각을 몇 자 적어볼 생각입니다.
 </p>
 </center>
