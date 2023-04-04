@@ -1,5 +1,5 @@
 ---
-title: "About HyunJun"
+title: "About Symbol"
 permalink: /about-symbol/
 layout: single
 author_profile: false
