@@ -35,6 +35,6 @@ HyunJun's All-In Blog의 홈버튼이자 파비콘으로 사용되고 있는 심
 
 <br/>
 
-<img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/symbol2.png" align=left vspace="10" hspace="10"><p style= "font-size: 1.3em">디지털 시대. 복잡하고 화려한 심볼은 간편하고 자유로운 사용을 까다롭게 합니다. <br/><br/>
+<img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/symbol2.png" align=left vspace="10" hspace="10" style="width: 50%; height: auto; margin:20px"><p style= "font-size: 1.3em">디지털 시대. 복잡하고 화려한 심볼은 간편하고 자유로운 사용을 까다롭게 합니다. <br/><br/>
 직관적이고 단순하면서도 의미를 담은 디자인을 추구하여 현대에 걸맞는 심볼을 완성하였습니다.
 </p>
