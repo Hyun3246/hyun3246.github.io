@@ -88,7 +88,7 @@ comments: False
        style="width: 100%; height: auto; ">
 </figure>
 <p style= "width: 90%; font-size: 1.3em">
-초등학교 시절부터 취득하기 시작한 자격증이 오랜 노력을 증명합니다. 기초적인 작업을 위한 <span style="font-weight:bold; color: #F5F5F7;">Microsoft Excel</span>의 수많은 자격증, 효과적인 발표를 위한 <span style="font-weight:bold; color: #F5F5F7;">Microsoft PowerPoint</span>.<br/>
+초등학교 시절부터 취득하기 시작한 자격증이 오랜 노력을 증명합니다. <span style="font-weight:bold; color: #F5F5F7;">Microsoft Access</span>과 <span style="font-weight:bold; color: #F5F5F7;">Microsoft Excel</span>의 수많은 자격증.<br/>
 더 이상 설명이 필요 없는 존재가 되는 그 순간까지. 증명을 위한 노력은 계속 이어집니다.
 </p>
 </center>
