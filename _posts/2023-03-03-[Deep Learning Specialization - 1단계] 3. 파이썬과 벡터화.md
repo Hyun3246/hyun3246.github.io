@@ -221,7 +221,7 @@ $$\begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix} + \begin{bmatrix}100 & 200 &
 
 $$\begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix} + \begin{bmatrix}100\\200\end{bmatrix} \rightarrow \begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix} + \begin{bmatrix}100 & 100 & 100\\200 & 200 & 200\end{bmatrix} = \begin{bmatrix}101 & 102 & 103\\204 & 205 & 206\end{bmatrix}$$
 
-> 파이썬으로 코딩할 떄의 TIP            
+> 파이썬으로 코딩할 때의 TIP            
     1. Rank 1 array를 사용하지 말 것. 오류가 많이 발생함. 생성할 때는 (n, )가 아닌 (n, 1)로 생성.          
     2. `reshape`을 적극 사용할 것. 명시적인 행렬도 반드시 모양을 확실히 하라.       
 
