@@ -116,7 +116,7 @@ $$a^{[1]} = g^{[1]}(z^{[1]})$$
 
 심층 신경망의 또다른 장점으로는 계산의 복잡도를 줄일 수 있다는 것에 있다.
 
-비트 연산의 일종은 XOR 연산을 진행한다고 해보자. 얕은 신경망을 이용하면 비트 조합의 모든 가능성을 한 은닉층에서 열거해서 답을 도출해야 하기 때문에 $O(2^n)$ 의 복잡도를 가진다.
+비트 연산의 일종인 XOR 연산을 진행한다고 해보자. 얕은 신경망을 이용하면 비트 조합의 모든 가능성을 한 은닉층에서 열거해서 답을 도출해야 하기 때문에 $O(2^n)$ 의 복잡도를 가진다.
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/얕은 신경망으로 XOR.jpg"
