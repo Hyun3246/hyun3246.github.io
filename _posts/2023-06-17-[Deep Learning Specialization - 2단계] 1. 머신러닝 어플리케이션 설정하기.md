@@ -76,7 +76,7 @@ Case 4는 두 집합 모두 오차율이 낮다. 낮은 편향과 분산을 가�
 
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/높은편향과 높은분산.jpg"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/높은편향과 높은분산.png"
        style="width: 50%; height: auto; margin:10px">
 <figcaption style="text-align:center; font-size:14px; color:#808080">
     보라색 선이 높은 편향과 높은 분산을 모두 가진 경우이다. 직선에 가까우므로 높은 편향을 가진 동시에 과적합되는 경향을 보인다.
