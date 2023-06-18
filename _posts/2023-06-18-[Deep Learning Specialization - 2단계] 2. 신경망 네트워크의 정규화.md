@@ -43,11 +43,11 @@ $$\sum_{j=1}^{n_x}{|w_j|}$$
 ## 신경망에서의 정규화
 이제 신경망에서의 정규화를 살펴보자.
 
-$$\displaystyle J(w^{[1]}, b^{[1]}, ..., w^{[L]}, b^{[L]}) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}\sum_{l=1}^{L}{{\lVert w^{[l]} \rVert}_{F}^{2}}$$
+$$\displaystyle J(w^{[1]}, b^{[1]}, ..., w^{[L]}, b^{[L]}) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}\sum_{l=1}^{L}{\lVert w^{[l]} \rVert_{F}^{2}}$$
 
-식은 매우 유사하다. 다만, ${\lVert w^{[l]} \rVert}_{F}^{2}$ 가 마음에 걸릴 수 있는데, 다음과 같이 계산한다.
+식은 매우 유사하다. 다만, $\lVert w^{[l]} \rVert_{F}^{2}$ 가 마음에 걸릴 수 있는데, 다음과 같이 계산한다.
 
-$${\lVert w^{[l]} \rVert}_{F}^{2} = \sum_{i=1}^{n^{[l]}}\sum_{i=1}^{n^{[l-1]}}{(w_{ij}^{[l]})^2}$$
+$$\lVert w^{[l]} \rVert_{F}^{2} = \sum_{i=1}^{n^{[l]}}\sum_{i=1}^{n^{[l-1]}}{(w_{ij}^{[l]})^2}$$
 
 이를 Frobennius norm이라고 부른다.
 
@@ -72,7 +72,7 @@ $$W^{[l]} = W^{[l]} - \alpha[(from\,backprop) + \frac{\lambda}{m}W^{[l]}]\\
 ## 정규화의 효과
 왜 정규화가 효과가 있을까? 아래 식을 다시 보자.
 
-$$\displaystyle J(w^{[l]}, b^{[l]}) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}\sum_{l=1}^{L}{{\lVert w^{[l]} \rVert}_{F}^{2}}$$
+$$\displaystyle J(w^{[l]}, b^{[l]}) = \frac{1}{m} \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}\sum_{l=1}^{L}{\lVert w^{[l]} \rVert_{F}^{2}}$$
 
 여기서 $\lambda$ 를 크게 하면 (앞선 단락 마지막에 보았듯이) w를 0에 가깝도록 만들 수 있다. 이는 신경망에서 <font color='#F5F5F7'>은닉층을 줄여 신경망의 형태를 로지스틱 회귀에 가깝도록</font> 할 수 있다는 뜻이다. 은닉층에 존재하는 node들의 영향력을 감소시키는 것이다.
 
