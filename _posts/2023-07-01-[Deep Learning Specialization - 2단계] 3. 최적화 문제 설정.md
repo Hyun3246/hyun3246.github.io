@@ -107,7 +107,7 @@ $$
 
 이 과정으로 구한 $d\theta_{approx}^{[i]}$는 다음과 같은 정규화 과정을 거친다.
 
-$$\frac{{\lVert d\theta_{approx} - d\theta \rVert}_2}{{\lVert d\theta_{approx} \rVert}_2 + {\lVert d\theta \rVert}_2}$$
+$$\frac{\lVert d\theta_{approx} - d\theta \rVert_2}{\lVert d\theta_{approx} \rVert_2 + \lVert d\theta \rVert_2}$$
 
 이 값이 우리가 설정한 $\epsilon$ 보다 작거나 비슷하다면 경사하강법이 알맞게 적용된 것이다. 그러나, 터무니 없이 큰 값이 나왔다면 다시 검증해봐야 한다. 참고로, 보통 $\epsilon = 10^{-7}$의 값을 설정한다.
 
