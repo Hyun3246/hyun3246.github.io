@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-02
-last_modified_at: 2023-07-02
+last_modified_at: 2023-07-08
 
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
@@ -41,7 +41,7 @@ for t = 1, ..., 5000 {
 }
 ```
 
-미니 배치 경사하강법에서 윗 첨자 '{t}'는 몇 번째 묶음인지를 나타낸다. Training set 묶음 하나에 대해 경사하강법을 1회 실시한 것을 '1 epoch'라고 한다.
+미니 배치 경사하강법에서 윗 첨자 '{t}'는 몇 번째 묶음인지를 나타낸다. 데이터 전체를 한 번 훑는 과정을 '1 epoch'라고 한다.
 
 <br/>
 
