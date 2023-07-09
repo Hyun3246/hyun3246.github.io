@@ -19,7 +19,6 @@ header:
 ---
 ## 모멘텀 최적화 알고리즘
 경사하강법의 진행 과정을 그림으로 나타내면 다음과 같다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/모멘텀 최적화 알고리즘.png"
@@ -74,7 +73,6 @@ $\epsilon$은 보통 $10^{-8}$정도의 값을 사용한다.
 식을 이해해보자. 제곱으로 작성한 부분은 사실 요소별 곱셈(element-wise)이다. dW는 작은 값이기 때문에, 제곱을 해도 더 작아진다. 반대로 db는 큰 값이기 때문에 제곱을 하면 더 커진다. 마지막 식에서, <font color='#F5F5F7'>미분 값이 큰 경우에는 더 큰 값으로 나눗셈을 하게 되고, 미분 값이 작은 곳에서는 더 작은 값으로 나눗셈을 하게 된다(큰 값은 많이 줄이고 작은 값은 적게 줄인다고 이해하면 쉽다).</font> 즉, 수직 방향의 진동을 줄이고 수평 방향의 진행을 빠르게 하는 효과가 있는 것이다.
 
 RMSprop를 적용한 경사하강법은 다음 그림의 녹색 화살표처럼 된다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/RMSprop.png"
@@ -102,7 +100,6 @@ $W = W - \alpha \frac{V^{corrected}_{dW}}{\sqrt{S^{corrected}_{dW}} + \epsilon},
 
 ## 학습률 감쇠
 매우 큰, 고정된 학습률은 학습의 초반에는 좋은 성능을 보일지 몰라도 최적화 값에 가까워지면 최적화 값에 근접하지 못하고 주위를 맴도는 현상이 발생할 수 있다. 아래 그림의 파란색 선처럼 말이다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/학습률 감쇠.png"
@@ -128,7 +125,6 @@ $\alpha = \frac{k}{\sqrt{n}}\alpha_0$
 
 ## 지역 최적값의 문제
 다른 강의에서도 살펴보았듯이, 경사하강법에서는 지역 최적값에 머물러 전역 최적으로 이동하지 못하는 문제가 발생할 수 있다. 아래와 같은 그림을 흔히 생각해볼 수 있다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/지역최적, 전역최적.png"
@@ -137,7 +133,6 @@ $\alpha = \frac{k}{\sqrt{n}}\alpha_0$
 <br/>
 
 그러나 차원이 커질 경우 지역 최적의 문제는 생각보다 심각하지 않다. 오히려 문제가 되는 것은 <font color='#F5F5F7'>안장점</font>에 관한 것이다. 지역 최적값이 밥그릇 모양인 것과 다르게, 안장점에서는 모든 방향에서 아래로 볼록하지 않다. 모든 방향에서 아래로 볼록할 확률보다 그렇지 않을 확률이 압도적을 높기에, 안장점은 지역 최적값보다 더 흔하게 나타난다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/안장점.png"
@@ -149,7 +144,6 @@ $\alpha = \frac{k}{\sqrt{n}}\alpha_0$
 <br/>
 
 안장점으로 향하는 구간인 <font color='#F5F5F7'>안장지대</font>에서는 기울기가 아주 오랫동안 0에 가깝게 유지된다. 이는 학습을 매우 느리게 하며, 안장점을 벗어나서 경사하강법이 다시 속개되는 것에 상당한 방해가 된다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/안장지대.png"
