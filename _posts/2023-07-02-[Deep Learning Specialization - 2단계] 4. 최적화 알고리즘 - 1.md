@@ -47,7 +47,6 @@ for t = 1, ..., 5000 {
 
 ## 미니 배치 경사하강법과 비용함수
 일반적인(배치) 경사하강법은 반복횟수가 많을수록 다음과 같은 비용함수 그래프를 가진다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/배치 경사하강법.png"
@@ -58,7 +57,6 @@ for t = 1, ..., 5000 {
 비용함수는 무조건 계속 감소해야하며, 만약 조금이라도 증가했다면 잘못된 과정이 끼어있다.
 
 하지만 미니 배치 경사하강법에서는 경사하강법을 시도한 묶음의 수가 증가한다고 해서 비용함수가 꼭 감소하지만은 않는다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/미니 배치 경사하강법.png"
@@ -78,7 +76,6 @@ for t = 1, ..., 5000 {
 그럼 미니 배치의 사이즈가 1이라고 해보자. 이런 상황을 확률 경사하강법(Stochastic gradient descent)이라고 한다. 한 반복당 소요되는 시간은 매우 적겠지만, 경사하강법이 최적으로 적용될 수도 없고(보라색 선), 벡터화를 통한 이점도 얻을 수 없는 방법이다.
 
 우리가 원하는 사이즈는 그 중간 어딘가의 사이즈이다. 벡터화를 통한 이점도 얻으면서 한 반복당 시간도 그렇게 오래걸리지 않는 그 지점말이다. 또한, 경사하강법도 어느 정도 잘 적용되어야 한다(초록색 선).
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/미니 배치 사이즈에 따른 경사하강법.png"
@@ -113,7 +110,6 @@ $\cdots$
 $v_t = 0.9v_{t-1} + 0.1\theta_t$
 
 이 과정을 통해 구해진 값들을 나타내면 다음 그림의 빨간색 선과 같아진다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/런던의 기온.png"
@@ -129,7 +125,6 @@ $v_t = 0.9v_{t-1} + 0.1\theta_t$
 $$ v_t = \beta v_{t-1} + (1-\beta)\theta_t $$
 
 여기서는 $\beta$ 값이 중요하다. $\beta$에 따라 평균에 반영하게 될 구간이 달라지기 때문이다. 만약 $\beta$가 0.9라면, 과거 약 10일의 기온을 평균에 반영하겠다는 의미이고, $\beta$가 0.98이라면, 과거 약 50일의 기온을 평균에 반영하겠다는 뜻이 된다. (계산은 약 $\frac{1}{1-\beta}$로 할 수 있다.)
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/베타에 따른 지수 가중 평균의 변화.png"
@@ -170,7 +165,6 @@ $= 0.1 \theta_{100} + 0.9 (0.1 \theta_{99} + 0.9 (0.1 \theta_{98} + 0.9 v_{97}))
 $= 0.1 \theta_{100} + 0.1 \cdot 0.9 \theta_{99} + 0.1(0.9)^2 \theta_{98} + 0.1(0.9)^3 \theta_{97} + \cdots$
 
 마치 다음 두 그래프를 elementwise한 결과가 도출된다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/지수 가중 평균 그래프로 이해하기.png"
@@ -215,7 +209,6 @@ $v_{2} = 0.98 \times 0.02 \times \theta_{1} + 0.02 \theta_{2}$
 초반 값, 특히 $v_{1}$, $v_{2}$ 들이 실제 값 $\theta_{1}$, $\theta_{2}$에 비해 현저히 작게 추정되는 것을 확인할 수 있다. 보통 개발자들은 지수 가중 평균을 시작하고 좀 시간이 지난 후의 값을 이용하여 편향을 무시하게 되지만, 초반에 발생하는 이러한 불편한 상황을 못 견디는 사람이 있을 수도 있다.
 
 이럴 때는 편향을 수정해주면 된다. 그냥 $v_{t}$ 대신 $\frac{v_{t}}{1-\beta^t}$를 사용하게 하는 것이다. 그럼 아래 그림의 초록색 선처럼 초반의 편향을 방지할 수 있다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/지수 가중 평균 편향 수정.png"
