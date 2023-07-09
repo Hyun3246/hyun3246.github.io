@@ -29,7 +29,7 @@ header:
 |티어 3|신경망 층의 개수, 학습률 감쇠 속도|
 |티어 4|$\beta_1$, $\beta_2$, $\epsilon$(Adam 최적화 알고리즘)|
 
-
+<br/>
 초매개변수를 선택하는 방법에는 크게 3가지 정도가 있다.
 
 첫 번째 방법은 초매개변수의 수가 적었던 과거에 주로 사용했던 방법이다. 격자점을 이용하는 것으로, 좌표평면처럼 두 매개변수를 각각 축으로 놓고 매개변수의 조합을 선택하는 것이다. 그러나 이 방법은 <font color='#F5F5F7'>절대로 추천하지 않는다</font>. 앞서 티어를 왜 정했겠는가? 모든 초매개변수를 동등하게 대할 수는 없는 법이다. 격자법을 사용하게 되면 <font color='#F5F5F7'>초매개변수의 중요도에 관계없이 모두 동등한 가짓수를 고려</font>하게 된다. 더 중요한 초매개변수에 대해 집중적으로 많은 경우를 생각해볼 수 없다는 뜻이다.
@@ -82,7 +82,7 @@ header:
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/판다 접근과 캐비어 접근.png"
        style="width: 70%; height: auto; margin:10px">
     <figcaption style="text-align:center; font-size:14px; color:#808080">
-    욎쪽이 판다 접근, 오른쪽이 캐비어 접근이다.
+    왼쪽이 판다 접근, 오른쪽이 캐비어 접근이다.
   </figcaption>
 </figure>
 
