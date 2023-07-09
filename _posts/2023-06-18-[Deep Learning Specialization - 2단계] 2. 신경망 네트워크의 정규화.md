@@ -81,7 +81,6 @@ $g(z)=\tanh{(z)}$ 라 하자. w의 값이 작아지면 $z^{[l]} = W^{[l]}a^{[l-1
 정리하자면, <font color='#F5F5F7'> $\lambda$ 의 증가로 $W^{[l]}$ 이 감소하고, 따라서 z가 감소해서 신경망이 로지스틱 회귀에 가깝게 된다. 그리고 복잡한 함수에서 변형된 간단한 함수는 과적합을 방지할 수 있기에, 결국 정규화가 효과를 발휘하게 된다. </font>
 
 추가로, 우리는 경사하강법을 반복할수록 비용함수가 감소하기를 바란다. 그러나 이전의 비용함수 식만을 사용하면 단조감소를 관찰하기가 불가능하다. 이번에 새롭게 정의한 정규화를 적용한다면 비로소 단조감소하는 비용함수를 관찰할 수 있을 것이다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/단조감소 비용함수.png"
@@ -118,7 +117,6 @@ Dropout 정규화에도 단점은 있다. 비용함수가 잘 정의되지 않�
 먼저, 데이터를 증가시키는 것이다. 많은 데이터를 수집하는 것도 있겠지만, 기존의 데이터를 조금씩 변형하는 것도 효과가 있을 수 있다. 예를 들어 사진을 좌우 대칭하거나 비틀어 왜곡하는 것이 있다. 데이터를 수집하는 것만큼 좋진 않지만, 그래도 어느 정도는 의미가 있다.
 
 다른 방법으로는 조기종료(Early stopping)가 있다.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/조기종료.png"
