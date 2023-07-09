@@ -35,7 +35,6 @@ $$x \, /= \sigma^2$$
 입력을 정규화하는 과정은 train set 뿐만 아니라 test set에서도 진행해주는 것이 좋다.
 
 그렇다면 왜 정규화를 해야할까?
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/정규화 여부.png"
@@ -81,7 +80,6 @@ W[l] = np.random.randn(shape) * np.sqrt(1/n[l-1])
 앞서 기울기를 구할 때 매우 작은 수인 $\epsilon$을 더한 것이 기억날 것이다. 여기서는 $\epsilon$을 더하는 것 뿐만 아니라 빼서도 구한다.
 
 $f(\theta)=\theta^3$라 하자.
-
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/입실론 더하고 빼서 기울기 구하기.png"
