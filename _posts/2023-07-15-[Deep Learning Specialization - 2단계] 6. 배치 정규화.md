@@ -11,8 +11,8 @@ use_math: true
 toc: true
 toc_sticky: true
  
-date: 2023-07-14
-last_modified_at: 2023-07-14
+date: 2023-07-15
+last_modified_at: 2023-07-19
 
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
