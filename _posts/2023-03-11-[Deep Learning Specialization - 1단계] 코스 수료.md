@@ -1,6 +1,6 @@
 ---
 title:  "[Deep Learning Specialization - 1단계] 코스 수료"
-excerpt: "'Deep Learning Specialization'를 수료하며"
+excerpt: "'Deep Learning Specialization 1단계'를 수료하며"
 
 categories:
   - Machine Learning
