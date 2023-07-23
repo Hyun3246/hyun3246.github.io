@@ -8,8 +8,8 @@ tags:
   - [머신러닝, 신경망]
 
 use_math: true
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
  
 date: 2023-07-23
 last_modified_at: 2023-07-23
