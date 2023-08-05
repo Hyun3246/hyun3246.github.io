@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-23
-last_modified_at: 2023-07-23
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## 딥러닝 프레임워크
 딥러닝을 직접 코드로 구현할 때는 딥러닝 프레임워크를 사용하면 유용하다. <font color='#F5F5F7'>정방향 전파만 잘 구현해놓으면 역방향 전파를 별도의 계산 없이 바로 알 수 있기 때문</font>이다. 이외에도 딥러닝 프레임워크에는 유용한 기능이 많다.
