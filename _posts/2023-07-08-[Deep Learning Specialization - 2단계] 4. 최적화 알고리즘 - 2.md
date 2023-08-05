@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-08
-last_modified_at: 2023-07-08
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## 모멘텀 최적화 알고리즘
 경사하강법의 진행 과정을 그림으로 나타내면 다음과 같다.
