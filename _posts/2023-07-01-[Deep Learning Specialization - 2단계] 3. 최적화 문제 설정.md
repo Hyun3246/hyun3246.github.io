@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-01
-last_modified_at: 2023-07-01
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## 입력 정규화하기
 입력은 항상 같은 스케일을 가지지 않는다. 예를 들어 어떤 특성은 0~5의 범위를 가질 수도 있고, 다른 특성은 0~3까지의 특성을 가질 수도 있다.
