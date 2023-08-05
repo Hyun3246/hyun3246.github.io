@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-22
-last_modified_at: 2023-07-22
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## Softmax 회귀
 우리는 지금까지 두 가지 클래스에 따른 분류만을 살펴보았다. 사진이 고양이인가, 아닌가와 같은 사례처럼 말이다. 그러나 <font color='#F5F5F7'>Softmax 회귀</font>를 이용하면 여러 개의 클래스에 대해서도 분류를 할 수 있다.
