@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-06-17
-last_modified_at: 2023-06-17
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## Train, Dev, Test set
 앞선 코스의 마지막 부분에서 좋은 Hyperparameter를 선정하기 위해서는 많은 시행착오가 필요하다고 하였다. 적절한 hyperparameter 선정 과정을 효율적으로 진행하기 위해서는 데이터를 적절히 나누는 것이 중요하다.
