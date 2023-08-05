@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-02
-last_modified_at: 2023-07-08
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## 미니 배치(Mini-batch) 경사하강법
 m개의 매우 많은 데이터가 있다고 해보자. 한 번 경사하강법을 진행할 때마다 이 데이터를 모두 거쳐서 계산하려면 매우 시간이 오래 걸릴 것이다.
