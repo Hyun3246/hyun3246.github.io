@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-09
-last_modified_at: 2023-07-09
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## 초매개변수 선택하기
 지금까지 살펴본 초매개변수에는 여러 가지가 있었다. 학습률 $\alpha$, 모멘텀 $\beta$, 신경망 층의 수, 은닉 유닛의 개수 등.
