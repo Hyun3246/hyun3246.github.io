@@ -12,10 +12,10 @@ toc: false
 toc_sticky: false
  
 date: 2023-07-23
-last_modified_at: 2023-07-23
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 이제 'Deep Learning Specialization'코스의 절반 지점에 도달했다.
 
