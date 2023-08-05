@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-15
-last_modified_at: 2023-07-19
+last_modified_at: 2023-08-05
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 2.png
 ---
 ## 배치 정규화
 정규화에 대해서는 이미 앞에서 살펴본 적이 있다. 정규화를 하면 입력 값들의 평균과 표준편차를 조정할 수 있고, 경사하강법 적용을 더 효과적으로 할 수 있다고 했다.
