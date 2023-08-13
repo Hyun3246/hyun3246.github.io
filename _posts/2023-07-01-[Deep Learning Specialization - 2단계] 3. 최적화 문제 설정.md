@@ -26,9 +26,9 @@ header:
 
 두 번째로는 분산을 1로 만드는 것이다.
 
-$$\displaystyle \sigma^2 = \frac{1}{m} \sum_{i=1}^{m}{x^{(i)2}}$$
+$$\sigma^2 = \frac{1}{m} \displaystyle \sum_{i=1}^{m}{x^{(i)2}}$$
 
-$$x \, /= \sigma^2$$
+$$x /= \sigma^2$$
 
 위와 같은 과정을 통해 분산을 1로 만들 수 있다.
 
