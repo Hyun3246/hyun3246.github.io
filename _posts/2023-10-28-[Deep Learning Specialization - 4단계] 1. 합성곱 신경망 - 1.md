@@ -64,7 +64,7 @@ $0 \times 1 + 5 \times 1 + 7 \times 1 + 1 \times 0 + 8 \times 0 + 2 \times 0 + 2
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/세로 판별 필터.png"
-       style="width: 50%; height: auto; margin:10px">
+       style="width: 20%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -82,7 +82,7 @@ $0 \times 1 + 5 \times 1 + 7 \times 1 + 1 \times 0 + 8 \times 0 + 2 \times 0 + 2
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/가로 판별 필터.png"
-       style="width: 50%; height: auto; margin:10px">
+       style="width: 20%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -113,7 +113,7 @@ $0 \times 1 + 5 \times 1 + 7 \times 1 + 1 \times 0 + 8 \times 0 + 2 \times 0 + 2
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/미지수 필터.png"
-       style="width: 50%; height: auto; margin:10px">
+       style="width: 20%; height: auto; margin:10px">
 </figure>
 <br/>
 
