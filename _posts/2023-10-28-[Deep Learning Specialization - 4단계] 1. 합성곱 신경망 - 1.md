@@ -176,3 +176,8 @@ $$\lfloor \frac{n+2p-f}{s} + 1 \rfloor \times \lfloor \frac{n+2p-f}{s} + 1 \rflo
 $$(n \times n \times n_c) * (f \times f \times n_c) \rightarrow (n-f+1) \times (n-f+1) \times n_c'$$
 
 $n_c$는 채널의 개수, $n_c'$ 분석하고자 하는 패턴의 개수이다.
+
+<br/>
+<br/>
+
+*별도의 출처 표시가 있는 이미지를 제외한 모든 이미지는 강의자료에서 발췌하였음을 밝힙니다.*
