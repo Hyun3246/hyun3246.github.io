@@ -15,7 +15,7 @@ date: 2023-10-28
 last_modified_at: 2023-10-28
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 4_1.jpg
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 4.jpg
 ---
 ## 컴퓨터 비전
 이미지를 인식해서 구별하는 과정은 전에도 많이 이야기해왔다. 특히 최근에는 (피카소와 같이 특이한) 예술작품을 분석해서 비슷한 기법을 사용한 것처럼 사진을 변형하는 프로그램도 많다.
