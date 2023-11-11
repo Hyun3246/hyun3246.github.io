@@ -98,7 +98,7 @@ ResNets의 개발자들은 아래의 신경망을 'Plain network'라고 표현�
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/Plain network.png"
-       style="width: 50%; height: auto; margin:10px">
+       style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
 
@@ -123,14 +123,14 @@ $ = g(W^{[l+2]}a^{[l+1]} + b^{[l+2]} + a^{[l]})$
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/Plain과 ResNets 형태 비교.png"
-       style="width: 50%; height: auto; margin:10px">
+       style="width: 70%; height: auto; margin:10px">
 </figure>
 <br/>
 
 > ResNets 추가 설명 
-에러바는 데이터의 변이성을 나타내는 그래프로, 불확실성을 시각화하는 방법이다.    <figure style="display:block; text-align:center;">
+<figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/ResNets 추가 설명.png"
-       style="width: 40%; height: auto; margin:10px"></figure>
+       style="width: 50%; height: auto; margin:10px"></figure>
 Input 값(x)은 그대로 가져오고, 나머지 잔여 정보인 F(x)만을 추가적으로 더해주는 단순한 형태로 만들어 준다. 즉, 잔여효과(추가적인 정보)인 F(x)만 학습을 하면 된다. 따라서 전체를 학습하는 것보다 학습이 오히려 쉬워지고, 수렴을 더 잘 할 수 있게 된다.
 
 <br/>
