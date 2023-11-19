@@ -49,7 +49,7 @@ header:
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/인셉션 신경망 계산 비용 줄이기 전.png"
-       style="width: 70%; height: auto; margin:10px">
+       style="width: 50%; height: auto; margin:10px">
   <figcaption style="text-align:center; font-size:14px; color:#808080">
     출처: 네이버 부스트코스
   </figcaption>
