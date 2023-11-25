@@ -5,14 +5,14 @@ excerpt: "1 x 1 신경망과 인셉션 신경망"
 categories:
   - Machine Learning
 tags:
-  - [머신러닝, 신경망, 합성곱, 이미지 인식]
+  - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 
 use_math: true
 toc: true
 toc_sticky: true
  
 date: 2023-11-19
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-25
 
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 4.jpg
