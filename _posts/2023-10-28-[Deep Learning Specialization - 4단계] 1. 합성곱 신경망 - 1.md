@@ -1,11 +1,11 @@
 ---
 title:  "[Deep Learning Specialization - 4단계] 1. 합성곱 신경망 - 1"
-excerpt: "이미지 인식을 위한 합성곱"
+excerpt: "컴퓨터 비전을 위한 합성곱"
 
 categories:
   - Machine Learning
 tags:
-  - [머신러닝, 신경망, 합성곱, 이미지 인식]
+  - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 
 use_math: true
 toc: true
