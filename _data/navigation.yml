@@ -6,6 +6,8 @@ main:
         url: /about-hyunjun/
       - title: About Blog
         url: /about-blog/
+      - title: Dashboard
+        url: /dashboard/
       - title: About Symbol
         url: /about-symbol/
   - title: "Data Science"
