@@ -25,8 +25,8 @@ comments: False
 
 
 <div style="width:100%; margin:0 auto;">
-<a href="https://github.com/Hyun3246"><img style="width:60%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hyun3246&layout=donut&bg_color=151517&title_color=F5F5F7&text_color=949498"></a>
-<a href="https://hyun3246.github.io/about-hyunjun/"><img style="width:39%;" src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/interest.png"></a>
+<a href="https://github.com/Hyun3246"><img style="width:59%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hyun3246&layout=donut&bg_color=151517&title_color=F5F5F7&text_color=949498"></a>
+<a href="https://hyun3246.github.io/about-hyunjun/"><img style="width:37%;" src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/interest.png"></a>
 </div>
 
 <div style='padding:50px'></div>
