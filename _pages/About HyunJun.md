@@ -17,25 +17,7 @@ comments: False
 </figure>
 <br/>
 
-<!-- 커리어 -->
-<center>
-<div style='padding:50px'></div>
-<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-강력한 커리어. 이제 시작입니다.
-</span>
 
-
-<p style= "font-size: 1.3em">
-누구라도 가지고 싶을 커리어를 만들기 위해.<br/>
-오늘도 쉬지 않고 노력합니다.
-</p>
-
-<figure style="display:block; text-align:center;">
-  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/career.png"
-       style="width: 95%; height: auto; margin:20px">
-</figure>
-<br/>
-</center>
 
 <!-- Interest -->
 <center>
@@ -91,6 +73,27 @@ comments: False
 초등학교 시절부터 취득하기 시작한 자격증이 오랜 노력을 증명합니다. <span style="font-weight:bold; color: #F5F5F7;">Microsoft Access</span>과 <span style="font-weight:bold; color: #F5F5F7;">Microsoft Excel</span>의 수많은 자격증.<br/>
 더 이상 설명이 필요 없는 존재가 되는 그 순간까지. 증명을 위한 노력은 계속 이어집니다.
 </p>
+</center>
+
+
+<!-- 커리어 -->
+<center>
+<div style='padding:50px'></div>
+<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
+강력한 커리어. 이제 시작입니다.
+</span>
+
+
+<p style= "font-size: 1.3em">
+누구라도 가지고 싶을 커리어를 만들기 위해.<br/>
+오늘도 쉬지 않고 노력합니다.
+</p>
+
+<figure style="display:block; text-align:center;">
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/career.png"
+       style="width: 95%; height: auto; margin:20px">
+</figure>
+<br/>
 </center>
 
 <!-- Motto -->
