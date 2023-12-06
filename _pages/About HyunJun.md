@@ -21,7 +21,7 @@ comments: False
 
 <!-- Interest -->
 <center>
-<div style='padding:100px'></div>
+<div style='padding:50px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
 흥미. 그 이상의 가치.
 </span>
@@ -78,7 +78,7 @@ comments: False
 
 <!-- 커리어 -->
 <center>
-<div style='padding:50px'></div>
+<div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
 강력한 커리어. 이제 시작입니다.
 </span>
