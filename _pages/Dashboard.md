@@ -11,22 +11,17 @@ comments: False
 </span>
 
 <a href="https://github.com/Hyun3246">
-  <img src="https://streak-stats.demolab.com/?user=Hyun3246&background=151517&sideNums=F5F5F7&currStreakNum=f5f5f7&sideLabels=F5F5F7" style="display: block; margin: 10px auto 10px auto; width:100%;">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hyun3246&theme=minimal&radius=10&bg_color=151517&title_color=F5F5F7&color=949498" style="display: block; margin: 10px auto 10px auto; width:100%;">
 </a>
 
 <div style="width:100%; margin:0 auto;">
 <a href="https://github.com/Hyun3246"><img style="width:57%;" src="https://github-readme-stats.vercel.app/api?username=Hyun3246&show_icons=true&bg_color=151517&title_color=F5F5F7&text_color=949498"></a>
-<a href="https://github.com/Hyun3246"><img style="width:41%" src="https://stats.dooboo.io/api/github-stats-advanced?login=hyun3246"></a>
+<a href="https://github.com/Hyun3246"><img style="width:40%" src="https://stats.dooboo.io/api/github-stats-advanced?login=hyun3246"></a>
 </div>
 
-<a href="https://github.com/Hyun3246">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hyun3246&theme=minimal&radius=10&bg_color=151517&title_color=F5F5F7&color=949498" style="display: block; margin: 10px auto 10px auto; width:100%;">
-</a>
-
-
 <div style="width:100%; margin:0 auto;">
-<a href="https://github.com/Hyun3246"><img style="width:59%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hyun3246&layout=donut&bg_color=151517&title_color=F5F5F7&text_color=949498"></a>
-<a href="https://hyun3246.github.io/about-hyunjun/"><img style="width:37%;" src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/interest.png"></a>
+<a href="https://github.com/Hyun3246"><img style="width:59%;" src="https://streak-stats.demolab.com/?user=Hyun3246&background=151517&sideNums=F5F5F7&currStreakNum=f5f5f7&sideLabels=F5F5F7"></a>
+<a href="https://github.com/Hyun3246"><img style="width:38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hyun3246&layout=donut&bg_color=151517&title_color=F5F5F7&text_color=949498"></a>
 </div>
 
 <div style='padding:50px'></div>
