@@ -96,9 +96,9 @@ $a^{[l]}_{i, j, k}$ 를 (i. j, k)에서의 활성화 값이라고 해보자.(i, 
 
 스타일 행렬 각각의 요소는 다음과 같이 계산된다.
 
-$\displaystyle G_{kk'}^{[l](S)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l](S)}_{i, j, k} a^{[l](S)}_{i, j, k'}}$
+$\displaystyle G_{kk'}^{[l] (S)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l](S)}_{i, j, k} a^{[l](S)}_{i, j, k'}}$
 
-$\displaystyle G_{kk'}^{[l](G)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l](G)}_{i, j, k} a^{[l](G)}_{i, j, k'}}$
+$\displaystyle G_{kk'}^{[l] (G)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l](G)}_{i, j, k} a^{[l](G)}_{i, j, k'}}$
 
 $l$번째 층에서 스타일 비용함수는 다음과 같이 정의된다.
 
