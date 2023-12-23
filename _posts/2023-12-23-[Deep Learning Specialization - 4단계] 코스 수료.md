@@ -15,7 +15,7 @@ date: 2023-12-23
 last_modified_at: 2023-12-23
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 4.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 4.jpg
 ---
 'Deep Learning Specialization' 4단계에서는 합성곱 신경망을 이용해 컴퓨터 비전을 어떻게 구현하는지를 공부하였다.
 
