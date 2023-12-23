@@ -96,13 +96,13 @@ $a^{[l]}_{i, j, k}$ 를 (i. j, k)에서의 활성화 값이라고 해보자.(i, 
 
 스타일 행렬 각각의 요소는 다음과 같이 계산된다.
 
-$\displaystyle G_{kk'}^{[l] (S)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l](S)}_{i, j, k} a^{[l](S)}_{i, j, k'}}$
+$\displaystyle G_{kk'}^{[l] (S)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l] (S)}_{i, j, k} a^{[l] (S)}_{i, j, k'}}$
 
-$\displaystyle G_{kk'}^{[l] (G)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l](G)}_{i, j, k} a^{[l](G)}_{i, j, k'}}$
+$\displaystyle G_{kk'}^{[l] (G)} = \sum_{i=1}^{n_H^{[l]}} \sum_{j=1}^{n_W^{[l]}}{a^{[l] (G)}_{i, j, k} a^{[l] (G)}_{i, j, k'}}$
 
 $l$번째 층에서 스타일 비용함수는 다음과 같이 정의된다.
 
-$$\displaystyle J_{style}^{[l]} (S, G) = \frac{1}{(2n_H^{[l]}n_W^{[l]}n_C^{[l]})^2} ||G^{[l](S)} - G^{[l](G)}||_F^2 \\ = \frac{1}{(2n_H^{[l]}n_W^{[l]}n_C^{[l]})^2} \sum_{k} \sum_{k'}{(G_{kk'}^{[l](S)} - G_{kk'}^{[l](G)})^2}$$
+$$\displaystyle J_{style}^{[l]} (S, G) = \frac{1}{(2n_H^{[l]}n_W^{[l]}n_C^{[l]})^2} ||G^{[l] (S)} - G^{[l] (G)}||_F^2 \\ = \frac{1}{(2n_H^{[l]}n_W^{[l]}n_C^{[l]})^2} \sum_{k} \sum_{k'}{(G_{kk'}^{[l] (S)} - G_{kk'}^{[l] (G)})^2}$$
 
 $\frac{1}{(2n_H^{[l]}n_W^{[l]}n_C^{[l]})^2}$ 는 정규화 상수로, 크게 신경쓸 필요 없다.
 
