@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 3. Graph-theoretic Models"
 excerpt: "그래프와 최적화 문제. 이를 푸는 DFS와 BFS"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 그래프, 최적화, DFS, BFS, Algorithm]
 

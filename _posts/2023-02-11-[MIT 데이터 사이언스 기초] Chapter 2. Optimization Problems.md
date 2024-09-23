@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 2. Optimization Problems"
 excerpt: "탐색 트리의 개념과 동적 프로그래밍을 이용해 이를 효율적으로 계산하는 방법"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 최적화, 탐색 트리, 동적 프로그래밍]
 

@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 1. Introduction and Optimiz
 excerpt: "간단한 OT, 계산모델, 최적화 모델, 무차별 대입 알고리즘과 탐욕 알고리즘에 대하여"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 최적화, Algorithm]
 

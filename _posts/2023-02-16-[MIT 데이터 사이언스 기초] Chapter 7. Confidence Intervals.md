@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 7. Confidence Intervals"
 excerpt: "중심극한정리를 사용하여 '경험적인 규칙'을 룰렛에 적용하기. 확률밀도함수의 원리를 적용한 시뮬레이션으로 원주율의 값 구하기."
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 시뮬레이션, 확률, 정규분포, 중심극한정리]
 

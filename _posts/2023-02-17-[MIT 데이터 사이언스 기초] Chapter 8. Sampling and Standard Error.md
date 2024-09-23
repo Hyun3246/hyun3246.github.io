@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 8. Sampling and Standard Er
 excerpt: "1개의 샘플로 할 수 있는 많은 것들"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 시뮬레이션, 확률, 신뢰구간, 표준오차]
 

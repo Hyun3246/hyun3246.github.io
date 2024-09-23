@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 5. Random Walks"
 excerpt: "랜덤워크를 이용해서 시뮬레이션 모델 검증하고 변형하기"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 랜덤워크, 시뮬레이션, 위생검사]
 

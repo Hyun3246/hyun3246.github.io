@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 6. Monte Carlo Simulation"
 excerpt: "몬테 카를로 시뮬레이션과 다양한 확률 법칙"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 시뮬레이션, 확률, 큰수의 법칙, 도박사의 오류, 평균으로의 회귀, 표준편차, 신뢰도]
 

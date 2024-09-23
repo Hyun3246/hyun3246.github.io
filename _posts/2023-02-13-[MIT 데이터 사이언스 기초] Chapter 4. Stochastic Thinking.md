@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 4. Stochastic Thinking"
 excerpt: "확률과 이를 구하는 강력한 방법인 시뮬레이션 모델"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 확률, 시뮬레이션]
 

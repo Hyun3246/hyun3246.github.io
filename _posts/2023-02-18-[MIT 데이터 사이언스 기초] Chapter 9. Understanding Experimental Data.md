@@ -3,7 +3,7 @@ title:  "[MIT 데이터 사이언스 기초] Chapter 9. Understanding Experiment
 excerpt: "선형회귀와 적합성 판단"
 
 categories:
-  - Data Science
+  - Data Science & ML
 tags:
   - [Data Science, 시뮬레이션, 선형회귀, 결정계수]
 
