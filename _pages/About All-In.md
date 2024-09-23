@@ -97,6 +97,25 @@ As keep tracking of the latest IT trends is important, I'm going to write down s
 </p>
 </center>
 
+<!-- Symbol -->
+<center>
+<div style='padding:100px'></div>
+<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
+Aim for Perfection.
+</span>
+<figure style="display:block; text-align:center;">
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/symbol1.png"
+       style="width: 95%; height: auto;">
+</figure>
+
+<p style= "font-size: 1.3em">
+Since ancient times, <span style="font-weight:bold; color: #F5F5F7;">circles</span> have been considered the most perfect figure. <br/>
+By Combining the initials of <span style="font-weight:bold; color: #F5F5F7;">H</span>yun<span style="font-weight:bold; color: #F5F5F7;">J</span>un, H and J, and representing circle at the same time, <br/>
+I represent my willingness to move toward perfection.
+</p>
+</center>
+
+
 <!-- Thanks to -->
 <center>
 <div style='padding:100px'></div>
