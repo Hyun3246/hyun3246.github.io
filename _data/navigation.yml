@@ -1,18 +1,19 @@
 # main links
 main:
   - title: About
-    sublinks:
-      - title: About HJ
-        url: /about-hj/
-      - title: About All-In
-        url: /about-all-in/
-      - title: Dashboard
-        url: /dashboard/
-      - title: About Symbol
-        url: /about-symbol/
-  - title: "Data Science"
-    url: /categories/datascience/
-  - title: "Machine Learning"
-    url: /categories/machinelearning/
+      sublinks:
+        - title: About HJ
+          url: /about-hj/
+        - title: About All-In
+          url: /about-all-in/
+        - title: Dashboard
+          url: /dashboard/
+  - title: "Data Science and ML"
+    url: /categories/dataml/
+  - title: "Coding"
+    url: /categories/coding/
+  - title: "Math"
+    url: /categories/math/
   - title: "IT Backyard"
     url: /categories/ITBackyard/
+
