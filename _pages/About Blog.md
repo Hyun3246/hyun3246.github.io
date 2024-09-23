@@ -1,6 +1,6 @@
 ---
-title: "About HyunJun's All-In Blog"
-permalink: /about-blog/
+title: "About All-In"
+permalink: /about-all-in/
 layout: single
 author_profile: false
 comments: False
@@ -8,7 +8,7 @@ comments: False
 
 <center> 
 <div style='padding:30px'></div>
-<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">HyunJun의 흔적을 남기다.</span>
+<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">Leave Footprints.</span>
 <br/>
 
 <figure style="display:block; text-align:center">
@@ -20,9 +20,9 @@ comments: False
 </figure>
 <br/>
 <p style= "font-size: 1.3em">
-인간의 기억은 완벽하지 않기에.<br/>
-<span style="font-weight:bold; color: #F5F5F7;">기록</span>의 중요성은 아무리 강조해도 지나치지 않습니다.<br/>
-그 중요한 기록을 <span style="font-weight:bold; color: #F5F5F7;">HyunJun's All-In</span>에 남깁니다.
+As humans memory is not perfect,<br/>
+Importance of <span style="font-weight:bold; color: #F5F5F7;">Records</span> cannot be overemphasized.<br/>
+<span style="font-weight:bold; color: #F5F5F7;">All</span> important records are kept on <span style="font-weight:bold; color: #F5F5F7;">All-In</span>.
 </p>
 </center>
 
@@ -30,16 +30,16 @@ comments: False
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-블로그의 핵심. 데이터사이언스.
+Data Science, the Core.
 </span>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/datascience.png"
        style="width: 85%; height: auto; margin-top:20px">
 </figure>
 <p style= "font-size: 1.3em">
-목표가 <span style="font-weight:bold; color: #F5F5F7">데이터사이언티스트</span>이기에 데이터사이언스 공부와 관련된 내용을 가장 메인으로 다룹니다.<br/>
-<span style="font-weight:bold; color: #F5F5F7">MIT</span> 강의부터 <span style="font-weight:bold; color: #F5F5F7">네이버 부스트코스</span>를 통한 데이터 분석 공부, <span style="font-weight:bold; color: #F5F5F7">캐글</span>까지.<br/>
-데이터사이언티스트가 되는 그 날까지, 그리고 그 이후에도. 공부는 계속됩니다.
+Since the goal is a <span style="font-weight:bold; color: #F5F5F7">competent data scientist</span>, the main content is related to studying data science.<br/>
+From <span style="font-weight:bold; color: #F5F5F7">MIT Open Courseware</span> and <span style="font-weight:bold; color: #F5F5F7">Naver Boostcourse</span> to <span style="font-weight:bold; color: #F5F5F7">Kaggle</span>. <br/>
+Until the day when becoming a competent data scientist and after then, studying will be continued.
 </p>
 </center>
 
@@ -47,7 +47,7 @@ comments: False
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-머신러닝. 요즘은 필수죠?
+Machine Learning, Hard to Exclude.
 </span>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/machine-learning.png"
@@ -58,8 +58,25 @@ comments: False
 </figure>
 <br/>
 <p style= "font-size: 1.3em">
-4차 산업혁명의 뜨거운 감자 <span style="font-weight:bold; color: #F5F5F7">머신러닝</span>은 이제 데이터 분석에서도 필수로 자리잡았습니다.<br/>
-머신러닝 분야의 선구자인 <span style="font-weight:bold; color: #F5F5F7">Andrew Ng</span> 교수의 강의를 중심으로 머신러닝을 공부하고 있습니다.
+<span style="font-weight:bold; color: #F5F5F7">Machine Learning</span> is now essential to data analysing.<br/>
+Starting from <span style="font-weight:bold; color: #F5F5F7">Andrew Ng's course</span>, I'm studying ML with variety of learning materials.
+</p>
+</center>
+
+<!-- Math -->
+<center>
+<div style='padding:100px'></div>
+<span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
+Math, Foundation of Everything.
+</span>
+<figure style="display:block; text-align:center;">
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/math.png"
+       style="width: 80%; height: auto;">
+</figure>
+
+<p style= "font-size: 1.3em">
+<span style="font-weight:bold; color: #F5F5F7">Math</span> is an important fondation of Data Science.<br/>
+<span style="font-weight:bold; color: #F5F5F7">Linear Algebra & Statistics</span> are always with me.
 </p>
 </center>
 
@@ -67,7 +84,7 @@ comments: False
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-IT. 내가 이 분야로 빠져든 이유.
+IT, which Brings me Here.
 </span>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/it.png"
@@ -75,8 +92,8 @@ IT. 내가 이 분야로 빠져든 이유.
 </figure>
 
 <p style= "font-size: 1.3em">
-데이터 과학 분야에 빠져든 계기인 <span style="font-weight:bold; color: #F5F5F7">IT</span>에 관한 관심은 여전히 가지고 있습니다.<br/>
-최신 IT 동향을 체크하고 이에 뒤처지지 않는 것 또한 중요하다고 생각하여 IT 소식에 대한 생각을 몇 자 적어볼 생각입니다.
+I'm still interested in <span style="font-weight:bold; color: #F5F5F7">IT</span>, which taught me about the field of data science<br/>
+As keep tracking of the latest IT trends is important, I'm going to write down some thoughts on IT news.
 </p>
 </center>
 
@@ -84,25 +101,27 @@ IT. 내가 이 분야로 빠져든 이유.
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-도움 주신 분들께 감사드립니다.
+Thank you for you help.
 </span>
 <br/><br/>
 <p style= "font-size: 1.3em">
-데이터, 머신러닝 공부를 아무 기반 없이 독학한다는 것은 매우 힘든 일이었습니다. 앞이 보이지 않아 막막할 때 앞서 공부하신 많은 분들의 사례로부터 도움을 받았습니다. 깃허브 블로그 역시 다양한 예시와 포스트를 참고하여 성공적으로 커스텀할 수 있었습니다.<br/>
-직접 도움을 요청하고 서로 의사소통한 적은 없었으나 감사하는 마음을 전달하기 위해 이렇게나마 자리를 마련합니다.<br/><br/>
-<span style="font-weight:bold; color: #F5F5F7">학습에 도움을 주신 분</span><br/>
-서울대학교 조성준 교수 ('빅데이터 커리어 가이드북')<br/>
-앤드류 응 교수<br/>
+Studying data and machine learning without any foundation was very difficult.<br/>
+When I lost my way, I received help from the examples of many people who studied earlier. All-In was also successfully customized by referring to various examples and posts.
+<br/>
+I have never asked for help in person and communicated with each other, but I am here to express my gratitude.<br/><br/>
+<span style="font-weight:bold; color: #F5F5F7">Thank you for Learning Materials</span><br/>
+Professor Sungzoon Cho from SNU<br/>
+Professor Andrew Ng<br/>
 MIT OpenCourseWare<br/>
-네이버 부스트코스<br/>
+Naver Boostcourse<br/>
 <br/><br/>
-<span style="font-weight:bold; color: #F5F5F7">블로그 개발에 도움을 주신 분</span><br/>
-오원석 님<br/>
-공부하는 식빵맘 님<br/>
-김현우 님<br/>
-Danggai 님<br/>
-Dongkyun Kim 님<br/>
+<span style="font-weight:bold; color: #F5F5F7">Thank you for Github Blog</span><br/>
+wonseoko<br/>
+공부하는 식빵맘<br/>
+김현우<br/>
+Danggai<br/>
+Dongkyun Kim<br/>
 Apple Inc.<br/><br/>
-<span style="font-weight:bold; color: #F5F5F7">도와주신 모든 분들께 다시 한 번 감사드립니다.</span>
+<span style="font-weight:bold; color: #F5F5F7">Thank you again.</span>
 </p>
 </center>
