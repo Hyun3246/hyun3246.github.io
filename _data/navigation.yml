@@ -8,6 +8,8 @@ main:
         url: /about-all-in/
       - title: Dashboard
         url: /dashboard/
+  - title: "Data Science & ML"
+    url: /categories/dsml/
   - title: "Data Science"
     url: /categories/datascience/
   - title: "Machine Learning"
