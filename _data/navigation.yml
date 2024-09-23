@@ -2,10 +2,10 @@
 main:
   - title: About
     sublinks:
-      - title: About HyunJun
-        url: /about-hyunjun/
-      - title: About Blog
-        url: /about-blog/
+      - title: About HJ
+        url: /about-hj/
+      - title: About All-In
+        url: /about-all-in/
       - title: Dashboard
         url: /dashboard/
   - title: "Data Science"
