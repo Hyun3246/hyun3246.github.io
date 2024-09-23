@@ -71,7 +71,7 @@ Math, Foundation of Everything.
 </span>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/math.png"
-       style="width: 80%; height: auto;">
+       style="width: 95%; height: auto;">
 </figure>
 
 <p style= "font-size: 1.3em">
