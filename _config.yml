@@ -116,9 +116,6 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "hyun3246.github.io"
-    - label: "X"
-      icon: "fa fa-times"
-      url: "https://X.com/hyunj0207"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/hyunj0207"
@@ -131,6 +128,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/%ED%98%84%EC%A4%80-%EA%B9%80-58a914264"
+    - label: "X"
+      icon: "fa fa-times"
+      url: "https://X.com/hyunj0207"
 
 # Site Footer
 footer:
