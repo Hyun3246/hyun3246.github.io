@@ -4,8 +4,8 @@ main:
     sublinks:
       - title: About HyunJun
         url: /about-hyunjun/
-      - title: About Blog
-        url: /about-blog/
+      - title: About All-In
+        url: /about-all-in/
       - title: Dashboard
         url: /dashboard/
       - title: About Symbol
