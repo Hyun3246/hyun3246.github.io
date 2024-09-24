@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 8. 프로그래밍 프레임�
 excerpt: "딥러닝 프레임워크와 Tensorflow 구현"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 경사하강법, 프레임워크, Python, Tensorflow]
 

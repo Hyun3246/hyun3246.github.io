@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 2. 신경망 네트워크의 �
 excerpt: "정규화"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 편향, 분산, 정규화]
 

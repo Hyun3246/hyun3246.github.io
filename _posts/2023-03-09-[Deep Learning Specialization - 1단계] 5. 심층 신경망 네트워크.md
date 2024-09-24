@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 1단계] 5. 심층 신경망 네트워�
 excerpt: "심층 신경망에서의 정방향 연산과 역방향 연산"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 벡터화]
 

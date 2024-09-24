@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 4단계] 3. convNets-실질적 조언�
 excerpt: "컴퓨터 비전에서의 전이학습과 데이터 증가"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 

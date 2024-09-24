@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 3단계] 6. 다양한 문제로부터 �
 excerpt: "전이학습과 다중 작업 학습"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 전이학습, 다중 작업 학습]
 

@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 4단계] 5. 얼굴 인식"
 excerpt: "얼굴 인식을 위한 샴 네트워크, 삼중항 손실"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 

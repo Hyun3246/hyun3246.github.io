@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 코스 수료"
 excerpt: "'Deep Learning Specialization 2단계'를 수료하며"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망]
 

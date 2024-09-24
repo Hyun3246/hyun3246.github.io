@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 3단계] 5. 트레이닝&Dev/Test 불�
 excerpt: "데이터 불일치 해결하기"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 집합, 오차]
 

@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 3단계] 3. 사람 수준의 성능과 
 excerpt: "인간의 성능과 AI 모델"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 인간, 오차, 회피 가능 오차, 편향, 분산]
 

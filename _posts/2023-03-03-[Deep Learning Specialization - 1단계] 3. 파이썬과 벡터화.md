@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 1단계] 3. 파이썬과 벡터화"
 excerpt: "벡터화를 통한 반복문 없애기"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 로지스틱 회귀, 경사하강법, 벡터화, Python]
 

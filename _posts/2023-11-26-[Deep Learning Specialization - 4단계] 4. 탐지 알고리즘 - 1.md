@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 4단계] 4. 탐지 알고리즘 - 1"
 excerpt: "물체를 인식하여 경계 상자 그리기"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 

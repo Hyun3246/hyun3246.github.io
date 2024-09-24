@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 1. 머신러닝 어플리케�
 excerpt: "모델 생성에 사용되는 여러 집합, 편향과 분산"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 편향, 분산]
 

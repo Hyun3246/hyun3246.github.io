@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 3. 최적화 문제 설정"
 excerpt: "입력 정규화와 경사 검사"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 정규화, 경사 검사]
 

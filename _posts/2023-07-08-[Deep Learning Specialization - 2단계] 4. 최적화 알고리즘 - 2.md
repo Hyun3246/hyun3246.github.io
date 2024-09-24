@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 4. 최적화 알고리즘 - 2"
 excerpt: "모멘텀 최적화, RMS prop, Adam 최적화 알고리즘. 그리고 학습률 감쇠와 안장지대까지."
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 경사하강법, 지수 가중 평균, 학습률, 안장지대]
 

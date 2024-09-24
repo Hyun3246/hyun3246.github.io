@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 1단계] 2. 신경망과 로지스틱�
 excerpt: "로지스틱 회귀와 경사하강법"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 로지스틱 회귀, 경사하강법]
 

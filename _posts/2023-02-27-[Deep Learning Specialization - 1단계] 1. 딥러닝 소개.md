@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 1단계] 1. 딥러닝 소개"
 excerpt: "신경망이란 무엇인가, 신경망의 종류와 활용"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망]
 

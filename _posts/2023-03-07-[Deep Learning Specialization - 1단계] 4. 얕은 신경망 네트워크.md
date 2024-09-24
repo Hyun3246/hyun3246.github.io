@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 1단계] 4. 얕은 신경망 네트워�
 excerpt: "얕은 신경망에 벡터화를 이용한 경사하강법 적용하기"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 로지스틱 회귀, 벡터화, 활성화 함수]
 

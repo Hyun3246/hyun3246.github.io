@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 5. 하이퍼파라미터 튜�
 excerpt: "초매개변수의 선택과 관련된 다양한 통찰"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 초매개변수]
 

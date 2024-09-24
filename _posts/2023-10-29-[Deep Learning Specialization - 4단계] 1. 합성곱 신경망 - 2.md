@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 4단계] 1. 합성곱 신경망 - 2"
 excerpt: "합성곱 신경망"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 

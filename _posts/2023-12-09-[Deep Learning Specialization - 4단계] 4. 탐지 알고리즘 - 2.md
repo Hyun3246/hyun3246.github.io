@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 4단계] 4. 탐지 알고리즘 - 2"
 excerpt: "IOU, 비최대억제, 앵커 상자. 이를 합한 YOLO 알고리즘"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 

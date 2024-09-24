@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 3단계] 4. 오차 분석"
 excerpt: "오차 원인을 발견했을 때 어떻게 해야 하나"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 오차]
 

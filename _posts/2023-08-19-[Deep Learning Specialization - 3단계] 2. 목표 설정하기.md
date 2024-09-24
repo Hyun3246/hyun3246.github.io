@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 3단계] 2. 목표 설정하기"
 excerpt: "모델 평가 척도"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 척도, 최적화 척도, 조건 척도, 집합]
 

@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 4단계] 2. 케이스 스터디 - 1"
 excerpt: "합성곱 층을 사용하는 다양한 신경망"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 

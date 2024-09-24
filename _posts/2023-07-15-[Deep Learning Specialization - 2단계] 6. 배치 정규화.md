@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 6. 배치 정규화"
 excerpt: "배치 정규화"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 정규화, 미니 배치, 배치 정규화]
 

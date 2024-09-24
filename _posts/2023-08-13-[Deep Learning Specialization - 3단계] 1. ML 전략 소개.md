@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 3단계] 1. ML 전략 소개"
 excerpt: "머신러닝 전략 소개"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 직교화]
 

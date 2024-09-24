@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 7. 다중 클래스 분류"
 excerpt: "Softmax 회귀"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 로지스틱 회귀, Softmax, 손실함수, 비용함수, 경사하강법]
 

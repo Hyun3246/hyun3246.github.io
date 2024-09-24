@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 2단계] 4. 최적화 알고리즘 - 1"
 excerpt: "미니 배치 경사하강법과 지수 가중 평균"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 경사하강법, 지수 가중 평균]
 

@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 4단계] 6. 신경망 스타일 변형"
 excerpt: "신경망으로 그림의 스타일 바꾸기"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, 합성곱, 컴퓨터 비전]
 

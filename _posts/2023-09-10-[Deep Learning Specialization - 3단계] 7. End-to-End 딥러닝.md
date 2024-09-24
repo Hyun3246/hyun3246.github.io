@@ -3,7 +3,7 @@ title:  "[Deep Learning Specialization - 3단계] 7. End-to-End 딥러닝"
 excerpt: "End-to-end 딥러닝의 개요와 사용 요령"
 
 categories:
-  - Machine Learning
+  - Data Science & ML
 tags:
   - [머신러닝, 신경망, End-to-end 딥러닝]
 
