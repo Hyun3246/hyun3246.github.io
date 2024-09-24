@@ -12,6 +12,8 @@ main:
     url: /categories/dsml/
   - title: "Computer Science"
     url: /categories/computerscience/
+  - title: "Math"
+    url: /categories/math/
   - title: "IT Backyard"
     url: /categories/ITBackyard/
 
