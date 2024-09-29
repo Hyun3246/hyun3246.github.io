@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-03-03
-last_modified_at: 2023-03-06
+last_modified_at: 2024-09-29
 
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 1.png
@@ -209,7 +209,7 @@ percentage = 100 * A / cal.reshape(1, 4)
 
 (사실 `cal`은 그 자체로 (1, 4)의 형태이기 때문에 다시 `reshape`을 할 필요가 없다. 그러나 돌다리도 두들겨 보고 건너는 것 태도가 중요하다.)
 
-행렬 A는 (3, 4)이고, `cal`은 (1, 4)이기 때문에 원래대로라면 위와 같은 계싼은 불가능하다. 하지만 파이썬은 broadcasting 개념을 사용해 `cal`의 행을 3개로 복제하여 나눗셈을 수행한다.
+행렬 A는 (3, 4)이고, `cal`은 (1, 4)이기 때문에 원래대로라면 위와 같은 계산은 불가능하다. 하지만 파이썬은 broadcasting 개념을 사용해 `cal`의 행을 3개로 복제하여 나눗셈을 수행한다.
 
 이처럼 모자라는 행이나 열을 복제하여 행렬 사이의 연산이 가능하도록 해주는 것을 boradcasting이라고 한다. 일반화를 하면, (m, n) 행렬과 (1, n) 행렬을 연산할 때는 (1, n) 행렬의 행이 복제되어 (m, n) 행렬로 바뀌고, 연산을 진행한다. 반대로 (m, n) 행렬과 (m, 1) 행렬을 연산할 때는 (m, 1) 행렬의 열이 복제되어 (m, n) 행렬로 바뀌고 연산된다.
 
