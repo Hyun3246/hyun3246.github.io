@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "HJ"
-  avatar           : https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/profile.gif # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/profile.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Leave HJ's trace, All-In"
   location         : "Suwon, Republic of Korea"
   email            :
