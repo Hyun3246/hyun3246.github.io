@@ -12,7 +12,7 @@ comments: False
 <br/>
 
 <figure style="display:block; text-align:center">
-  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/profile.gif"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/profile.png"
        style="width: 60%; height: auto; margin:20px; border-radius:20px">
 </figure>
 <br/>
