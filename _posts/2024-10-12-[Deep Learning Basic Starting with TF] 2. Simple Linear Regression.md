@@ -1,11 +1,11 @@
 ---
 title:  "[Deep Learning Basic Starting with TF] 2. Simple Linear Regression"
-excerpt: "머신러닝의 주요 도전 과제, 데이터셋의 구분, 데이터 불일치"
+excerpt: "선형 회귀와 비용함수"
 
 categories:
   - Data Science & ML
 tags:
-  - [머신러닝]
+  - [머신러닝, 선형 회귀, 비용함수]
 
 use_math: true
 toc: true
