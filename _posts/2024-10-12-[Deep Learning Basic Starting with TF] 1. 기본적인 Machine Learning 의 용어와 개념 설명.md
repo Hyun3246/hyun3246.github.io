@@ -1,6 +1,6 @@
 ---
 title:  "[Deep Learning Basic Starting with TF] 1. 기본적인 Machine Learning 의 용어와 개념 설명"
-excerpt: "머신러닝의 주요 도전 과제, 데이터셋의 구분, 데이터 불일치"
+excerpt: "머신러닝의 개념 (다른 포스트로 대체)"
 
 categories:
   - Data Science & ML
