@@ -1,5 +1,5 @@
 ---
-title:  "[Linear Algebra for ML] 1. 선형대수의 기초"
+title:  "[Linear Algebra for AI] 1. 선형대수의 기초"
 excerpt: "Scalar, Vector, Matrix의 개념과 계산법"
 
 categories:
@@ -15,7 +15,7 @@ date: 2024-10-12
 last_modified_at: 2024-10-12
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/Linear Algebra for ML.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/Linear Algebra for AI.png
 ---
 ## Scalar, Vector, Matrix
 
