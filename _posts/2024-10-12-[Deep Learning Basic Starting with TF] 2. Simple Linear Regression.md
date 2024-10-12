@@ -41,3 +41,8 @@ header:
 $$\displaystyle cost(W, b) = \frac{1}{m} \sum_{i=1}^{m}{(H(x_i) - y_i)^2}$$
 
 우리의 목표는 <span style="color:#F5F5F7">비용함수를 최소화하는 W와 b를 찾는 것</span>이다.
+
+<br/>
+<br/>
+
+*별도의 출처 표시가 있는 이미지를 제외한 모든 이미지는 강의자료에서 발췌하였음을 밝힙니다.*
