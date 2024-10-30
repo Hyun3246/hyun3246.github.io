@@ -99,6 +99,8 @@ for i in range(n_epochs + 1):
      
 ```
 
+[코드 보러가기](https://github.com/Hyun3246/Code-Warehouse/blob/457b94e3fe8bfb3e0ffceffafed0ec0bb199febc/Deep%20Learning%20Basic%20Starting%20with%20TF/%EC%8B%A4%EC%8A%B5_4_Multi_variable_Linear_Regression%EB%A5%BC_TensorFlow%EB%A1%9C_%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.ipynb)
+
 <br/>
 <br/>
 
