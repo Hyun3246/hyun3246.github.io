@@ -1,6 +1,6 @@
 ---
 title:  "[Linear Algebra for AI] 9. Least Squares와 그 기하학적 의미"
-excerpt: "Linear transformation"
+excerpt: "Least Squares와 그 기하학적 의미"
 
 categories:
   - Math
@@ -11,8 +11,8 @@ use_math: true
 toc: true
 toc_sticky: true
 
-date: 2024-11-15
-last_modified_at: 2024-11-15
+date: 2024-11-05
+last_modified_at: 2024-11-06
 
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/Linear Algebra for AI.png
