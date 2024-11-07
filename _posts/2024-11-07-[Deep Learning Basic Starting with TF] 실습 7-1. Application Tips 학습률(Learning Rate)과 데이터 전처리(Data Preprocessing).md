@@ -22,6 +22,8 @@ Learning rate decay의 개념은 아래 링크를 참고하자. 여기서는 텐
 
 [학습 스케줄링](https://hyun3246.github.io/data%20science%20&%20ml/Hands-On-ML-4%EC%9E%A5.-%EB%AA%A8%EB%8D%B8-%ED%9B%88%EB%A0%A8-1/#%ED%99%95%EB%A5%A0%EC%A0%81-%EA%B2%BD%EC%82%AC-%ED%95%98%EA%B0%95%EB%B2%95)
 
+[Deep Learning Specialization](https://hyun3246.github.io/data%20science%20&%20ml/Deep-Learning-Specialization-2%EB%8B%A8%EA%B3%84-4.-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-2/#%ED%95%99%EC%8A%B5%EB%A5%A0-%EA%B0%90%EC%87%A0)
+
 ```python
 is_decay = True     # learning_rate decay를 사용
 starter_learning_rate = 0.1     # 최초의 learning rate
@@ -50,8 +52,6 @@ else:
 [Python for ML 2](https://hyun3246.github.io/data%20science%20&%20ml/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-16.-Linear-Regression-5/#%ED%95%99%EC%8A%B5%EB%A5%A0-%EA%B0%90%EC%86%8C)
 
 [Hands-On ML](https://hyun3246.github.io/data%20science%20&%20ml/Hands-On-ML-2%EC%9E%A5.-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%81%9D%EA%B9%8C%EC%A7%80-2/#%ED%8A%B9%EC%84%B1-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81)
-
-[Deep Learning Specialization](https://hyun3246.github.io/data%20science%20&%20ml/Deep-Learning-Specialization-2%EB%8B%A8%EA%B3%84-4.-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-2/#%ED%95%99%EC%8A%B5%EB%A5%A0-%EA%B0%90%EC%87%A0)
 
 <br/>
 
