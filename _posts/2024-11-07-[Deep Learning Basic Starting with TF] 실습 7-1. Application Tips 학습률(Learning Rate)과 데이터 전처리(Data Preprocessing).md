@@ -51,6 +51,8 @@ else:
 
 [Hands-On ML](https://hyun3246.github.io/data%20science%20&%20ml/Hands-On-ML-2%EC%9E%A5.-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%81%9D%EA%B9%8C%EC%A7%80-2/#%ED%8A%B9%EC%84%B1-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81)
 
+[Deep Learning Specialization](https://hyun3246.github.io/data%20science%20&%20ml/Deep-Learning-Specialization-2%EB%8B%A8%EA%B3%84-4.-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-2/#%ED%95%99%EC%8A%B5%EB%A5%A0-%EA%B0%90%EC%87%A0)
+
 <br/>
 
 ## 잡음 처리
