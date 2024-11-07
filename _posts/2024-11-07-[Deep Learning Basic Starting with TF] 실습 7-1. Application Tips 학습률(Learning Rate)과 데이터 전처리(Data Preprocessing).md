@@ -45,7 +45,9 @@ else:
 # 특성 스케일링
 아래 링크를 참고하자.
 
-[Python for ML](https://hyun3246.github.io/data%20science%20&%20ml/Hands-On-ML-2%EC%9E%A5.-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%81%9D%EA%B9%8C%EC%A7%80-2/#%ED%8A%B9%EC%84%B1-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81)
+[Python for ML 1](https://hyun3246.github.io/data%20science%20&%20ml/Hands-On-ML-2%EC%9E%A5.-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%81%9D%EA%B9%8C%EC%A7%80-2/#%ED%8A%B9%EC%84%B1-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81)
+
+[Python for ML 2](https://hyun3246.github.io/data%20science%20&%20ml/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-16.-Linear-Regression-5/#%ED%95%99%EC%8A%B5%EB%A5%A0-%EA%B0%90%EC%86%8C)
 
 [Hands-On ML](https://hyun3246.github.io/data%20science%20&%20ml/Hands-On-ML-2%EC%9E%A5.-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%81%9D%EA%B9%8C%EC%A7%80-2/#%ED%8A%B9%EC%84%B1-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81)
 
