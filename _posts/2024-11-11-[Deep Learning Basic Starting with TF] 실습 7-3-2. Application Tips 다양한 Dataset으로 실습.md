@@ -55,6 +55,7 @@ model.evaluate(x_test, y_test)      # 평가
 ```
 
 [코드 보러가기 1_MNIST](https://github.com/Hyun3246/Code-Warehouse/blob/7bbf8bc222d0c5eede062fb58486c78c6f4a65a8/Deep%20Learning%20Basic%20Starting%20with%20TF/%EC%8B%A4%EC%8A%B5_07_03_01_Application_%26_Tips_Data_%26_Learning.ipynb)
+
 [코드 보러가기 2_Fashion MNIST & IMDB](https://github.com/Hyun3246/Code-Warehouse/blob/7bbf8bc222d0c5eede062fb58486c78c6f4a65a8/Deep%20Learning%20Basic%20Starting%20with%20TF/%EC%8B%A4%EC%8A%B5_07_03_02_Application_%26_Tips_%EB%8B%A4%EC%96%91%ED%95%9C_Dataset%EC%9C%BC%EB%A1%9C_%EC%8B%A4%EC%8A%B5.ipynb)
 
 <br/>
