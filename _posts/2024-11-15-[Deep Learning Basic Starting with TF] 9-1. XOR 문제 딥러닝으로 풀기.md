@@ -27,10 +27,9 @@ XOR 문제의 정의는 다음과 같다.
 |1|0|1|
 |1|1|0|
 
-<br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Basic Starting with TF/XOR 문제.png"
-       style="width: 30%; height: auto; margin:10px">
+       style="width: 20%; height: auto; margin:10px">
 </figure>
 <br/>
 
