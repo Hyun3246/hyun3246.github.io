@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-11-19
-last_modified_at: 2023-11-25
+last_modified_at: 2024-11-17
 
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 4.jpg
@@ -34,7 +34,7 @@ header:
 <br/>
 
 ## 인셉션 신경망 - 기본 아이디어
-필터의 크기나 풀링을 어떻게 정하는 것이 가장 좋을지 망설여진다면 <span style="color:#F5F5F7">인셉션 신경망(Inception Network)</span>를 사용할 수 있다. 인셉션 신경망은 필터의 크기나 풀링을 결정하는 대신 전부 다 적용해서 출력들을 합치고, 신경망으로 하려금 스스로 변수나 필터 크기의 조합을 학습하게 만드는 것이다.
+필터의 크기나 풀링을 어떻게 정하는 것이 가장 좋을지 망설여진다면 <span style="color:#F5F5F7">인셉션 신경망(Inception Network)</span>를 사용할 수 있다. 인셉션 신경망은 필터의 크기나 풀링을 결정하는 대신 전부 다 적용해서 출력들을 합치고, 신경망으로 하여금 스스로 변수나 필터 크기의 조합을 학습하게 만드는 것이다.
 <br/>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Specialization/인셉션 신경망 기본 아이디어.png"
