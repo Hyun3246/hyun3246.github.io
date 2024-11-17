@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-10-28
-last_modified_at: 2023-10-28
+last_modified_at: 2024-11-17
 
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/andrew ng 4.jpg
@@ -146,7 +146,7 @@ $p=\frac{f-1}{2}$
 <br/>
 
 ## 스트라이드
-스트라이드(Stride)는 '걸음'이라는 뜻을 가지고 있다. 합성곱에서 스트라이드는 '필터를 한 번에 얼마나 옯길 것인가'를 의미한다. 우리가 지금까지 했던 합성곱들은 스트라이드가 1인 합성곱이었던 것이다.
+스트라이드(Stride)는 '걸음'이라는 뜻을 가지고 있다. 합성곱에서 스트라이드는 '필터를 한 번에 얼마나 옮길 것인가'를 의미한다. 우리가 지금까지 했던 합성곱들은 스트라이드가 1인 합성곱이었던 것이다.
 
 스트라이드(s)까지 반영하여 합성곱 결과를 일반화하면 다음과 같다.
 
