@@ -103,7 +103,7 @@ def loss_fn(hypothesis, labels):
 
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/Deep Learning Basic Starting with TF/텐서보드 실행 결과.png"
-       style="width: 40%; height: auto; margin:10px">
+       style="width: 60%; height: auto; margin:10px">
 </figure>
 <br/>
 
