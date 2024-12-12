@@ -8,7 +8,7 @@ comments: False
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
 </span>
 
-<center> <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">Road to Data Sceintist.</span></center>
+<center> <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7">Road to Data Scientist.</span></center>
 <br/>
 
 <figure style="display:block; text-align:center">
