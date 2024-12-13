@@ -52,7 +52,7 @@ Dreams come true.
 </figure>
 <p style= "width: 90%; font-size: 1.3em">
 Dreams don't come true only with interests. Interests are useless if you don't have the <span style="font-weight:bold; color: #F5F5F7;">ability</span> to make your dreams a reality.
-From <span style="font-weight:bold; color: #F5F5F7;">Microsoft Access</span> to construct a database,to various packages like <span style="font-weight:bold; color: #F5F5F7;">Python</span>, <span style="font-weight:bold; color: #F5F5F7;">Pandas</span>, <span style="font-weight:bold; color: #F5F5F7;">Matplotlib</span> for deeper data analysis. <span style="font-weight:bold; color: #F5F5F7;"> <br/>
+From <span style="font-weight:bold; color: #F5F5F7;">Microsoft Access</span> to construct a database,to various packages like <span style="font-weight:bold; color: #F5F5F7;">Python</span>, <span style="font-weight:bold; color: #F5F5F7;">Tensorflow</span>, <span style="font-weight:bold; color: #F5F5F7;">Scikit-learn</span>, <span style="font-weight:bold; color: #F5F5F7;">Pandas</span>, and <span style="font-weight:bold; color: #F5F5F7;">Matplotlib</span> for deeper data analysis. <span style="font-weight:bold; color: #F5F5F7;"> <br/>
 HTML</span> and <span style="font-weight:bold; color: #F5F5F7;">Markdown</span>, which are used to run All-in, are also ready.<br/>
 Please look forward to the ability to become more diverse and powerful.
 </p>
