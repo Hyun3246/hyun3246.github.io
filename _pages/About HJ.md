@@ -34,7 +34,7 @@ Interests. Worth More than that.
 <p style= "width: 90%; font-size: 1.3em">
 'Just fun' or 'Just interested in' is not enough.<br/>
 Even interest that found by chance can have deep value.<br/>
-The interest in <span style="font-weight:bold; color: #F5F5F7;">IT</span>, which arose when I was 13, led to <span style="font-weight:bold; color: #F5F5F7;">programming</span> and <span style="font-weight:bold; color: #F5F5F7;">machine</span> learning, and finally reached <span style="font-weight:bold; color: #F5F5F7;">data science</span>.<br/>
+The interest in <span style="font-weight:bold; color: #F5F5F7;">IT</span>, which arose when I was 13, led to <span style="font-weight:bold; color: #F5F5F7;">programming</span> and <span style="font-weight:bold; color: #F5F5F7;">machine learning</span>, and finally reached <span style="font-weight:bold; color: #F5F5F7;">data science</span>.<br/>
 I believe in the tremendous power that interest shows when it has value.
 </p>
 </center>
@@ -53,8 +53,8 @@ Dreams come true.
 <p style= "width: 90%; font-size: 1.3em">
 Dreams don't come true only with interests. Interests are useless if you don't have the <span style="font-weight:bold; color: #F5F5F7;">ability</span> to make your dreams a reality.
 From <span style="font-weight:bold; color: #F5F5F7;">Microsoft Access</span> to construct a database,to various packages like <span style="font-weight:bold; color: #F5F5F7;">Python</span>, <span style="font-weight:bold; color: #F5F5F7;">Tensorflow</span>, <span style="font-weight:bold; color: #F5F5F7;">Scikit-learn</span>, <span style="font-weight:bold; color: #F5F5F7;">Pandas</span>, and <span style="font-weight:bold; color: #F5F5F7;">Matplotlib</span> for deeper data analysis. <span style="font-weight:bold; color: #F5F5F7;"> <br/>
-HTML</span> and <span style="font-weight:bold; color: #F5F5F7;">Markdown</span>, which are used to run All-in, are also ready.<br/>
-Please look forward to the ability to become more diverse and powerful.
+HTML</span> and <span style="font-weight:bold; color: #F5F5F7;">Markdown</span>, which are used to build All-in, are also ready.<br/>
+Look forward to the ability that will become more diverse and powerful.
 </p>
 </center>
 
