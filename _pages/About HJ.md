@@ -86,7 +86,7 @@ Powerful career. Just Begins.
 
 
 <p style= "font-size: 1.3em">
-**Bio X Data** synergy is ready for me. <br/>
+<span style="font-weight:bold; color: #F5F5F7;">Bio X Data</span> synergy is ready for me. <br/>
 To create a career that anyone would want to have. <br/>
 I'm working hard today as well.
 </p>
