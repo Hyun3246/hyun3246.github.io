@@ -20,46 +20,42 @@ comments: False
 </figure>
 <br/>
 <p style= "font-size: 1.3em">
-As humans memory is not perfect,<br/>
+As human memory is not perfect,<br/>
 Importance of <span style="font-weight:bold; color: #F5F5F7;">Records</span> cannot be overemphasized.<br/>
 <span style="font-weight:bold; color: #F5F5F7;">All</span> important records are kept on <span style="font-weight:bold; color: #F5F5F7;">All-In</span>.
 </p>
 </center>
 
-<!-- Data Science -->
+<!-- Data Science & ML -->
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-Data Science, the Core.
+Data Science & ML, the Core.
 </span>
 <figure style="display:block; text-align:center;">
-  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/datascience.png"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/Data science and ML.png"
        style="width: 85%; height: auto; margin-top:20px">
 </figure>
 <p style= "font-size: 1.3em">
-Since the goal is a <span style="font-weight:bold; color: #F5F5F7">competent data scientist</span>, the main content is related to studying data science.<br/>
-From <span style="font-weight:bold; color: #F5F5F7">MIT Open Courseware</span> and <span style="font-weight:bold; color: #F5F5F7">Naver Boostcourse</span> to <span style="font-weight:bold; color: #F5F5F7">Kaggle</span>. <br/>
+Since the goal is a <span style="font-weight:bold; color: #F5F5F7">competent data scientist</span>, the main content is related to studying data science and Machine Learning.<br/>
+<span style="font-weight:bold; color: #F5F5F7">Self-directed study</span> based on multiples of sources including <span style="font-weight:bold; color: #F5F5F7">opencourse</span>, <span style="font-weight:bold; color: #F5F5F7">books</span>, <span style="font-weight:bold; color: #F5F5F7">papers</span>, and <span style="font-weight:bold; color: #F5F5F7">online competition such as Kaggle</span>. <br/>
 Until the day when becoming a competent data scientist and after then, studying will be continued.
 </p>
 </center>
 
-<!-- Machine Learning -->
+<!-- Computer Science -->
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-Machine Learning, Hard to Exclude.
+Computer Science, Hard to Exclude.
 </span>
 <figure style="display:block; text-align:center;">
-  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/machine-learning.png"
-       style="width: 95%; height: auto; margin:20px">
-  <figcaption style="text-align:right; font-size:10px; color:#808080">
-    Stanford & Andrew Ng
-  </figcaption>
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/Computer Science.png"
+       style="width: 85%; height: auto; margin-top:20px">
 </figure>
-<br/>
 <p style= "font-size: 1.3em">
-<span style="font-weight:bold; color: #F5F5F7">Machine Learning</span> is now essential to data analysing.<br/>
-Starting from <span style="font-weight:bold; color: #F5F5F7">Andrew Ng's course</span>, I'm studying ML with variety of learning materials.
+Computer Science is also important because coding is used for data science and AI.<br/>
+Thanks to various opencourse and books, self-directed study has low barrier to entry 
 </p>
 </center>
 
@@ -92,8 +88,8 @@ IT, which Brings me Here.
 </figure>
 
 <p style= "font-size: 1.3em">
-I'm still interested in <span style="font-weight:bold; color: #F5F5F7">IT</span>, which taught me about the field of data science<br/>
-As keep tracking of the latest IT trends is important, I'm going to write down some thoughts on IT news.
+I'm still interested in <span style="font-weight:bold; color: #F5F5F7">IT</span>, which showed the field of data science to me<br/>
+As keep tracking of the latest IT trends is important, I write down some thoughts on IT news.
 </p>
 </center>
 
@@ -114,6 +110,7 @@ Professor Sungzoon Cho from SNU<br/>
 Professor Andrew Ng<br/>
 MIT OpenCourseWare<br/>
 Naver Boostcourse<br/>
+and Authors of various books<br/>
 <br/><br/>
 <span style="font-weight:bold; color: #F5F5F7">Thank you for Github Blog</span><br/>
 wonseoko<br/>
