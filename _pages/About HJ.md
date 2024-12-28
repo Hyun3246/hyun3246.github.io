@@ -43,7 +43,7 @@ When a person is interested in what he does, the synergy is unimaginable.
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-Skills. Boosters to make dreams come true.
+Skills. Boosters to Make Dreams Come True.
 </span>
 <br/>
 <figure style="display:block;text-align:center;">
@@ -51,7 +51,7 @@ Skills. Boosters to make dreams come true.
        style="width: 100%; height: auto; margin-top: 10px">
 </figure>
 <p style= "width: 90%; font-size: 1.3em">
-Dreams don't come true only with interests. Interests are useless if you don't have the <span style="font-weight:bold; color: #F5F5F7;">ability</span> to make your dreams a reality.
+Dreams don't come true only with interests. Interests are useless if you don't have the <span style="font-weight:bold; color: #F5F5F7;">ability</span> to make your dreams a reality. <br/>
 <span style="font-weight:bold; color: #F5F5F7;">Python</span>, the most important language in data science, is ready with various packages like <span style="font-weight:bold; color: #F5F5F7;">Tensorflow</span>, <span style="font-weight:bold; color: #F5F5F7;">Scikit-learn</span>, <span style="font-weight:bold; color: #F5F5F7;">Pandas</span>, and <span style="font-weight:bold; color: #F5F5F7;">Matplotlib</span>. <br/>
 <span style="font-weight:bold; color: #F5F5F7;">Markdown</span>, which is used to build All-in, and basic <span style="font-weight:bold; color: #F5F5F7;">Flutter</span>, for my app developing hobby, are also ready.<br/>
 Look forward to the ability that will become more diverse and powerful.
@@ -63,7 +63,7 @@ Look forward to the ability that will become more diverse and powerful.
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-Proof, prepared for a long time.<br/>
+Proof, Prepared for a long time.<br/>
 To be Continued.
 </span>
 <figure style="display:block; text-align:center;">
@@ -102,7 +102,7 @@ I'm working hard today as well.
 <center>
 <div style='padding:100px'></div>
 <span style=" font-size: 3em; font-weight:bold; color: #F5F5F7;">
-My No.1 Assets. Planning and Consistency.
+My No.1 Assets. <br/> Planning and Consistency.
 </span>
 <figure style="display:block; text-align:center;">
   <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/about/motto.png"
@@ -115,7 +115,7 @@ My No.1 Assets. Planning and Consistency.
 Whenever I challenged something, it seemed impossible to achieve at first. <br/>
 However, I realized that thorough planning and being steady are invincible to any hard tasks. The overcoming experiences are the best assets that I have. <br/><br/>
   
-<span style="font-weight:bold; color: #F5F5F7;">"Will you find an excuse or a way?"</span> <br/><br/>
+<span style="font-weight:bold; color: #F5F5F7;">"Will you find an excuse, or a way?"</span> <br/><br/>
 I always choose to find a way.
 </p>
 </center>
