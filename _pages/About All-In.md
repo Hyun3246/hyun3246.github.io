@@ -37,8 +37,10 @@ Data Science & ML, the Core.
        style="width: 85%; height: auto; margin-top:20px">
 </figure>
 <p style= "font-size: 1.3em">
-Since the goal is a <span style="font-weight:bold; color: #F5F5F7">competent data scientist</span>, the main content is related to studying data science and Machine Learning.<br/>
-<span style="font-weight:bold; color: #F5F5F7">Self-directed study</span> based on multiples of sources including <span style="font-weight:bold; color: #F5F5F7">opencourse</span>, <span style="font-weight:bold; color: #F5F5F7">books</span>, <span style="font-weight:bold; color: #F5F5F7">papers</span>, and <span style="font-weight:bold; color: #F5F5F7">online competition such as Kaggle</span>. <br/>
+Since the goal is a <span style="font-weight:bold; color: #F5F5F7">competent data scientist</span>, <br/>
+the main content is related to studying data science and Machine Learning.<br/>
+<span style="font-weight:bold; color: #F5F5F7">Self-directed study</span> based on multiples of sources <br/>
+including <span style="font-weight:bold; color: #F5F5F7">opencourse</span>, <span style="font-weight:bold; color: #F5F5F7">books</span>, <span style="font-weight:bold; color: #F5F5F7">papers</span>, and <span style="font-weight:bold; color: #F5F5F7">online competition such as Kaggle</span>. <br/>
 Until the day when becoming a competent data scientist and after then, studying will be continued.
 </p>
 </center>
@@ -55,7 +57,7 @@ Computer Science, Hard to Exclude.
 </figure>
 <p style= "font-size: 1.3em">
 Computer Science is also important because coding is used for data science and AI.<br/>
-Thanks to various opencourse and books, self-directed study has low barrier to entry 
+Thanks to various opencourse and books, self-directed study has low barrier to entry.
 </p>
 </center>
 
@@ -88,7 +90,7 @@ IT, which Brings me Here.
 </figure>
 
 <p style= "font-size: 1.3em">
-I'm still interested in <span style="font-weight:bold; color: #F5F5F7">IT</span>, which showed the field of data science to me<br/>
+I'm still interested in <span style="font-weight:bold; color: #F5F5F7">IT</span>, which showed the field of data science to me.<br/>
 As keep tracking of the latest IT trends is important, I write down some thoughts on IT news.
 </p>
 </center>
@@ -104,7 +106,7 @@ Thank you for you help.
 Studying data and machine learning without any foundation was very difficult.<br/>
 When I lost my way, I received help from the examples of many people who studied earlier. All-In was also successfully customized by referring to various examples and posts.
 <br/>
-I have never asked for help in person and communicated with each other, but I am here to express my gratitude.<br/><br/>
+Although I have never asked for help in person and communicated with each other, but I am here to express my gratitude.<br/><br/>
 <span style="font-weight:bold; color: #F5F5F7">Thank you for Learning Materials</span><br/>
 Professor Sungzoon Cho from SNU<br/>
 Professor Andrew Ng<br/>
