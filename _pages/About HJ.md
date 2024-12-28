@@ -113,9 +113,10 @@ My No.1 Assets. <br/> Planning and Consistency.
 </figure>
 <p style= "width: 90%; font-size: 1.3em">
 Whenever I challenged something, it seemed impossible to achieve at first. <br/>
-However, I realized that thorough planning and being steady are invincible to any hard tasks. The overcoming experiences are the best assets that I have. <br/><br/>
+However, I realized that thorough planning and being steady are invincible to any hard tasks.<br/>
+The overcoming experiences are the best assets that I have. <br/><br/>
   
-<span style="font-weight:bold; color: #F5F5F7;">"Will you find an excuse, or a way?"</span> <br/><br/>
+<span style="font-weight:bold; color: #F5F5F7;">"Which one will you find, an excuse or a way?"</span> <br/><br/>
 I always choose to find a way.
 </p>
 </center>
