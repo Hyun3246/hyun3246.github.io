@@ -15,7 +15,7 @@ date: 2025-01-16
 last_modified_at: 2025-01-16
 
 header:
-  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/Deep Learning Basic Starting with TF.png
+  overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/Predict WAR.png
 ---
 ## Full Article
 [Predict WAR with Classic Stats](https://github.com/Hyun3246/Predict-WAR-with-Classic-Stats/blob/f267cfc73b9c3ecbdfc01bff730d991aac9f7ac7/Predict%20WAR%20with%20Classic%20Stats.pdf)
