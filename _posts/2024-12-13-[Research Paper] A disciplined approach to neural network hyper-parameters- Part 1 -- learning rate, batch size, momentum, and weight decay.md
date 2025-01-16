@@ -52,3 +52,5 @@ header:
        style="width: 80%; height: auto; margin:10px">
 </figure>
 
+
+[Github Link](https://github.com/Hyun3246/Warehouse/tree/cde52a2ac6fd0f437995c99da6127b734eef9687/Papers/A%20disciplined%20approach%20to%20neural%20network%20hyper-parameters%3A%20Part%201%20--%20learning%20rate%2C%20batch%20size%2C%20momentum%2C%20and%20weight%20decay)
