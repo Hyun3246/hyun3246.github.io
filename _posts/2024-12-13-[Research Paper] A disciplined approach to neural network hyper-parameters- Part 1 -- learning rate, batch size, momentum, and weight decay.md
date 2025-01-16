@@ -1,11 +1,11 @@
 ---
 title:  "[Research Paper] A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay"
-excerpt: "선형 회귀와 비용함수"
+excerpt: "Which value or method works well for NN hyperparameters?"
 
 categories:
   - Data Science & ML
 tags:
-  - [Machine Learning,]
+  - [Machine Learning, Deep Learning, Hyperparameter]
 
 use_math: true
 toc: true
