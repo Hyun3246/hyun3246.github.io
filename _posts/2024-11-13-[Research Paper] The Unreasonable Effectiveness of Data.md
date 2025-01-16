@@ -39,4 +39,4 @@ header:
 
 <br/>
 
-[Github Link](https://github.com/Hyun3246/Warehouse/tree/5f1552229a6f2ec200d6176c5f2688f5e8173d85/Papers/Learning%20Representations%20by%20Back-propagating%20Errors)
+[Github Link]([https://github.com/Hyun3246/Warehouse/tree/5f1552229a6f2ec200d6176c5f2688f5e8173d85/Papers/Learning%20Representations%20by%20Back-propagating%20Errors](https://github.com/Hyun3246/Warehouse/tree/ca1f299bd17ba3366d09e4ac7728109f650a5433/Papers/The%20Unreasonable%20Effectiveness%20of%20Data))
