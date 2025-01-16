@@ -5,7 +5,7 @@ excerpt: "Outline of automatic translation utilizing statistical information ext
 categories:
   - Data Science & ML
 tags:
-  - [Machine Learning, Deep Learning]
+  - [Machine Learning, Deep Learning, NLP]
 
 use_math: true
 toc: true
