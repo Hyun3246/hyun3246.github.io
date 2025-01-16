@@ -28,7 +28,7 @@ Wins Above Replacement (WAR) is a widely used metric in baseball. However, it is
 ## Structure of Final Model
 <br/>
 <figure style="display:block; text-align:center;">
-  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Predict-WAR-with-Classic-Stats@master/Figures/Final Structure.png"
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Predict-WAR-with-Classic-Stats@master/Figures/Final Model Graphic.png"
        style="width: 50%; height: auto; margin:10px">
 </figure>
 <br/>
