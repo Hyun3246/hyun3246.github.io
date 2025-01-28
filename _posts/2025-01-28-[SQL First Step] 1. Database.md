@@ -27,7 +27,7 @@ header:
 - Reliability: By using multiple DBMS computers, <span style="color:#F5F5F7">scalability</span> and <span style="color:#F5F5F7">load balancing</span> can be implemented. It is called clustering or scaling out.
     <br/>
     <figure style="display:block; text-align:center;">
-    <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/SQL First Step/DBMS Reliability.png"
+    <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/SQL First Step/DBMS Reliability.png"
         style="width: 40%; height: auto; margin:10px">
     </figure>
     <br/>
