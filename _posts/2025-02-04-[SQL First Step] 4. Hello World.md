@@ -39,14 +39,14 @@ Let's look closely at the command and its format.
 3. `sample21`: A name of a database.
 4. `;`: Semi-colon. Must use at the end of the command.
 
-SQL command consists of multiple phrases. Words such as `SELECT` and `FROM` divides the phrases. They are called <span style="color:#F5F5F7">'reserved words'</span>, which measn the words could not be used as a name of a database.
+SQL command consists of multiple phrases. Words such as `SELECT` and `FROM` divides the phrases. They are called <span style="color:#F5F5F7">'reserved words'</span>, which means the words could not be used as a name of a database.
 
-> In SQL, uppercase and lowercase means the same. For better represenation, use uppercase for reserved words, and lowercase for database.
+> In SQL, uppercase and lowercase means the same. For better representation, use uppercase for reserved words, and lowercase for database.
 
 <br/>
 
 ## Table
-Table is an output of `SELECT `command. It consists of rows and columns. Each column has its own datatype(e.g. numeric, string). One column can have only one datatype.
+Table is an output of `SELECT` command. It consists of rows and columns. Each column has its own datatype(e.g. numeric, string). One column can have only one datatype.
 
 Numeric data is left aligned, and string and date datatype are right aligned.
 
