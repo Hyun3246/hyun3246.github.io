@@ -20,7 +20,7 @@ header:
 ## `SELECT * FROM table_name` and Format of SQL Commands
 `SELECT * FROM table_name` is the most basic command of SQL. It reads data from database.
 
-```bash
+```sql
 mysql> SELECT * FROM sample21;
 +------+-----------+------------+---------------------------+
 | no   | name      | birthday   | address                   |
