@@ -66,7 +66,7 @@ mysql> SELECT * FROM sample33 ORDER BY no DESC LIMIT 3;
 3 rows in set (0.00 sec)
 ```
 
-> Although you can get the same result when using `LIMIT` or `WHERE`, they have totally different functions. `LIMIT` limits the number of returning rows, which is processed finally after procesisng `WHERE`.
+> Although you can get the same result when using `LIMIT` or `WHERE`, they have totally different functions. `LIMIT` limits the number of returning rows, which is processed finally after processing `WHERE`.
 
 <span style="color:#F5F5F7">By setting `OFFSET`, you can choose which row to start</span>. Indexing is similar to python, which stats at 0.
 
