@@ -17,7 +17,7 @@ last_modified_at: 2025-02-08
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/SQL First Step.png
 ---
-# Combining Character
+## Combining Character
 To combine characters use +(SQL Server), ||(Oracle, DB2, PostgreSQL), or `CONCAT`(MySQL).
 
 ```sql
