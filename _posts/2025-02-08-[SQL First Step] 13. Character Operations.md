@@ -44,7 +44,7 @@ mysql> SELECT CONCAT(quantity, unit) FROM sample35;
 
 <br/>
 
-## Extractig Character
+## Extracting Character
 To extract character, use `SUBSTRING`(`SUBSTR` for some products).
 <br/>
 <figure style="display:block; text-align:center;">
