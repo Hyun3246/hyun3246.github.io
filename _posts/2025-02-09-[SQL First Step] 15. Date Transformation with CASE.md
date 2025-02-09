@@ -17,7 +17,7 @@ last_modified_at: 2025-02-09
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/SQL First Step.png
 ---
-# Two Types of `CASE`
+## Two Types of `CASE`
 `CASE` is used to transform data in a desired way. For example, transform 0/1 to 'man'/'woman'.
 
 There are two types of `CASE` phrase.
@@ -39,7 +39,7 @@ CASE WHEN condition_1 THEN result_1
 END
 ```
 
-The most important characterictic of searched CASE is writing condition formulas for each `WHEN`.
+The most important characteristic of searched CASE is writing condition formulas for each `WHEN`.
 
 ```sql
 mysql> SELECT a FROM sample37;
