@@ -56,7 +56,7 @@ mysql> SELECT DATE_FORMAT(CURRENT_TIMESTAMP(), "%Y/%m/%d");
 <br/>
 
 ## Addition and Subtraction of Date
-Use `INTERVAL` to add or subtract specific inverval of date. The following is an example of getting date one day later.
+Use `INTERVAL` to add or subtract specific interval of date. The following is an example of getting date one day later.
 
 ```sql
 mysql> SELECT CURRENT_DATE + INTERVAL 1 DAY;
