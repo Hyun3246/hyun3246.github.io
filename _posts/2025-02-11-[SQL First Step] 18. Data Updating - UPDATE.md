@@ -50,12 +50,12 @@ mysql> SELECT * FROM sample41;
 2 rows in set (0.00 sec)
 ```
 
-If you don't write `WHERE` phrase, all rows will be upddated.
+If you don't write `WHERE` phrase, all rows will be updated.
 
 <br/>
 
 ## Advanced Skills of `UPDATE`
-You can use the existing value as a parameter of `SET`. The following example uses `no` colume to update `no` column.
+You can use the existing value as a parameter of `SET`. The following example uses `no` column to update `no` column.
 
 ```sql
 mysql> UPDATE sample41 SET no=no+1;
