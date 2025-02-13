@@ -35,13 +35,13 @@ Subquery is usually used in `WHERE` phrase.
 <br/>
 
 ## Subquery in `DELETE`
-As the image above, you can delete a row with only one command instead of using two commands separately. THe following command checks the minimum value and delete it at once.
+As the image above, you can delete a row with only one command instead of using two commands separately. The following command checks the minimum value and delete it at once.
 
 ```sql
 DELETE FROM sample54 WHERE a=(SELECT MIN(a) FROM sample54);
 ```
 
-> However, the command above does not work in MySQL. Using the same table in subquery when updating or deleteing is not allowed in MySQL. Instead, use `DELETE FROM sample54 WHERE a=(SELECT a FROM (SELECT MIN(a) AS a FROM sample54) AS x);`
+> However, the command above does not work in MySQL. Using the same table in subquery when updating or deleting is not allowed in MySQL. Instead, use `DELETE FROM sample54 WHERE a=(SELECT a FROM (SELECT MIN(a) AS a FROM sample54) AS x);`
 
 
 <br/>
@@ -111,7 +111,7 @@ The structure of command is called 'nested structure', as `SELECT` command is in
 There are two types of using subquery in `INSERT`.
 
 1. Subquery as a part of `VALUES` <br/>
-    As `VALUES` set values to insert, subqueries in `VALUES` shoule be scalar subqueries.
+    As `VALUES` set values to insert, subqueries in `VALUES` should be scalar subqueries.
 
     ```
     mysql> INSERT INTO sample541 VALUES(
