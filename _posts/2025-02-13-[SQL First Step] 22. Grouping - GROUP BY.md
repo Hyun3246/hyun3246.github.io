@@ -20,7 +20,7 @@ header:
 ## `GROUP BY`
 By using group by, you can group columns and apply aggregate funtions. For example, you can get total sales volume for each branch from sales data.
 
-```SQL
+```sql
 SELECT * FROM table_name GROUP BY col1, col2 ...
 ```
 
