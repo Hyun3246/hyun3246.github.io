@@ -1,5 +1,5 @@
 ---
-title:  "[SQL First Step] 25. Correlated Subquery"
+title:  "[SQL First Step] 24. Correlated Subquery"
 excerpt: "EXISTS, Correlated Subquery, IN"
 
 categories:
