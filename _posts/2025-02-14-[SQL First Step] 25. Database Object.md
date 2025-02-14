@@ -40,7 +40,7 @@ Do not name meaninglessly. As the name of object has nothing to do with the type
 <br/>
 
 ## Schema
-<span style="color:#F5F5F7">Database object is made in 'schema'</span>. Therefore, database in different schema can hava a same name.
+<span style="color:#F5F5F7">Database object is made in 'schema'</span>. Therefore, database in different schema can have a same name.
 <br/>
 <figure style="display:block; text-align:center;">
 <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/SQL First Step/Schema and Database.png"
@@ -48,7 +48,7 @@ Do not name meaninglessly. As the name of object has nothing to do with the type
 </figure>
 <br/>
 
-Schema is definded by DDL(Data Definition Language) of SQL command. In schema, you can define databases.
+Schema is defined by DDL(Data Definition Language) of SQL command. In schema, you can define databases.
 
 > Namespace is a container that prevents components from having a same name. For example, database and schema could be considered as namespaces.
 
