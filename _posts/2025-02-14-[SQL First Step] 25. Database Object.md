@@ -1,5 +1,5 @@
 ---
-title:  "[SQL First Step] 26. Database Object"
+title:  "[SQL First Step] 25. Database Object"
 excerpt: "Database object, Schema"
 
 categories:
