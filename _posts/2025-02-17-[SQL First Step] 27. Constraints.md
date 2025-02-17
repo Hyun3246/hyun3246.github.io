@@ -36,7 +36,7 @@ Query OK, 0 rows affected (0.00 sec)
 
 Look at column b and c. In column b, there are NOT NULL and UNIQUE constraints. In column c, there are no constraints. The constraints which is defined for columns is called 'column constraints'.
 
-You can also set contraints on multiple columns with one constraint. This is called 'table constraints'.
+You can also set constraints on multiple columns with one constraint. This is called 'table constraints'.
 
 ```sql
 mysql> CREATE TABLE sample632(
@@ -53,7 +53,7 @@ The example above is a table constraint. You can set a name of constraint with `
 <br/>
 
 ## Adding Constraints
-You can add contraints to existing tables. Use `ALTER TABLE`.
+You can add constraints to existing tables. Use `ALTER TABLE`.
 
 - Adding Column Constraints <br/>
    When adding column constraints, use `MODIFY` command as the previous chapter.
