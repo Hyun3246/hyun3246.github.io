@@ -18,7 +18,7 @@ header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/SQL First Step.png
 ---
 ## Index
-Index is a seperate database object which stores keywords(for searching) and position of rows. Index makes searching easy, which is similar to that of a book.
+Index is a separate database object which stores keywords(for searching) and position of rows. Index makes searching easy, which is similar to that of a book.
 <br/>
 <figure style="display:block; text-align:center;">
 <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/SQL First Step/Index and table.png"
@@ -26,7 +26,7 @@ Index is a seperate database object which stores keywords(for searching) and pos
 </figure>
 <br/>
 
-Although index is a seperate database, it depends on the original table. Therefore, in most cases, deleting table also removes index database.
+Although index is a separate database, it depends on the original table. Therefore, in most cases, deleting table also removes index database.
 
 
 <br/>
@@ -47,7 +47,7 @@ When searching, looking at all rows is inefficient(full table scan). Therefore, 
 
 However, it is difficult to always sort the index. <span style="color:#F5F5F7">Binary tree</span> solves the problem. Index is usually stored in binary tree structure.
 
-In binary tree, storing and searching value startes at the root node. Basic rule is very simple. Go left side if the value is smaller than the node. Go right in the other case.
+In binary tree, storing and searching value starts at the root node. Basic rule is very simple. Go left side if the value is smaller than the node. Go right in the other case.
 
 For more information, see [here](https://hyun3246.github.io/computer%20science/MIT-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%EC%9D%B4%ED%95%B4-5.-%EC%9D%BC%EC%A0%95-%EC%98%88%EC%95%BD%EA%B3%BC-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC/).
 
