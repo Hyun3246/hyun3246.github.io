@@ -18,7 +18,7 @@ header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/SQL First Step.png
 ---
 ## View
-<span style="color:#F5F5F7">View is a database objectified version of subquery</span>. <span style="color:#F5F5F7">View records `SELECT` command</span>, which is orininally unable to function as a database object.
+<span style="color:#F5F5F7">View is a database objectified version of subquery</span>. <span style="color:#F5F5F7">View records `SELECT` command</span>, which is originally unable to function as a database object.
 
 By using view, you can store complicating `SELECT` commands and easily reuse them.
 
@@ -82,7 +82,7 @@ View doens't occupy storage. <span style="color:#F5F5F7">Whenever view is referr
 
 To solve the temporary storing problem, materialized view was developed. Materialized view is stored in the storage and updated frequently when data changed. However, not all products(including MySQL) support materialized view.
 
-<span style="color:#F5F5F7">Additionally, in principle, SELECT command of view should be executed independently</span>. This limination could be avoided by using function table.
+<span style="color:#F5F5F7">Additionally, in principle, SELECT command of view should be executed independently</span>. This limitation could be avoided by using function table.
 
 
 <br/>
