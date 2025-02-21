@@ -164,7 +164,7 @@ In the `LEFT JOIN` command, write the table which has additional information on 
 
 > There is also `RIGHT JOIN`. The usage is exactly opposite to `LEFT JOIN`.
 
-> There are old joining phrase only using `WHERE` phrase. However, standard SQL recommands to use `INNER JOIN` and `LEFT JOIN` instead.
+> There are old joining phrase only using `WHERE` phrase. However, standard SQL recommends to use `INNER JOIN` and `LEFT JOIN` instead.
 
 
 <br/>
