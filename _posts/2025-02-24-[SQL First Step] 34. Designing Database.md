@@ -18,7 +18,7 @@ header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay image/SQL First Step.png
 ---
 ## Designing Database
-Desining database means defining database objects such as table, index, view in the schema of database.
+Designing database means defining database objects such as table, index, view in the schema of database.
 
 The major part of database design is to decide the name of table and columns and its datatype. You should also consider the relationship between multiple tables.
 
