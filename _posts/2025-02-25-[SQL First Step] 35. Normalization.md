@@ -51,9 +51,9 @@ In relational database, one cell can store one value. Therefore, '주문상품' 
 </figure>
 <br/>
 
-As the example above, increasing rows by separating duplicated data is called <span style="color:#F5F5F7">'the first step of first noraml form'</span>.
+As the example above, increasing rows by separating duplicated data is called <span style="color:#F5F5F7">'the first step of first normal form'</span>.
 
-Table split is also conducted in first noraml form. The purpose of splitting is to prevent the duplicated information. In the example, the table can be divided into two table, one for order info and the other for ordered product info.
+Table split is also conducted in first normal form. The purpose of splitting is to prevent the duplicated information. In the example, the table can be divided into two table, one for order info and the other for ordered product info.
 <br/>
 <figure style="display:block; text-align:center;">
 <img src="https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/SQL First Step/1NF example 3.png"
