@@ -35,11 +35,12 @@ Introducing backpropagation, simple and powerful method to train neural network.
     - output $y_j = \frac{1}{1+e^{-x_j}}$ (use non linear function)
 
 2. Backpropagation
-    1) Define Error <br/>
-        $y$: actual state, $d$: desired state
+    1. Define Error <br/>
+        $y$: actual state, $d$: desired state <br/>
        
         $E = \frac{1}{2}\sum_{c} \sum_{j}{(y_{j, c} - d_{j, c})^2}$ (c is an index over cases, j is an index over output units)
-    2) Compute derivatives
+       
+    2. Compute derivatives
 
         Our goal is to compute $\frac{\partial E}{\partial w_{ji}}$, which shows 'how much should we change the parameters to get a good fit?'
 
@@ -61,16 +62,16 @@ Introducing backpropagation, simple and powerful method to train neural network.
 
         And the same process continues until reaching the first layer.
 
-    3) Update Parameters
+    3. Update Parameters
 
         Authors suggested two ways to update parameters. ($\epsilon$: learning rate)
 
-        a) Simple Version
+        a. Simple Version
         Does not converge rapidly than using second derivatives.
 
         $$\Delta w = - \epsilon \frac{\partial E}{\partial w}$$
 
-        b) Improved Version (Momentum)
+        b. Improved Version (Momentum)
         By using an acceleration method in which the current gradient is used to modify the velocity of the point in weight space instead of its position ($t$ is a step size). In other words, the following formula considers not only the current position, but also the rate of previous step ($\Delta w(t-1)$). Therefore, the gradient descent step can follow the steepest direction more reliably.
 
         $$\Delta w(t) = - \epsilon \frac{\partial E}{\partial w(t)} + \alpha \Delta w(t-1)$$
