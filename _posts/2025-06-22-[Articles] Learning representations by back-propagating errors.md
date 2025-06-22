@@ -37,7 +37,7 @@ Introducing backpropagation, simple and powerful method to train neural network.
 2. Backpropagation
     1) Define Error <br/>
         $y$: actual state, $d$: desired state
-
+       
         $E = \frac{1}{2}\sum_{c} \sum_{j}{(y_{j, c} - d_{j, c})^2}$ (c is an index over cases, j is an index over output units)
     2) Compute derivatives
 
