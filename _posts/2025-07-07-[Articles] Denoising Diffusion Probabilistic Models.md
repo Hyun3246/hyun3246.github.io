@@ -47,7 +47,10 @@ $p_{\theta}(x_{0:T}) := p(x_{T})\prod_{t=1}^{T}p_{\theta}(x_{t-1}|x_{t}), \quad 
 - $p_{\theta}(x_{t-1} \vert x_{t})$: the prediction of mean and variance of step by using the data of current step.
 
 #### 3. Loss Function
-$\mathbb{E}\[-\log p_{\theta}(x_{0})\] \le E_{q}\[-\log\frac{p_{\theta}(x_{0:T})}{q(x_{1:T}|x_{0})}\] = \mathbb{E}_{q}\[-\log p(x_{T}) - \sum_{t \ge 1}\log\frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t}|x_{t-1})}\] =:L$
+$$
+\mathbb{E}\left[-\log p_{\theta}(x_{0})\right] \le E_{q}\left[-\log\frac{p_{\theta}(x_{0:T})}{q(x_{1:T}|x_{0})}\right] = \mathbb{E}_{q}\left[-\log p(x_{T}) - \sum_{t \ge 1}\log\frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t}|x_{t-1})}\right] =:L
+$$
+
 Although the equation is complex, the purpose is clear. It is to minimize the difference between the forward process $q(x_{t}|x_{t-1})$ and reverse process $p_{\theta}(x_{t-1}|x_{t})$. However, the authors used an improved version of equation (3) for computational convenience.
 
 $$
@@ -61,21 +64,23 @@ $$
 ### 3. Reverse Process and L_{1:T-1}
 What should the reverse process predict? Authors let $\Sigma_{\theta}$ in equation (1) as a constant. Therefore, a parameter that the model should predict is $\mu_{\theta}$ (mean). Through several loss function analysis and reparameterizing, authors figured out that mean $\mu_{\theta}$ can be represented as a following equation. The equation (11) shows that the only thing the model should predict is $\epsilon$ (a random noise vector from Gaussian distribution), because $x_t$ is given.
 
-$\mu_{\theta}(x_{t},t) = \frac{1}{\sqrt{\alpha_{t}}}(x_{t} - \frac{\beta_{t}}{\sqrt{1-\overline{\alpha}_{t}}}\epsilon_{\theta}(x_{t},t))$
+$$
+\mu_{\theta}(x_{t},t) = \frac{1}{\sqrt{\alpha_{t}}}\left(x_{t} - \frac{\beta_{t}}{\sqrt{1-\overline{\alpha}\_{t}}} \epsilon_{\theta}(x_{t},t)\right)
+$$
 
 By further simplification, loss function can be represented as a follow.
 
 $$
-\mathbb{E}_{x_{0},\epsilon}\left[\frac{\beta_{t}^{2}}{2\sigma_{t}^{2}\alpha_{t}(1-\overline{\alpha}_{t})} \left\| \epsilon - \epsilon_{\theta}(\sqrt{\overline{\alpha}_{t}}x_{0}+\sqrt{1-\overline{\alpha}_{t}}\epsilon,t) \right\|^{2}\right]
+\mathbb{E}_{x_{0},\epsilon}\left[\frac{\beta_{t}^{2}}{2\sigma_{t}^{2}\alpha_{t}(1-\overline{\alpha}\_{t})} \left\| \epsilon - \epsilon_{\theta}(\sqrt{\overline{\alpha}\_{t}}x_{0}+\sqrt{1-\overline{\alpha}_{t}}\epsilon,t) \right\|^{2}\right]
 $$
 
 What reverse process should predict is, therefore, a noise $\epsilon$.
 
 ### 4. Simplified Training Objective
-In equation (12), you can see the complex weight $\frac{\beta_{t}^{2}}{2\sigma_{t}^{2}\alpha_{t}(1-\overline{\alpha}_{t})}$. When t grows, $(1-\overline{\alpha}_{t})$ grows. This can make the weight small when t is large, which is not efficient to focus much harder problem(more noisy image). Therefore, authors removed the weight and simplified the loss function.
+In equation (12), you can see the complex weight $\frac{\beta_{t}^{2}}{2\sigma_{t}^{2}\alpha_{t}(1-\overline{\alpha}\_{t})}$. When t grows, $(1-\overline{\alpha}_{t})$ grows. This can make the weight small when t is large, which is not efficient to focus much harder problem(more noisy image). Therefore, authors removed the weight and simplified the loss function.
 
 $$
-L_{simple}(\theta) := E_{t,x_{0},\epsilon}[\|\epsilon-\epsilon_{\theta}(\sqrt{\overline{\alpha}_{t}}x_{0}+\sqrt{1-\overline{\alpha}_{t}}\epsilon,t)\|^{2}]
+L_{simple}(\theta) := E_{t,x_{0},\epsilon}[\|\epsilon-\epsilon_{\theta}(\sqrt{\overline{\alpha}\_{t}}x_{0}+\sqrt{1-\overline{\alpha}_{t}}\epsilon,t)\|^{2}]
 $$
 
 This can make the model to focus on harder problems with much of noise (when t is large).
