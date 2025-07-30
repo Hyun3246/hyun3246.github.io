@@ -32,7 +32,6 @@ header:
 ### 1. Monte Carlo tree search (MCTS)
 Monte Carlo tree search(MCTS) uses Monte Carlo rollouts to estimate the value of each state in a search tree. The more the simulations are executed, the more accurate the values are.
 
----
 
 ### 2. Pipeline (Architecture)
 
@@ -41,7 +40,7 @@ Monte Carlo tree search(MCTS) uses Monte Carlo rollouts to estimate the value of
 - **Steps**:
   - (1) Prepare 13 layers of deep CNN and 30 millions of data.
   - (2) Train the network by assuming the input data as 19 by 19 image.
-  - (3) Update parameters to maximize(gradient ascent) the probability $p_{\sigma}(a|s)$, where s is a given state, and a in an answer movement.
+  - (3) Update parameters to maximize(gradient ascent) the probability $p_{\sigma}(a \vert s)$, where s is a given state, and a in an answer movement.
 - **Achieved** prediction accuracy of 57.0%, which is the highest number of the time.
 
 #### 2. Rollout policy $(p_{\pi})$
@@ -71,7 +70,6 @@ Monte Carlo tree search(MCTS) uses Monte Carlo rollouts to estimate the value of
   - (5) To mitigate overfitting problem of memorizing the results, use self play results.
 - **Achieved** powerful accuracy whose one evaluation is similar to thousands of rollout simulations.
 
----
 
 ### 3. Deciding the Best Move (MCTS Integration)
 (To understand this mechanism, it is important to understand the four steps below in an integrated manner, not a step by step separately.)
@@ -102,7 +100,6 @@ How do we select the best move? We choose the most visited edge from the root, n
 Why the most visited? Because it decreases the impact of outliers, low visits with only one great scenario.
 As mentioned above, the updated action value is used in step 1.
 
----
 
 ### 4. Experiments & Ablation Studies
 
