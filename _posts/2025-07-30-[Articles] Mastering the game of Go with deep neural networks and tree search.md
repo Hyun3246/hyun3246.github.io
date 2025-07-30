@@ -57,7 +57,7 @@ Monte Carlo tree search(MCTS) uses Monte Carlo rollouts to estimate the value of
   - (3) No reward until the game is over.
   - (4) If the game is over, weighs are updated as a following formula for each time step t.
     $\Delta\rho\propto\frac{\partial log~p_{\rho}(a_{t}|s_{t})}{\partial\rho}z_{t}$ where $z_{t}=1$ for winning, -1 for losing.
-- A movement with low probability at time t, $log~p_{\rho}(a_{t}|s_{t})$, can have a high gradient because of log function. It's natural for the network to learn that suspicious moves have a high probability of winning.
+- A movement with low probability at time t, $log~p_{\rho}(a_{t} \vert s_{t})$, can have a high gradient because of log function. It's natural for the network to learn that suspicious moves have a high probability of winning.
 - **Won** more than 80% of games against SL policy network.
 - **Won** 85% against the most powerful open source Go program Pachi.
 
