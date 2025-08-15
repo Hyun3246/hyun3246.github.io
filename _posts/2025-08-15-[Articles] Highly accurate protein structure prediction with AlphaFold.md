@@ -49,18 +49,18 @@ header:
 #### 1. Evoformer
 - Combine MSA and Pair representation to make a reasoning based on spatial and evolutionary relationships.
 - Steps: Below three steps are conducted not once, but continuously.
-    (1) Update pair representation matrix by using MSA information. (element-wise outer product)
-    (2) Within pair representation, update it in terms of triangles of edges involving three different nodes. By using triangles, you can apply various constraints (e.g. triangular inequality) to figure out unknown information (edge).
-    (3) Apply updated pair representation to MSA.
+    - (1) Update pair representation matrix by using MSA information. (element-wise outer product)
+    - (2) Within pair representation, update it in terms of triangles of edges involving three different nodes. By using triangles, you can apply various constraints (e.g. triangular inequality) to figure out unknown information (edge).
+    - (3) Apply updated pair representation to MSA.
 
 #### 2. Structure Module
 - Steps:
-    (1) Handle each amino acid separately (residue gas). They start with overlapped state in origin(0, 0, 0), and no rotation.
-    (2) Apply Invariant Point Attention(IPA). This adds 3D information of amino acids to Q(query), K(key), V(value) of attention mechanism, without changing their own positions. This process allows to focus on near amino acids, just like the attention mechanism in a sentence. This step 2 is the core of equivariant, which means no need for additional computations when the input is rotated.
-    (3) The formation of correct peptide bond geometry, which connects the protein backbone, is encouraged by a violation loss term.
-    (4) Side-chain χ angles, pLDDT, PTM scores are calculated.
-    (5) Compute the final loss by using Frame-Aligned Point Error(FAPE). In other words, fix one amino acid and calculate the distance difference of the others.
-    (6) After prediction, apply Amber force field to get a better structure image.
+    - (1) Handle each amino acid separately (residue gas). They start with overlapped state in origin(0, 0, 0), and no rotation.
+    - (2) Apply Invariant Point Attention(IPA). This adds 3D information of amino acids to Q(query), K(key), V(value) of attention mechanism, without changing their own positions. This process allows to focus on near amino acids, just like the attention mechanism in a sentence. This step 2 is the core of equivariant, which means no need for additional computations when the input is rotated.
+    - (3) The formation of correct peptide bond geometry, which connects the protein backbone, is encouraged by a violation loss term.
+    - (4) Side-chain χ angles, pLDDT, PTM scores are calculated.
+    - (5) Compute the final loss by using Frame-Aligned Point Error(FAPE). In other words, fix one amino acid and calculate the distance difference of the others.
+    - (6) After prediction, apply Amber force field to get a better structure image.
 
 ### 3. Figures & Table Explanation
 
@@ -86,4 +86,5 @@ header:
 ## Limitations & Possibility for Further Research
 1. If MSA is less than 30 sequence, accuracy drops dramatically. MSA is needed to find the correct structure in the aearly stage. However, for MSAs with over 100 sequences, the improvement in accuracy becomes marginal.
 2. Low accuracy when (# heterotypic contacts > # intra-chain or homotypic contacts). As AlphaFold uses only one chain as an input, proteins whose structures are determined by the interaction with others could not be predicted accurately. However, there are also exceptions (Figure 5b).
+
 3. Possible to apply in larger scale, such as human genome.
