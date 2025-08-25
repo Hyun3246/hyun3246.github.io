@@ -38,10 +38,15 @@ Training consists of two parts: unsupervised pre-training and supervised fine-tu
 #### 1. Unsupervised Pre-Training
 - **Purpose**: Learning universal representation that needs little adaptation to various tasks.
 - **Objective function**: Maximize the following formula, which represents the conditional likelihood of i-th token u_i, when only the previous tokens u_{i-k},...,u_{i-1} are given.
+  
   $L_{1}(\mathbb{U})=\sum_{i}log~P(u_{i}|u_{i-k},...,u_{i-1};\Theta).$
+  
 - **Specific Steps**:
+  
   $h_{0}=U~W_{e}+W_{P}$
-  $h_{l}=\text{transformer\_block}(h_{l-1}) \forall i \in [1,n]$
+  
+  $h_{l}=\text{transformer block}(h_{l-1}) \forall i \in [1,n]$
+  
   $P(u)=\text{softmax}(h_{n}W_{e}^{T})$
 
 #### 2. Supervised Fine-Tuning
@@ -52,11 +57,17 @@ Training consists of two parts: unsupervised pre-training and supervised fine-tu
     (3) Output of step 2 goes into a layer(with parameters $W_{y}$), which is a special layer for a specific task.
     (4) Final label y is achieved.
 - **Computing probability**: In fine-tuning, it is important to exactly predict the label y of a task. The probability is computed as:
+  
   $P(y|x^{1},...,x^{m})=\text{softmax}(h_{l}^{m}W_{y}).$
+  
 - **Objective function**: Maximize the following formula, which represents the probability of label y, when the whole sentence are given.
+  
   $L_{2}(\mathbb{G})=\sum_{(x,y)}log~P(y|x^{1},...,x^{m}).$
+  
 - **Final objective function with auxiliary objective**: To prevent the model to forget the basic knowledge gained from pre-training, adding an auxiliary objective is helpful. Therefore, the final objective is a mix(ratio λ) of the two objectives above.
+  
   $L_{3}(\mathbb{G})=L_{2}(\mathbb{G})+\lambda*L_{1}(\mathbb{G})$
+  
 - **Task-specific input transformations**: By modifying input formats, there was no need to change the model architecture when applying to multiple types of tasks.
 
 <br/>
@@ -81,4 +92,5 @@ Training consists of two parts: unsupervised pre-training and supervised fine-tu
 - **Right**: Zero-shot performance of GPT model. As pre-training performed, performance for specific tasks also increased.
 
 ### 5. Table 5: Ablation study results.
+
 - Three things were targeted: Auxiliary objective, Transformer architecture, and Pre-training. All of them were important.
