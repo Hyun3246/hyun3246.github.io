@@ -4,8 +4,6 @@ main:
     sublinks:
       - title: About HJ
         url: /about-hj/
-      - title: About All-In
-        url: /about-all-in/
       - title: Dashboard
         url: /dashboard/
   - title: "Data Science & ML"
