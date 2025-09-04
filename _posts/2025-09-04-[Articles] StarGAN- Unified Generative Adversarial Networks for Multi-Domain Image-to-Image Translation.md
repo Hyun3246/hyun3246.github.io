@@ -43,7 +43,7 @@ Like a standard GAN, it has a Generator (G) and a Discriminator (D). G generates
 #### 1. Adversarial Loss
 This loss is similar to the original GAN objective, but includes the target domain label c. G tries to minimize the objective, while D tries to maximize it.
 
-$$ L\_{adv} = \mathbb{E}\_ {x} \big [ \log D\_{\text{src}}(x) \big] + \mathbb{E}\_{x,c}\big[ \log \big( 1 - D\_{\text{src}}(G(x,c)) \big) \big] $$
+$$ L\_{adv} = \mathbb{E}\_ {x} \big [ \log D\_{\mathrm{src}}(x) \big] + \mathbb{E}\_{x,c}\big[ \log \big( 1 - D\_{\mathrm{src}}(G(x,c)) \big) \big] $$
 
 
 - $D_{src}(x)$: The probability that D classifies a real image x as real.
@@ -51,23 +51,23 @@ $$ L\_{adv} = \mathbb{E}\_ {x} \big [ \log D\_{\text{src}}(x) \big] + \mathbb{E}
 - The generator G wants to make $D_{src}(G(x,c))$ go to 1 (fooling the discriminator), which makes the second term go to -∞, thus minimizing the overall objective.
 - The formula is often replaced with the Wasserstein GAN objective with gradient penalty for stable training:
   
-  $$L_{adv} = \mathbb{E}\_{x} \[D_{src}(x)\] - \mathbb{E}\_{x,c} \[D_{src}(G(x,c))\] - \lambda_{gp}E_{\hat{x}}\[(\vert \vert \nabla_{\hat{x}}D_{src}(\hat{x}) \vert \vert _{2}-1)^{2}\]$$
+$$ L\_{adv} = \mathbb{E}\_{x} \big[ D\_{src}(x) \big] - \mathbb{E}\_{x,c} \big[ D\_{src}(G(x,c)) \big] - \lambda\_{gp}\mathbb{E}\_{\hat{x}}\big[(\lVert \nabla\_{\hat{x}}D\_{src}(\hat{x}) \rVert\_{2}-1)^{2}\big] $$
 
 #### 2. Domain Classification Loss
 An auxiliary objective is added to ensure generated images are classified as the target domain. It is split into two parts for D and G.
 
 - **For Discriminator (D)**: D is trained to correctly classify a real image to its original domain $c'$. D minimizes this loss.
   
-  $$L_{cls}^{r} = \mathbb{E}_{x,c'} \[-log~D \_{cls}(c'\vert x)\]$$
+  $$ L\_{cls}^{r} = \mathbb{E}\_{x,c'} \big[ -\log D\_{cls}(c'|x) \big] $$
   
 - **For Generator (G)**: G is trained to generate images that D will classify as the target domain c. G also minimizes this loss.
   
-  $$L_{cls}^{f} = \mathbb{E}_{x,c}\[-log~D\_{cls}(c \vert G(x,c))\]$$
+  $$ L\_{cls}^{f} = \mathbb{E}\_{x,c} \big[ -\log D\_{cls}(c | G(x,c)) \big] $$
 
 #### 3. Reconstruction Loss
 To ensure the generator only changes the target domain attributes while preserving other content, a cycle consistency loss is added.
 
-$$L_{rec} = \mathbb{E}\_{x,c,c'}\[\vert \vert x - G(G(x,c),c')\vert \vert _{1}\]$$
+$$ L\_{rec} = \mathbb{E}\_{x,c,c'} \big[ \lVert x - G(G(x,c),c') \rVert\_{1} \big] $$
 
 - **Steps**:
     (1) Generate an image $G(x,c)$ by translating the input image x to the target domain c.
@@ -84,7 +84,7 @@ The final objectives for D and G combine the losses above, with hyperparameters 
 #### 1. Mask Vector
 To handle multiple datasets with different sets of labels, a mask vector m is introduced. It allows the model to ignore unspecified labels and focus on the labels provided by a particular dataset. The unified label is represented as:
 
-$$\tilde{c}=\[c_{1},...,c_{n},m\]$$
+$$ \tilde{c}=[c\_{1}, \ldots, c\_{n}, m] $$
 
 - $c_{i}$: A vector for the labels of the i-th dataset.
 - m: A one-hot vector indicating which dataset the image comes from.
@@ -111,5 +111,6 @@ When training with an image from a specific dataset, the discriminator D tries t
 - **Results (Fig. 6)**: The jointly trained model (StarGAN-JNT) produced higher quality images than the model trained only on a single dataset (StarGAN-SNG).
 
 - **Mask Vector Role (Fig. 7)**: An experiment showed that providing the wrong mask vector (e.g., telling the model to use CelebA labels when an expression label was given) caused the model to ignore the expression and instead modify a CelebA attribute (age). This confirmed the mask vector works as intended, forcing the model to focus only on labels from the designated dataset.
+
 
 
