@@ -55,7 +55,7 @@ RevIN is symmetrical. Normalize and denormalize. It works like encoder(normaliza
     </figure>
     <br/>
 
-    $\gamme$, $\beta$: learnable affine parameter vectors
+    $\gamma$, $\beta$: learnable affine parameter vectors
 
 - **2. Forecast Future**
   As the non-stationary features are removed in normalization, normalized sequence is more consistent. Make a prediction by using the data.
@@ -93,6 +93,7 @@ RevIN was the lowest MSE error, and it is the best both in the performance and t
 
 ### 5. Figure 5: Feature divergence alleviation of RevIN.
 Feature divergence is a difference of statistical distribution of features which are created inside the model layers. High feature divergence of train and test set means that the model recognizes the two sets are totally different. By using Revln, feature divergence decreased across train and test set.
+
 
 
 
