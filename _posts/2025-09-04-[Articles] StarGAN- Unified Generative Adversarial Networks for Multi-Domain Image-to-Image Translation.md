@@ -65,9 +65,10 @@ There are three objective functions (loss) in StarGAN.
   <br/>
 
 - **2. Domain Classification Loss**
-To make the model which is also good at targeting domain, authors added an auxiliary objective which is composed of two terms.
+  
+  To make the model which is also good at targeting domain, authors added an auxiliary objective which is composed of two terms.
 
-The first one is for D, to make D be good at guessing a desired domain. D should minimize the objective.
+  The first one is for D, to make D be good at guessing a desired domain. D should minimize the objective.
   <br/>
     <figure style="display:block; text-align:center;">
     <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/StarGAN/StarGAN Equation 3.png"
@@ -76,21 +77,22 @@ The first one is for D, to make D be good at guessing a desired domain. D should
 
   - $D_{cls}(c^{\prime}\vert x)$ the probability distribution over original domain labels(c') computed by D.
 
-The second term is for G, to make G draw an image to fit the ordered domain. G should minimize the objective.
-
-<figure style="display:block; text-align:center;">
-<img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/StarGAN/StarGAN Equation 4.png"
-    style="width: 30%; height: auto; margin:5px">
-</figure>
+  The second term is for G, to make G draw an image to fit the ordered domain. G should minimize the objective.
+  
+  <figure style="display:block; text-align:center;">
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/StarGAN/StarGAN Equation 4.png"
+      style="width: 30%; height: auto; margin:5px">
+  </figure>
 
 
 - **3. Reconstruction Loss**
-The two loss above does not guarantee G to make an image only targeted domains are changed and the other attributes are preserved. To alleviate the problem, G has one additional objective, which is called a cycle consistency loss.
-<br/>
-<figure style="display:block; text-align:center;">
-<img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/StarGAN/StarGAN Equation 5.png"
-    style="width: 30%; height: auto; margin:10px">
-</figure>
+  
+  The two loss above does not guarantee G to make an image only targeted domains are changed and the other attributes are preserved. To alleviate the problem, G has one additional objective, which is called a cycle consistency loss.
+  <br/>
+  <figure style="display:block; text-align:center;">
+  <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/StarGAN/StarGAN Equation 5.png"
+      style="width: 30%; height: auto; margin:10px">
+  </figure>
 
 
   - **Steps**:
@@ -99,7 +101,8 @@ The two loss above does not guarantee G to make an image only targeted domains a
     3. If G can preserve untouched attributes, the generated image of step 2 should be similar to the original image. The, the difference will become small.
 
 - **Full objective**
-$S_{D}$ for D, and ${}_{G}$ for G.
+  
+  $S_{D}$ for D, and ${}_{G}$ for G.
   <br/>
     <figure style="display:block; text-align:center;">
     <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/StarGAN/StarGAN Equation 6.png"
@@ -110,7 +113,8 @@ $S_{D}$ for D, and ${}_{G}$ for G.
 
 ### 4. More About Training
 - **1. Mask Vector**
-When training on multiple datasets, those datasets can have different attributes. This is a problem because complete information is needed in the objective function. To alleviate this problem, authors used a mask vector m to let StarGAN ignore unspecified labels. The label is represented as:
+  
+  When training on multiple datasets, those datasets can have different attributes. This is a problem because complete information is needed in the objective function. To alleviate this problem, authors used a mask vector m to let StarGAN ignore unspecified labels. The label is represented as:
 
 
     <figure style="display:block; text-align:center;">
@@ -121,10 +125,11 @@ When training on multiple datasets, those datasets can have different attributes
 
   - $c_{i}$ a binary vector or one-hot vector for attributes of i-th dataset
   - m (mask vector): a one-hot vector represents which dataset the image comes from.
-In this article, authors used two different dataset, so n is 2.
+  In this article, authors used two different dataset, so n is 2.
 
 - **2. Training Strategy**
-During training, D tries to minimize only the classification error associated with known label. By alternating between multiple datasets, D learns all features from all datasets and G learns to control all labels.
+  
+  During training, D tries to minimize only the classification error associated with known label. By alternating between multiple datasets, D learns all features from all datasets and G learns to control all labels.
 
 <br/>
 
@@ -153,4 +158,5 @@ Both dataset were used to learn from multiple datasets. The results of joint Sta
 
 
 Then authors changed the mask vector from proper mask (0, 1) to wrong mask (1, 0). As the mask vector were changed, wrong information from vector $c_{i}$ were used and the age(which is an attribute of CelebA) of face were changed. This result shows that mask vector works as intended (use information only from designated dataset).
+
 
