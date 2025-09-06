@@ -40,7 +40,7 @@ RevIN is symmetrical. Normalize and denormalize. It works like encoder(normaliza
   <br/>
     <figure style="display:block; text-align:center;">
     <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/RevIN/RevIN Equation 1.png"
-        style="width: 70%; height: auto; margin:10px">
+        style="width: 70%; height: auto; margin:5px">
     </figure>
     <br/>
 
@@ -48,10 +48,9 @@ RevIN is symmetrical. Normalize and denormalize. It works like encoder(normaliza
 
     Input is transformed by using the above two terms.
 
-    <br/>
     <figure style="display:block; text-align:center;">
     <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/RevIN/RevIN Equation 2.png"
-        style="width: 70%; height: auto; margin:10px">
+        style="width: 50%; height: auto; margin:5px">
     </figure>
     <br/>
 
@@ -65,11 +64,9 @@ RevIN is symmetrical. Normalize and denormalize. It works like encoder(normaliza
   <br/>
     <figure style="display:block; text-align:center;">
     <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/RevIN/RevIN Equation 3.png"
-        style="width: 70%; height: auto; margin:10px">
+        style="width: 50%; height: auto; margin:5px">
     </figure>
     <br/>
-
-<br/>
 
 ## Figures & Table Explanation
 
@@ -93,6 +90,7 @@ RevIN was the lowest MSE error, and it is the best both in the performance and t
 
 ### 5. Figure 5: Feature divergence alleviation of RevIN.
 Feature divergence is a difference of statistical distribution of features which are created inside the model layers. High feature divergence of train and test set means that the model recognizes the two sets are totally different. By using Revln, feature divergence decreased across train and test set.
+
 
 
 
