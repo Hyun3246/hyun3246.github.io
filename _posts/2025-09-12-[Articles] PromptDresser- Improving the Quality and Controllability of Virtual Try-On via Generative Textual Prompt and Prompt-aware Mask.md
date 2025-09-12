@@ -52,7 +52,7 @@ LDM consists of three components
 Details of components:
 - VAE Encoder: Encodes an image x into a low-dimensional latent space. $z_{0}=\delta(x)$
 - VAE Decoder: Changes latent space vector back to RGB space. $\hat{x}=\$(z_{0})$
-- U-Net: Trained to predict the original noise e from the noised latent variable $z_{t}=\mathcal{N}(z_{t};\sqrt{\overline{\alpha_{t}}}z_{0},(1-\overline{\alpha}_{t})I)$, where $\overline{\alpha}_{t}=\Pi_{s=1}^{t}(1-\beta_{s}),(\beta_{t})_{t=0}^{T}$ (noise at step 1). By subtracting this predicted noise, it can restore $z_{0}$
+- U-Net: Trained to predict the original noise e from the noised latent variable $z_{t}$. By subtracting this predicted noise, it can restore $z_{0}$
 - Loss function of LDM: Minimize the difference between original noise($\epsilon$) and predicted noise
 
 
@@ -112,4 +112,5 @@ Figure 4 is the result without PMG. Without PMG, the coarse mask was often inacc
 Baseline model couldn't layer the outerwear, removing the existing clothing and fit the outerwear to the area. However, PromptDresser could layer the new clothing on the existing inner wear.
 
 ### 6. Figure 8: Results of user study.
+
 Forty participants rated several models on two datasets (Figure 8a, b). And they also checked whether the result is aligned with the prompts (Figure 8c). PromptDresser was the best.
