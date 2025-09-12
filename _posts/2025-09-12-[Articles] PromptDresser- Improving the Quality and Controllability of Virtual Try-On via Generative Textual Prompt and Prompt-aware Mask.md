@@ -67,10 +67,15 @@ Details of components:
 #### 2. Overall Framework
 Steps:
 (1) LMMs produce text prompts of the input image by using given attributes. One produces text prompts (main prompt) just about a person(e.g. pose) and the other produces text prompts (reference prompt) about clothings.
+
 (2) Main prompt is processed by text encoder and goes into the main U-Net as a condition which the NN should follow.
+
 (3) Reference prompt is processed by text encoder and goes into reference U-Net as a condition which the NN should follow.
+
 (4) Reference U-Net is a frozen net, preserves the details of clothings.
+
 (5) After an input image of a clothing is processed through the reference U-Net, their layers are concatenated to the corresponding layers of main U-Net.
+
 (6) Main U-Net generates the final output image.
 
 Inputs of Main U-Net
@@ -98,7 +103,7 @@ Prompt-aware mask generation is used during inference (actual use). By using an 
 
 ### 2. Figure 4, Figure 5, Table 1, Table 2: Qualitative and quantitative evaluation of PromptDresser and other baselines.
 PromptDresser generated the best quality image. It especially removed the shape of existing clothings (Figure 5), which is not good at other baselines.
-In quantitative evaluation, PromptDresser was good at unpaired (no answer) test, FID and KID. By adding DensePose (pose-specialized NN), $it(Ours_{pose})$ was also good at paired (answer images exist) text. However, Ourspose was not good at unpaired test, authors decided not to use pose-specified conditioning.
+In quantitative evaluation, PromptDresser was good at unpaired (no answer) test, FID and KID. By adding DensePose (pose-specialized NN), it($Ours_{pose}$) was also good at paired (answer images exist) text. However, Ourspose was not good at unpaired test, authors decided not to use pose-specified conditioning.
 Table 2 is also a quantitative comparison on the other dataset. It shows the result according to the part of a body.
 
 ### 3. Table 3: Results of text alignment test.
@@ -114,3 +119,4 @@ Baseline model couldn't layer the outerwear, removing the existing clothing and 
 ### 6. Figure 8: Results of user study.
 
 Forty participants rated several models on two datasets (Figure 8a, b). And they also checked whether the result is aligned with the prompts (Figure 8c). PromptDresser was the best.
+
