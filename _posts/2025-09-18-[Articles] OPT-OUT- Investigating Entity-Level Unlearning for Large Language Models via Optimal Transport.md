@@ -120,7 +120,7 @@ However, due to too high time and space complexity, the Sliced Wasserstein Dista
 </figure>
 
 - $\mathcal{U}(\mathbb{S}^{d-1})$: uniform distribution on the unit sphere $\mathbb{R}^{d}$
-- $u_{\#\theta}, u_{\#\theta_{0}}$: pushforwards(move the distribution by pushing) of the projections of and $\theta_{0}$ along the direction of $u \in \mathbb{S}^{d-1}$.
+- u_{\#\theta}, u_{\#\theta_{0}}: pushforwards(move the distribution by pushing) of the projections of and $\theta_{0}$ along the direction of $u \in \mathbb{S}^{d-1}$.
 
 #### 5. Overall Loss
 The final loss is as a following equation.
@@ -166,3 +166,4 @@ Without neighboring data augmentation, the model had a hard time differentiating
 2. **Susceptible to generating gibberish(impossible to understand) post-learning.** After unlearning, the method that author used was susceptible to generating gibberish. Combining with IDK(I Don't Know, answering I don't know instead of gibberish) method or remapping outputs could solve this.
 
 3. **Unable to test at large scale model.** More exploration for unlearning techniques is needed.
+
