@@ -82,34 +82,40 @@ Authors also explicitly trained with a retain set.
 #### 4. OPT-OUT with Wasserstein regularization
 OPT-OUT is a fine-grained unlearning approach grounded in optimal transport theory. One of the optimal transport theories is the Wasserstein distance and authors used it in the way of the Wasserstein regularization.
 - **The Wasserstein distance (Earth Mover's Distance)**: Address optimal transport problem by measuring the minimum effort required to move one distribution of mass to another.
+  
 Authors thought that the Wasserstein distance can estimate the optimal transportation cost between parameters. A theoretical optimal solution $\pi^{*}$ of the Wasserstein distance is as follows.
-$\pi^{*}=arg~min_{\pi\in\mathbb{I}(\mu,\nu)}\int_{\mathbb{R}\times\mathbb{Y}}c(x,y)\pi(x,y)dxdy$
-- $\mu$: a source distribution, sampled from probability space $\mathbb{X}\in\Omega$
-- $\eta$: a target distribution, sampled from probability space $\mathbb{Y}\in\Omega$
-- $\pi \in \mathcal{P}(\mathbb{X} \times \mathbb{Y})$: a probabilistic coupling, in other words, all possible solutions.
-- $\Pi(\mu, \nu) = \left\{ \int_{\mathbb{Y}} \pi(x,y) dy = \mu, \int_{\mathbb{X}} \pi(x,y) dx = \nu, \pi \ge 0 \right\}$
-- $c(x,y)$: a cost function that quantifies the movement of x to y.
-The above formula is changed into discrete version.
 
 <figure style="display:block; text-align:center;">
 <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/OPT-OUT/OPT-OUT Equation 4.png"
     style="width: 50%; height: auto; margin:5px">
 </figure>
 
-- $\gamma^{*}$: an optimal solution.
-- $C \in \mathbb{R}_+^{m \times n}$: a cost matrix, defining the cost to move mass from bin $\alpha_{t}$ to bin $\beta_{j}$.
-- $\alpha, \beta$: histograms on the simplex that represents the weights of each sample in the source and target distributions.
-Based on the equations, the Wasserstein distance between initial weight $\theta_{0}$ and finite p-moments parameters is computed as a below.
+- $\mu$: a source distribution, sampled from probability space $\mathbb{X}\in\Omega$
+- $\eta$: a target distribution, sampled from probability space $\mathbb{Y}\in\Omega$
+- $\pi \in \mathcal{P}(\mathbb{X} \times \mathbb{Y})$: a probabilistic coupling, in other words, all possible solutions.
+- $c(x,y)$: a cost function that quantifies the movement of x to y.
+  
+The above formula is changed into discrete version.
 
 <figure style="display:block; text-align:center;">
 <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/OPT-OUT/OPT-OUT Equation 5.png"
     style="width: 50%; height: auto; margin:5px">
 </figure>
 
-However, due to too high time and space complexity, the Sliced Wasserstein Distance (SWD), which is an approximate version, is used instead. SWD reduced the complexity by projecting the distributions onto random slices and computed the distance in lower dimensions. Monte Carlo approximation of p-sliced Wasserstein distance is given by
+- $\gamma^{*}$: an optimal solution.
+- $C \in \mathbb{R}\_+^{m \times n}$: a cost matrix, defining the cost to move mass from bin $\alpha_{t}$ to bin $\beta_{j}$.
+- $\alpha, \beta$: histograms on the simplex that represents the weights of each sample in the source and target distributions.
+Based on the equations, the Wasserstein distance between initial weight $\theta_{0}$ and finite p-moments parameters is computed as a below.
 
 <figure style="display:block; text-align:center;">
 <img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/OPT-OUT/OPT-OUT Equation 6.png"
+    style="width: 50%; height: auto; margin:5px">
+</figure>
+
+However, due to too high time and space complexity, the Sliced Wasserstein Distance (SWD), which is an approximate version, is used instead. SWD reduced the complexity by projecting the distributions onto random slices and computed the distance in lower dimensions. Monte Carlo approximation of p-sliced Wasserstein distance is given by
+
+<figure style="display:block; text-align:center;">
+<img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/OPT-OUT/OPT-OUT Equation 7.png"
     style="width: 50%; height: auto; margin:5px">
 </figure>
 
@@ -120,7 +126,7 @@ However, due to too high time and space complexity, the Sliced Wasserstein Dista
 The final loss is as a following equation.
 
 <figure style="display:block; text-align:center;">
-<img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/OPT-OUT/OPT-OUT Equation 7.png"
+<img src="https://cdn.jsdelivr.net/gh/Hyun3246/Warehouse@master/Papers/OPT-OUT/OPT-OUT Equation 8.png"
     style="width: 50%; height: auto; margin:5px">
 </figure>
 
@@ -158,4 +164,5 @@ Without neighboring data augmentation, the model had a hard time differentiating
 ## Limitations & Possibility for Further Research
 1. **Wikipedia entities are slightly different from actual users.** Further work can be extended to real-world data and users.
 2. **Susceptible to generating gibberish(impossible to understand) post-learning.** After unlearning, the method that author used was susceptible to generating gibberish. Combining with IDK(I Don't Know, answering I don't know instead of gibberish) method or remapping outputs could solve this.
+
 3. **Unable to test at large scale model.** More exploration for unlearning techniques is needed.
