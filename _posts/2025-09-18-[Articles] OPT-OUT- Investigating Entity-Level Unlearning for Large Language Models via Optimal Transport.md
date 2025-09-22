@@ -9,13 +9,13 @@ use_math: true
 toc: true
 toc_sticky: true
 date: 2025-09-18
-last_modified_at: 2025-09-18
+last_modified_at: 2025-09-22
 header:
   overlay_image: https://cdn.jsdelivr.net/gh/Hyun3246/hyun3246.github.io@master/image/overlay%20image/Research%20Paper.png
 ---
 
 ## About this Article
-- **Authors**: Minseok Choi, Dohyun Lee, Jaegul Choo,
+- **Authors**: Minseok Choi, Dohyun Lee, Jaegul Choo, Daniel Rim
 - **Journal**: arXiv preprint
 - **Year**: 2024
 - **Official Citation**: Choi, M., Lee, D., Choo, J., & Rim, D. (2024). OPT-OUT: Investigating Entity-Level Unlearning for Large Language Models via Optimal Transport. arXiv preprint arXiv:2406.12329.
@@ -166,4 +166,5 @@ Without neighboring data augmentation, the model had a hard time differentiating
 2. **Susceptible to generating gibberish(impossible to understand) post-learning.** After unlearning, the method that author used was susceptible to generating gibberish. Combining with IDK(I Don't Know, answering I don't know instead of gibberish) method or remapping outputs could solve this.
 
 3. **Unable to test at large scale model.** More exploration for unlearning techniques is needed.
+
 
