@@ -74,11 +74,9 @@ ILVR can also be used to already trained model, without further training.
     This is why authors said that the information of reference image is being used.
     The full algorithm is as a below.
 
-2) Reference Selection
-
-    How do we select reference images? The process of generating images with ILVR is similar to the following image.
-
-    The directed(reference) subset can be denoted as:
+2. Reference Selection
+   
+    How do we select reference images? The process of generating images with ILVR is similar to the following image. The directed(reference) subset can be denoted as:
 
     $$R_{N}(y)=\{x:\phi_{N}(x)=\phi_{N}(y)\}$$
 
@@ -106,4 +104,5 @@ ILVR can also be used to already trained model, without further training.
     
     This is also intuitive. If the number of conditioning steps are small, the image will have a low opportunity to be similar to the reference.
     Authors represent the second and third as 'sampling from a larger(lower) subset'.
+
 
