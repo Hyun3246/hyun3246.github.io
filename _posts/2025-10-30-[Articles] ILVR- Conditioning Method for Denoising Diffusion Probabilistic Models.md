@@ -41,20 +41,20 @@ ILVR can also be used to already trained model, without further training.
     Our goal is to make an unconditional DDPM model generate images that shares high-level semantics from reference images.
     Therefore, the goal can be represented as a below.
 
-    $$p_{\theta}(x_{0}|c)=\int p_{\theta}(x_{0:T}|c)dx_{1:T}$$
+    $$p_{\theta}(x_{0} \vert c)=\int p_{\theta}(x_{0:T} \vert c)dx_{1:T}$$
 
-    $$p_{\theta}(x_{0;T}|c)=p(x_{T})\prod_{l=1}^{T}p_{\theta}(x_{l-1}|x_{l},c)$$
+    $$p_{\theta}(x_{0;T} \vert c)=p(x_{T})\prod_{l=1}^{T}p_{\theta}(x_{l-1} \vert x_{l},c)$$
 
-    - $p_{\theta}(x_{0}|c)$ Probability distribution of image $x_{0}$ is generated when condition c is given.
-    - $p_{\theta}(x_{0:T}|c)$: Probability distribution of a specific route $x_{0}...x_{T}$ when condition c is given.
+    - $p_{\theta}(x_{0} \vert c)$ Probability distribution of image $x_{0}$ is generated when condition c is given.
+    - $p_{\theta}(x_{0:T} \vert c)$: Probability distribution of a specific route $x_{0}...x_{T}$ when condition c is given.
     - $p(x_{T})$ Probability of the starting point T. It is a fixed value because the probability distribution of noise is given (normal distribution).
-    - $p_{\theta}(x_{t-1}|x_{r},c)$ Probability of each step.
+    - $p_{\theta}(x_{t-1} \vert x_{r},c)$ Probability of each step.
 
-    By integrating all possible routes, $p_{\theta}(x_{0}|c)$ can be obtained. $p_{\theta}(x_{0:T}|c)$ can be calculated by multiplying all steps.
+    By integrating all possible routes, $p_{\theta}(x_{0} \vert c)$ can be obtained. $p_{\theta}(x_{0:T} \vert c)$ can be calculated by multiplying all steps.
 
-    However, it is hard to get $p_{\theta}(x_{0}|c)$ directly. Therefore, authors used an approximation.
+    However, it is hard to get $p_{\theta}(x_{0} \vert c)$ directly. Therefore, authors used an approximation.
 
-    $$p_{\theta}(x_{t-1}|x_{t},c)\approx p_{\theta}(x_{t-1}|x_{t},\phi_{N}(x_{t-1})=\phi_{N}(y_{t-1}))$$
+    $$p_{\theta}(x_{t-1} \vert x_{t},c)\approx p_{\theta}(x_{t-1} \vert x_{t},\phi_{N}(x_{t-1})=\phi_{N}(y_{t-1}))$$
 
     - $\phi_{N}(\cdot);$ A linear low-pass filtering operation. This can pass low-frequency components (basic outlines) and block high-frequency components (details).
     The process is same as a sequence of downsampling and upsampling by a factor N.
@@ -63,7 +63,7 @@ ILVR can also be used to already trained model, without further training.
     The formula represents that conditioning for each step by condition c is similar to conditioning y and $x_{0}$ to have similar low-frequency contents.
     To implement this, authors suggested the formula below.
 
-    $$x_{t-1}^{\prime}\sim p_{\theta}(x_{t-1}^{\prime}|x_{t})$$
+    $$x_{t-1}^{\prime}\sim p_{\theta}(x_{t-1}^{\prime} \vert x_{t})$$
 
     $$x_{t-1}=\phi(y_{t-1})+(I-\phi)(x_{t-1}^{\prime}).$$
 
@@ -84,7 +84,7 @@ ILVR can also be used to already trained model, without further training.
 
     and when the step (b to a) information is added:
 
-    $$R_{N,(a,b)}(y)=\{x:\phi_{N}(x_{t})=\phi_{N}(y_{t}),t\in[b,a]\}$$
+    $$R_{N,(a,b)}(y)=\{x:\phi_{N}(x_{t})=\phi_{N}(y_{t}),t\in\[b,a\]\}$$
 
     There are three properties that users can utilize.
 
@@ -106,3 +106,4 @@ ILVR can also be used to already trained model, without further training.
     
     This is also intuitive. If the number of conditioning steps are small, the image will have a low opportunity to be similar to the reference.
     Authors represent the second and third as 'sampling from a larger(lower) subset'.
+
