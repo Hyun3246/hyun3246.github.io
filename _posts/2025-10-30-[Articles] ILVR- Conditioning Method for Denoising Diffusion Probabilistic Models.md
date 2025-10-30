@@ -82,7 +82,7 @@ ILVR can also be used to already trained model, without further training.
 
     and when the step (b to a) information is added:
 
-    $$R_{N,(a,b)}(y)=\{x:\phi_{N}(x_{t})=\phi_{N}(y_{t}),t\in \[b,a]\}$$
+    $$R_{N,(a,b)}(y)=\{x:\phi_{N}(x_{t})=\phi_{N}(y_{t}),t\in \left[ b,a \right]\} $$
 
     There are three properties that users can utilize.
 
@@ -104,6 +104,7 @@ ILVR can also be used to already trained model, without further training.
     
     This is also intuitive. If the number of conditioning steps are small, the image will have a low opportunity to be similar to the reference.
     Authors represent the second and third as 'sampling from a larger(lower) subset'.
+
 
 
 
