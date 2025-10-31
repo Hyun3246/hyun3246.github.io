@@ -34,19 +34,13 @@ PIl can be used and leaked by generated results of LLMs, but there is a no tool 
 Therefore, authors devised ProPILE, that data subject and LLM providers both can assess the leakage of PII.
 There are two basic terms in this article.
 
-- **Linkable of Pll leakage**: Leakage of PII is serious, only if the Pll can link the owner.
-Therefore, authors devised the following definition of linkable of Pll leakage.
-Simply, if you can get a certain type of Pll easier by providing other types of Plls to LLM, it is a linkable of Pll leakage.
-**Definition 1 (Linkable PII leakage)**. Let $\mathcal{A}:=\{a_{1},...,a_{M}\}$ be M PII items relevant to a data subject S. Each element $a_{m}$ denotes a PII item of a specific PII type.
-Let T be a probing tool that estimates a probability of leakage of PII item $a_{m}$ given the rest of the items $\mathcal{A}\_{\backslash m} =\{a_{1},...,a_{m-1},a_{m+1},...,a_{M}\}$.
-We say that T exposes the linkability of PII items for the data subject S when the likelihood of reconstructing the true PII, $Pr(a_{m}|\mathcal{A}\_{\backslash m},T)$, is greater than the unconditional, context-free likelihood $Pr(a_{m})$.
+- **Linkable of Pll leakage**: Leakage of PII is serious, only if the Pll can link the owner. Therefore, authors devised the following definition of linkable of Pll leakage. Simply, if you can get a certain type of Pll easier by providing other types of Plls to LLM, it is a linkable of Pll leakage.
 
 - **Structured PII**: Structured Pll has a structured pattern, such as phone numbers or email addresses.
 They are easy to identify, but hard to exclude during generation because it is hard to distinguish the information is official one or not.
 
 By considering the capability of LLM users and service providers, authors suggests two access types.
-- **Black-box access**: For users, who are not able to access to LLM's details, such as data, and algorithms.
-However, they have rights to the data.
+- **Black-box access**: For users, who are not able to access to LLM's details, such as data, and algorithms. However, they have rights to the data.
 - **White-box access**: For service providers. They can access to the details of LLMs.
 
 ### 2. Probing Methods
@@ -54,7 +48,7 @@ However, they have rights to the data.
 #### 1. Black-box Probing
 Black-box probing is for LLM users, who cannot access to the details of LLMs.
 - **Steps**:
-    - (1) ${\mathcal{d}}_{\backslash m}$ is prompted with K different templates $t_{k}$ Therefore, the inputs to LLM is $\mathcal{T} = \{t_{1}(\mathcal{A}\_{\backslash m}), \dots, t_{K}(\mathcal{A}_{\backslash m})\}$.
+    - (1) ${\mathcal{d}}\_{\backslash m}$ is prompted with K different templates $t_{k}$ Therefore, the inputs to LLM is $\mathcal{T} = \{t_{1}(\mathcal{A}\_{\backslash m}), \dots, t_{K}(\mathcal{A}_{\backslash m})\}$.
     - (2) Send the set of prompts to LLM as much as N times.
     - (3) The outputs will be $N\times K$ responses. The dimension of likelihood score is $\mathbb{Z}\in\mathbb{R}^{K\times L\times V}$ (L: the length of responses, V: the vocabulary size of LLM).
 
@@ -63,7 +57,7 @@ White-box probing is for LLM service providers, who can access to the details of
 Unlike black-box probing, soft prompt tuning is used.
 A few notations and assumptions are required.
 - $\mathcal{D}=\{\mathcal{A}^{i}\}_{i=1}^{N}$: Pll lists included in the training dataset of target LLM.
-- An actor has access to a subset of training data $\tilde{\mathcal{D}} \subset \mathcal{D}$, where $|D|=n$ for $n\ll N$
+- An actor has access to a subset of training data $\tilde{\mathcal{D}} \subset \mathcal{D}$, where $\vert D \vert =n$ for $n \ll N$
 - Prompt X is created by one of templates used in black-box probing $X = t_{n}(\mathcal{A}_{\backslash m}^{i})$.
 - **Steps**:
     - (1) Prompt X is tokenized and embedded into $X_{e}\in\mathbb{R}^{L_{X}\times d}$ ($L_{X}$: the length of query sequence, d: the embedding dim of LLM).
@@ -97,3 +91,4 @@ Pll of two different data objects could be considered as a one.
 2. Risks of non-ethical usage.
 
 People who are not related to a certain data object can access to generated PII. Further limitations are needed.
+
