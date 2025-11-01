@@ -23,7 +23,7 @@ header:
 <br/>
 
 ## Accomplishments
-• Developed AIVariant, a deep learning model which can detect single nucleotide variant (potential tumor) even in low sequence depth.
+- Developed AIVariant, a deep learning model which can detect single nucleotide variant (potential tumor) even in low sequence depth.
 
 <br/>
 
@@ -31,31 +31,33 @@ header:
 
 ### 1. Three problems of somatic DNA variant analysis
 Somatic DNA variants can be used as a detector of tumors. However, there are three difficulties in detecting somatic variants.
-• Low tumor purity: Some tumor types needs variant detection even in low purity.
-• Low sequencing depth: It is hard to detect variant if the number of reading is low.
-• Sequencer specific error
+- Low tumor purity: Some tumor types needs variant detection even in low purity.
+- Low sequencing depth: It is hard to detect variant if the number of reading is low.
+- Sequencer specific error
+  
 To solve this problem authors developed AIVariant, a deep learning model that can overcome the difficulties and detect variants.
 
 ### 2. Generating dataset eWGS
-1) Actual Positive (Variant) Data
-Steps:
-    (1) Prepare normal cells and tumor cells of cancer patients (about 100 purity).
-    (2) Discover variants only in the tumor cells.
-    (3) Use the variants as an actual positive (AP).
+1) Actual Positive (Variant) Data <br/>
+  Steps: <br/>
+      (1) Prepare normal cells and tumor cells of cancer patients (about 100 purity). <br/>
+      (2) Discover variants only in the tumor cells. <br/>
+      (3) Use the variants as an actual positive (AP).
 
-2) Actual Negative (Sequencer-specific error) Data
-Steps:
-    (1) Prepare two data from different machine(sequencer).
-    (2) Compare the sequence.
-    (3) If a variant showed up in only one machine, it is a sequencer-specific error.
+3) Actual Negative (Sequencer-specific error) Data <br/>
+  Steps: <br/>
+      (1) Prepare two data from different machine(sequencer). <br/>
+      (2) Compare the sequence. <br/>
+      (3) If a variant showed up in only one machine, it is a sequencer-specific error.
 
-3) Generating eWGS dataset
-Steps:
-    (1) Prepare 200x(depth) WGS sequences.
-    (2) Split the dataset into two sets with 30x, one if for normal and the other is for tumor sequence.
-    (3) For the tumor sequence, spike(plant) AP and AN variant. Therefore, 100% true positive data is generated.
-    (4) Mix normal and tumor WGS data in certain ratios, to regulate the purity. The depth of the results are conserved in 30x.
-    (5) Randomly select sequences of the results of step 4, to reproduce various sequence depths.
+5) Generating eWGS dataset <br/>
+
+  Steps: <br/>
+      (1) Prepare 200x(depth) WGS sequences. <br/>
+      (2) Split the dataset into two sets with 30x, one if for normal and the other is for tumor sequence. <br/>
+      (3) For the tumor sequence, spike(plant) AP and AN variant. Therefore, 100% true positive data is generated. <br/>
+      (4) Mix normal and tumor WGS data in certain ratios, to regulate the purity. The depth of the results are conserved in 30x. <br/>
+      (5) Randomly select sequences of the results of step 4, to reproduce various sequence depths.
 
 <br/>
 
@@ -71,9 +73,11 @@ It was not a top performer in some cases, but the difference was negligible (the
 
 ### 3. Figure 4: Impacts of three components, TPs, SDs, and sequencer-specific errors.
 To figure out the impact of TPs, SDs, and sequencer-specific errors, authors deleted one at a time in training set.
-• TP: Various-TP model was better than low-TP model in low purity(TP) experiments. In high purity experiments, there was marginal difference.
-• SD: Various-SD model was better than low-SD model in low depth(SD) experiments. In deep depth experiments, there was marginal difference.
-• Sequencer-specific error (AN): Model with AN outperformed in all experiments.
+
+- TP: Various-TP model was better than low-TP model in low purity(TP) experiments. In high purity experiments, there was marginal difference.
+- SD: Various-SD model was better than low-SD model in low depth(SD) experiments. In deep depth experiments, there was marginal difference.
+- Sequencer-specific error (AN): Model with AN outperformed in all experiments.
+  
 The three components are all important.
 
 <br/>
@@ -81,4 +85,5 @@ The three components are all important.
 ## Impact of research and Possibility for Further Research
 1. Low cost and high accuracy for tumor detection.
 Even with low sequence depth, the accuracy of variant detection was high.
+
 2. Expand AIVariant beyond single nucleotide variants.
